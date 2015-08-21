@@ -15,7 +15,7 @@ addons:
       - libssl1.0.0:i386
       - libfreetype6:i386
 
-setup: 
+install: 
   - wget -O - get.pharo.org/50+vm | bash
   - ./pharo Pharo.image config filetree://./mc ConfigurationOfJ2Inferer --install=development
 
