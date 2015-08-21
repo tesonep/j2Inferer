@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-PredefinedMessages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"predefinedMethod" ],
+	"name" : "J2BasicNewMessage",
+	"pools" : [
+		 ],
+	"super" : "J2AbstractPredefinedMessage",
+	"type" : "normal" }

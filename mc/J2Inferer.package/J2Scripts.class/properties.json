@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Utils",
+	"classinstvars" : [
+		"inferer" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PabloTesone 8/21/2015 07:29",
+	"instvars" : [
+		 ],
+	"name" : "J2Scripts",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

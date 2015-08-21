@@ -1,0 +1,20 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"messages",
+		"inferer",
+		"supertypes",
+		"subtypes",
+		"container",
+		"oldMinClasses",
+		"alreadyCalculated" ],
+	"name" : "J2Expression",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

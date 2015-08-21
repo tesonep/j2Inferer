@@ -1,0 +1,21 @@
+{
+	"category" : "J2Inferer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PabloTesone 8/3/2015 06:55",
+	"instvars" : [
+		"classes",
+		"queue",
+		"config",
+		"literals",
+		"globals",
+		"notifier",
+		"predefinedMessages",
+		"siRegister" ],
+	"name" : "J2Inferer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

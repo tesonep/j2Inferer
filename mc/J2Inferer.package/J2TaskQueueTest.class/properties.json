@@ -1,0 +1,17 @@
+{
+	"category" : "J2Inferer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"taskQueue",
+		"numberOfSuccess",
+		"numberOfFailures",
+		"numberOfErrorHandled" ],
+	"name" : "J2TaskQueueTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

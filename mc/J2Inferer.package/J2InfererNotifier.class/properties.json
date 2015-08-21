@@ -1,0 +1,18 @@
+{
+	"category" : "J2Inferer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PabloTesone 8/17/2015 08:56",
+	"instvars" : [
+		"inferer",
+		"stream",
+		"file",
+		"logLevels",
+		"currentLogLevel" ],
+	"name" : "J2InfererNotifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

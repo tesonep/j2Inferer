@@ -1,0 +1,3 @@
+accessing
+aMethodCallingChild
+	^ self aMethod.

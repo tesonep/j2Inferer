@@ -1,0 +1,23 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TJ2WithParameters classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inferer",
+		"method",
+		"classTypeInfo",
+		"returnType",
+		"temporaryVariables",
+		"innerExpressions",
+		"parameters",
+		"stamp" ],
+	"name" : "J2Method",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TJ2WithParameters",
+	"type" : "normal" }

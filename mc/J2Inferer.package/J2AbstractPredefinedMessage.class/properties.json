@@ -1,0 +1,17 @@
+{
+	"category" : "J2Inferer-PredefinedMessages",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"implementingClasses",
+		"parameters",
+		"selectors",
+		"inferer" ],
+	"name" : "J2AbstractPredefinedMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

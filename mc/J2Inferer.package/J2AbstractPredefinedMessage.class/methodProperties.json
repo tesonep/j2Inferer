@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"forInferer:" : "PabloTesone 8/17/2015 09:26" },
+	"instance" : {
+		"applyTo:" : "PabloTesone 8/17/2015 09:08",
+		"canHandle:onContext:" : "PabloTesone 8/17/2015 11:49",
+		"inferer" : "PabloTesone 8/17/2015 09:26",
+		"inferer:" : "PabloTesone 8/17/2015 09:26",
+		"initialize" : "PabloTesone 8/17/2015 08:50",
+		"parametersMatches:onContext:" : "PabloTesone 8/17/2015 11:49",
+		"receiverClassesMatches:onContext:" : "PabloTesone 8/17/2015 11:52",
+		"selectorsMatches:onContext:" : "PabloTesone 8/17/2015 11:49" } }

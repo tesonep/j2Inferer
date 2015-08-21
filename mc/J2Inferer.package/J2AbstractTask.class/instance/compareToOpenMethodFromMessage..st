@@ -1,0 +1,3 @@
+comparing
+compareToOpenMethodFromMessage: anotherTask
+	^ false.

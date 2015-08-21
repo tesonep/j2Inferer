@@ -1,0 +1,19 @@
+{
+	"category" : "J2Inferer",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRBProgramNodeVisitor classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method",
+		"inferer",
+		"containerStack",
+		"context" ],
+	"name" : "J2AstVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TRBProgramNodeVisitor",
+	"type" : "normal" }

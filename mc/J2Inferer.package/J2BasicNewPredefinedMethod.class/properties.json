@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-PredefinedMethods",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inferer" ],
+	"name" : "J2BasicNewPredefinedMethod",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

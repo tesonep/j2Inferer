@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "J2ThisContext",
+	"pools" : [
+		 ],
+	"super" : "J2Expression",
+	"type" : "normal" }

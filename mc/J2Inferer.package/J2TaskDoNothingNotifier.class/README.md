@@ -1,0 +1,1 @@
+This Task notifier, as its name says does not a thing when a problem is reported.

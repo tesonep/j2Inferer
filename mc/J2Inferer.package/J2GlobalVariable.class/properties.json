@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "J2GlobalVariable",
+	"pools" : [
+		 ],
+	"super" : "J2Variable",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"literalValue" ],
+	"name" : "J2Literal",
+	"pools" : [
+		 ],
+	"super" : "J2Expression",
+	"type" : "normal" }

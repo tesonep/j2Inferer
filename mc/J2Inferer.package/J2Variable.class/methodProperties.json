@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"empty" : "PabloTesone 8/7/2015 09:46",
+		"unionAll:name:container:inferer:" : "PabloTesone 8/13/2015 09:28" },
+	"instance" : {
+		"addSubtype:" : "PabloTesone 8/13/2015 06:18",
+		"elements" : "PabloTesone 8/13/2015 09:29",
+		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 8/12/2015 13:04",
+		"hasNoSubtypes" : "PabloTesone 8/13/2015 06:36",
+		"initialize" : "PabloTesone 8/11/2015 12:36",
+		"name" : "PabloTesone 8/5/2015 10:55",
+		"printOn:" : "PabloTesone 8/17/2015 12:44",
+		"union:" : "PabloTesone 8/13/2015 09:27",
+		"variableName" : "PabloTesone 8/3/2015 09:32",
+		"variableName:" : "PabloTesone 8/3/2015 09:32" } }

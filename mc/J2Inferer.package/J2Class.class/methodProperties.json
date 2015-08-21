@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addVariableFor:" : "PabloTesone 8/13/2015 09:26",
+		"allSubclasses" : "PabloTesone 8/13/2015 10:16",
+		"analysedClass" : "PabloTesone 8/13/2015 06:50",
+		"analysedClass:" : "PabloTesone 8/17/2015 13:04",
+		"canUnderstand:" : "PabloTesone 8/13/2015 07:00",
+		"checkIfHasManySubclasses:" : "PabloTesone 8/13/2015 10:19",
+		"containerClass" : "PabloTesone 8/10/2015 08:29",
+		"createInheritedMethodVariableFor:" : "PabloTesone 8/10/2015 10:13",
+		"createMethodVariableFor:" : "PabloTesone 8/13/2015 06:50",
+		"fill" : "PabloTesone 8/7/2015 07:17",
+		"fillSuperclass" : "PabloTesone 8/13/2015 06:50",
+		"fillVariables" : "PabloTesone 8/13/2015 06:50",
+		"inferer" : "PabloTesone 8/4/2015 12:28",
+		"inferer:" : "PabloTesone 8/4/2015 12:28",
+		"initialize" : "PabloTesone 8/3/2015 11:49",
+		"lookupSelector:" : "PabloTesone 8/13/2015 07:01",
+		"methodTypeFor:" : "PabloTesone 8/10/2015 09:46",
+		"name" : "PabloTesone 8/13/2015 06:50",
+		"numberOfMethods" : "PabloTesone 8/7/2015 08:30",
+		"printOn:" : "PabloTesone 8/10/2015 08:33",
+		"superclass" : "PabloTesone 8/13/2015 07:03",
+		"variableFor:" : "PabloTesone 8/7/2015 07:26",
+		"variableFor:ifAbsent:" : "PabloTesone 8/7/2015 08:11" } }

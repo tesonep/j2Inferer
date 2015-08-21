@@ -1,0 +1,1 @@
+Entry point for the J2 Inferer process.

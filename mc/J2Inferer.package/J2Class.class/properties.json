@@ -1,0 +1,18 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methods",
+		"instanceVariables",
+		"inferer",
+		"superclass",
+		"analysedClass" ],
+	"name" : "J2Class",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

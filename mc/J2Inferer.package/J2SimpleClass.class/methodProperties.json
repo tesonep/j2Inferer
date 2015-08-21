@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aVariable" : "PabloTesone 8/3/2015 06:57",
+		"aVariable:" : "PabloTesone 8/5/2015 10:27",
+		"recursiveMethod:" : "PabloTesone 8/12/2015 11:54",
+		"setValueToAInstanceVariable" : "PabloTesone 8/3/2015 11:38",
+		"simpleArray" : "PabloTesone 8/7/2015 10:20",
+		"simpleArrayLiteral" : "PabloTesone 8/7/2015 09:51",
+		"simpleMethodReturningAValue" : "PabloTesone 8/3/2015 07:06",
+		"simpleSendingAMessage" : "PabloTesone 8/3/2015 12:00" } }

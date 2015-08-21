@@ -1,0 +1,16 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"returnType",
+		"realMethod",
+		"classTypeInfo" ],
+	"name" : "J2InheritedMethod",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

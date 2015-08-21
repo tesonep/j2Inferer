@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-Tasks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inferer",
+		"context" ],
+	"name" : "J2AbstractTask",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "J2Self",
+	"pools" : [
+		 ],
+	"super" : "J2AbstractSelf",
+	"type" : "normal" }

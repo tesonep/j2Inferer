@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expression",
+		"leftPart" ],
+	"name" : "J2AssignmentExpression",
+	"pools" : [
+		 ],
+	"super" : "J2Expression",
+	"type" : "normal" }

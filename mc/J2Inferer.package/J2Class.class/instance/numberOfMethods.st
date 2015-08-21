@@ -1,0 +1,3 @@
+methods
+numberOfMethods
+	^ methods size.

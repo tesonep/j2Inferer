@@ -1,0 +1,16 @@
+{
+	"category" : "J2Profiler",
+	"classinstvars" : [
+		"active",
+		"stream",
+		"file" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method" ],
+	"name" : "J2MethodProfiler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

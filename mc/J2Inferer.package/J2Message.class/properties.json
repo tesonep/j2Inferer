@@ -1,0 +1,17 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"selector",
+		"parameters",
+		"methods" ],
+	"name" : "J2Message",
+	"pools" : [
+		 ],
+	"super" : "J2Expression",
+	"type" : "normal" }

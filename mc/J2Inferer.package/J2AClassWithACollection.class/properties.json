@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Tests-TestCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"aBag" ],
+	"name" : "J2AClassWithACollection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

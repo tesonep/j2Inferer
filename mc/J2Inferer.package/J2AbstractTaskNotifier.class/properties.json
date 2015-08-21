@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Tasks-Queue",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PabloTesone 2/27/2014 12:19",
+	"instvars" : [
+		 ],
+	"name" : "J2AbstractTaskNotifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

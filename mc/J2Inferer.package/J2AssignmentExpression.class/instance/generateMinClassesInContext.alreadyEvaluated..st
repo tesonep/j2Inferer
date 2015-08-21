@@ -1,0 +1,3 @@
+accessing
+generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
+	^ leftPart minClassesInContext: aContext alreadyEvaluated:alreadyEvaluated

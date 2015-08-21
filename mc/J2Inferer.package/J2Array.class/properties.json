@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expression",
+		"elements" ],
+	"name" : "J2Array",
+	"pools" : [
+		 ],
+	"super" : "J2Expression",
+	"type" : "normal" }

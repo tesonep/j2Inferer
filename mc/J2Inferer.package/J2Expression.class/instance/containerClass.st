@@ -1,0 +1,3 @@
+accessing
+containerClass
+	^ container containerClass

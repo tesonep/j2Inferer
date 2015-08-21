@@ -1,0 +1,1 @@
+This is a subclass of SIRegister that do not shows the progress bar in the fill method.

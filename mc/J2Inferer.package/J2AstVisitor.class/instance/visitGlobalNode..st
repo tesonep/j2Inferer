@@ -1,0 +1,3 @@
+accessing
+visitGlobalNode: aGlobalVariableNode
+	self inferer addGlobalVariable: aGlobalVariableNode
