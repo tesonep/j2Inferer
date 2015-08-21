@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfJ2Inferer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfJ2Inferer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
