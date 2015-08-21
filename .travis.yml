@@ -20,4 +20,4 @@ install:
   - ./pharo Pharo.image config filetree://./mc ConfigurationOfJ2Inferer --install=development
 
 script:
-  - ./pharo Pharo.image test --fail-on-failure "J2Inferer-Tests"
+  - ./pharo Pharo.image test --fail-on-failure "J2Inferer"
