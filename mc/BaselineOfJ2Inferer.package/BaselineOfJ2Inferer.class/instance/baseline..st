@@ -1,11 +1,10 @@
-baselines
-baseline01: spec
-	<version: '0.1-baseline'>
+api projectSpec
+baseline: spec
+	<baseline>
 	spec
-		for: #common
+		for: #pharo
 		do:
 			[ 
-			spec blessing: #baseline.
 			spec
 				package: 'J2Inferer'
 					with: [ 

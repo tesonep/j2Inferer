@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfJ2Inferer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfJ2Inferer",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
