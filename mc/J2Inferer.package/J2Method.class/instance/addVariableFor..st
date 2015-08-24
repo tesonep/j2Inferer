@@ -1,6 +1,6 @@
 accessing
 addVariableFor: aName
-	temporaryVariables
+	^ temporaryVariables
 		at: aName
 		ifAbsentPut: [ 
 			J2Variable new

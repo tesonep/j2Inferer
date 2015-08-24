@@ -5,5 +5,5 @@ minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 			^ alreadyCalculated ifNil:#().
 		].
 	alreadyEvaluated add: self.
-	alreadyCalculated := self filterByMessages: (self generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated).
+	alreadyCalculated := self filter: (self generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated) byMessages: self messages .
 	^alreadyCalculated

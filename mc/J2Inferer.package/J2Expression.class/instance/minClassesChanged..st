@@ -1,2 +1,0 @@
-accessing
-minClassesChanged: aSubtype.

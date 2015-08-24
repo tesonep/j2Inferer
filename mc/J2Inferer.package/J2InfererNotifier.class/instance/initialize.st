@@ -8,4 +8,4 @@ initialize
 	logLevels at:#info put:2. 
 	logLevels at:#debug put:3.
 	logLevels at:#trace put:4.
-	currentLogLevel := 3.
+	currentLogLevel := 2.

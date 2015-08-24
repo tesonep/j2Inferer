@@ -1,6 +1,6 @@
 methods
 addVariableFor: aName
-	instanceVariables
+	^instanceVariables
 		at: aName
 		ifAbsentPut: [ 
 			J2Variable new

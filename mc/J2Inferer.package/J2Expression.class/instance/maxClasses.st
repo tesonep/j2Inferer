@@ -1,6 +1,9 @@
 accessing
 maxClasses
-	^ messages ifEmpty: nil
-					ifNotEmpty: [ 
-							self filterByMessages: self allClasses.
-						 ]
+   | allMessages |
+   allMessages := self allMessages.
+	^ allMessages 
+		ifEmpty: nil
+		ifNotEmpty: [ 
+			self filter: self allClasses byMessages: allMessages.
+		]
