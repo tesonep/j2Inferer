@@ -1,3 +1,3 @@
 accesing type variables
-variableFor: aName
-	^self variableFor: aName ifAbsent: [ self error: 'Undefined expression:', aName ].
+variableFor: aNode
+	^self variableFor: aNode ifAbsent: [ self error: 'Undefined expression:', aNode ].

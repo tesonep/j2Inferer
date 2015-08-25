@@ -1,3 +1,5 @@
 accesing type variables
-variableFor: aName ifAbsent: aValuable
-	^globals at:aName ifAbsent:[literals at:aName ifAbsent: aValuable].
+variableFor: aNode ifAbsent: aValuable
+	| aName |
+	aName := aNode infererSource.
+	^globals at:aName asSymbol ifAbsent:[literals at:aNode value class ifAbsent: aValuable].

@@ -1,3 +1,3 @@
 visiting
 visitLiteralNode: aLiteralNode
-	self inferer addLiteralVariable: aLiteralNode
+	^self inferer addLiteralVariable: aLiteralNode

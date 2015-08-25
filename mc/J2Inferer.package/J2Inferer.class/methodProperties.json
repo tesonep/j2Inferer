@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addGlobalVariable:" : "PabloTesone 8/19/2015 11:25",
-		"addLiteralVariable:" : "PabloTesone 8/19/2015 11:25",
+		"addGlobalVariable:" : "PabloTesone 8/25/2015 06:26",
+		"addLiteralVariable:" : "PabloTesone 8/25/2015 05:59",
 		"applyPredefinedMessage:onContext:ifAbsent:" : "PabloTesone 8/17/2015 11:50",
 		"classes" : "PabloTesone 8/13/2015 08:32",
 		"config" : "PabloTesone 8/4/2015 12:16",
@@ -24,5 +24,5 @@
 		"runAndWait" : "PabloTesone 8/19/2015 06:24",
 		"statistics" : "PabloTesone 8/7/2015 11:45",
 		"typeInfoFor:" : "PabloTesone 8/13/2015 07:45",
-		"variableFor:" : "PabloTesone 8/24/2015 10:22",
-		"variableFor:ifAbsent:" : "PabloTesone 8/24/2015 10:21" } }
+		"variableFor:" : "PabloTesone 8/25/2015 05:53",
+		"variableFor:ifAbsent:" : "PabloTesone 8/25/2015 06:25" } }

@@ -4,4 +4,4 @@ testContentsType
 	self skip.	
 	
 	classInfo := self inferClass: Bag.
-	self assert: (classInfo variableFor: #contents) hasType: {Dictionary}.
+	self assert: (classInfo instanceVariable: #contents) hasType: {Dictionary}.

@@ -1,3 +1,3 @@
 as yet unclassified
-variableFor: aName
-	^ self parameterFor:aName ifAbsent:[self container variableFor: aName]
+variableFor: aNode
+	^ self parameterFor: aNode infererSource ifAbsent:[self container variableFor: aNode]

@@ -1,8 +1,10 @@
 accessing
-variableFor: aName ifAbsent: aValuable.
+variableFor: aNode ifAbsent: aValuable
+	| aName |
+	aName := aNode name asSymbol .
 	^ instanceVariables at: aName ifAbsent: [ 
 		superclass ifNil:aValuable
 			ifNotNil:[
-				superclass variableFor: aName ifAbsent:aValuable.
+				superclass variableFor: aNode ifAbsent:aValuable.
 			].
 	]

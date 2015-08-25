@@ -1,7 +1,7 @@
 methods
 addVariableFor: aName
 	^instanceVariables
-		at: aName
+		at: aName asSymbol 
 		ifAbsentPut: [ 
 			J2Variable new
 				variableName: aName;

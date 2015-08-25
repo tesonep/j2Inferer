@@ -1,10 +1,10 @@
 accessing
 addVariableFor: aName
 	^ temporaryVariables
-		at: aName
+		at: aName asSymbol
 		ifAbsentPut: [ 
 			J2Variable new
-				variableName: aName;
+				variableName: aName asSymbol;
 				inferer:inferer;
 				container:self;
 				yourself ]

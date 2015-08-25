@@ -1,3 +1,6 @@
 accessing
-variableFor: aName
-	^ self variableFor: aName ifAbsent: [ inferer variableFor: aName ifAbsent:[ self undefinedVariable: aName ] ]
+variableFor: aNode
+	^ self
+		variableFor: aNode
+		ifAbsent:
+			[ inferer variableFor: aNode ifAbsent: [ self undefinedVariable: aNode infererSource ] ]

@@ -1,5 +1,5 @@
 creating globals
 addLiteralVariable: aLiteralNode
-	literals at:aLiteralNode infererSource ifAbsentPut:[
-			J2Literal new literalValue: aLiteralNode value; inferer:self ;yourself.
+	^literals at:aLiteralNode value class ifAbsentPut:[
+			J2Literal new literalClass: aLiteralNode value class; inferer:self ;yourself.
 		]
