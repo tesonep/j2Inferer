@@ -1,3 +1,3 @@
 accessing
 shouldEnqueue
-	^ (message hasMethod: self methodVariable) not
+	^ self methodVariables anySatisfy: [ :e | (message hasMethod: e) not ]

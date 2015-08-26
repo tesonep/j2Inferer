@@ -1,3 +1,3 @@
 accessing
 method: anObject
-        method := anObject
+   methods add: anObject.

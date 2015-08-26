@@ -3,11 +3,13 @@
 		 },
 	"instance" : {
 		"=" : "PabloTesone 8/17/2015 06:41",
-		"compareToOpenMethodTask:" : "PabloTesone 8/26/2015 07:24",
+		"compareToOpenMethodTask:" : "PabloTesone 8/26/2015 10:13",
 		"execute" : "PabloTesone 8/25/2015 12:24",
 		"hash" : "PabloTesone 8/19/2015 07:14",
+		"mergeWith:" : "PabloTesone 8/26/2015 10:19",
 		"method" : "PabloTesone 8/4/2015 11:48",
 		"method:" : "PabloTesone 8/4/2015 11:48",
 		"methodVariable" : "PabloTesone 8/25/2015 09:01",
+		"printOn:" : "PabloTesone 8/26/2015 10:06",
 		"runLevel" : "PabloTesone 8/25/2015 12:14",
 		"shouldEnqueue" : "PabloTesone 8/26/2015 07:06" } }

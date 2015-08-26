@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"=" : "PabloTesone 8/17/2015 06:41",
-		"compareToOpenMethodFromMessage:" : "PabloTesone 8/26/2015 07:26",
+		"compareToOpenMethodFromMessage:" : "PabloTesone 8/26/2015 09:54",
 		"execute" : "PabloTesone 8/25/2015 09:09",
 		"fillTask" : "PabloTesone 8/25/2015 09:19",
 		"hash" : "PabloTesone 8/19/2015 07:14",
+		"mergeWith:" : "PabloTesone 8/26/2015 10:17",
 		"message" : "PabloTesone 8/4/2015 12:12",
 		"message:" : "PabloTesone 8/18/2015 07:06",
 		"receivers" : "PabloTesone 8/18/2015 07:05",

@@ -7,5 +7,5 @@ initialize
 	runStart := 0.
 	self runLevelInterval
 		do: [ :e | 
-			queue at: e put: (OrderedCollection new:65000).
-			inQueue at: e put: (Set new:65000) ]
+			queue at: e put: LinkedList new.
+			inQueue at: e put: (Set new) ]

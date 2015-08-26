@@ -3,13 +3,15 @@
 		 },
 	"instance" : {
 		"=" : "PabloTesone 8/25/2015 12:42",
-		"compareToAddMethodToMessageTask:" : "PabloTesone 8/25/2015 12:44",
-		"execute" : "PabloTesone 8/26/2015 06:35",
+		"compareToAddMethodToMessageTask:" : "PabloTesone 8/26/2015 09:55",
+		"execute" : "PabloTesone 8/26/2015 09:56",
 		"hash" : "PabloTesone 8/25/2015 12:45",
+		"initialize" : "PabloTesone 8/26/2015 09:58",
+		"mergeWith:" : "PabloTesone 8/26/2015 10:16",
 		"message" : "PabloTesone 8/25/2015 11:03",
 		"message:" : "PabloTesone 8/25/2015 11:03",
-		"method" : "PabloTesone 8/25/2015 11:03",
-		"method:" : "PabloTesone 8/25/2015 11:03",
-		"methodVariable" : "PabloTesone 8/26/2015 06:35",
+		"method:" : "PabloTesone 8/26/2015 09:56",
+		"methodVariables" : "PabloTesone 8/26/2015 09:59",
+		"methods" : "PabloTesone 8/26/2015 09:59",
 		"runLevel" : "PabloTesone 8/25/2015 12:22",
-		"shouldEnqueue" : "PabloTesone 8/26/2015 06:36" } }
+		"shouldEnqueue" : "PabloTesone 8/26/2015 09:58" } }

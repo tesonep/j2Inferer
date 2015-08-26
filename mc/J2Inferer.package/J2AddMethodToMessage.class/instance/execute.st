@@ -1,3 +1,3 @@
 accessing
 execute
-	message ifNotNil: [ message methodOpened: self methodVariable ]
+	self methodVariables do: [ :e | message methodOpened: e ]
