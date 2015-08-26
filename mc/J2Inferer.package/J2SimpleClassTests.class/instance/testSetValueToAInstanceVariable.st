@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSetValueToAInstanceVariable
 	| classInfo methodInfo |
 	classInfo := self inferClass: J2SimpleClass.

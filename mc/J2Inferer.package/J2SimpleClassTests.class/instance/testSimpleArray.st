@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSimpleArray
 	| classInfo methodInfo |
 	classInfo := self inferClass: J2SimpleClass.

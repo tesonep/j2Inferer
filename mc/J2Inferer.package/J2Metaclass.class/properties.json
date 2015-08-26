@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"methods",
-		"instanceVariables",
-		"inferer",
-		"superclass",
-		"analysedClass",
-		"metaClass" ],
-	"name" : "J2Class",
+		"baseClass" ],
+	"name" : "J2Metaclass",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "J2Class",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSimpleMethodReturningAValue
 	| methodInfo |
 	methodInfo := self inferMethod: J2SimpleClass >> #simpleMethodReturningAValue.

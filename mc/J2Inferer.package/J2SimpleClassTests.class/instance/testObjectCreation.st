@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testObjectCreation
 	| classInfo |
 	classInfo := self inferClass: J2ChildClass.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSelfInInheritance
 	| classInfo methodInfo |
 	self inferClass: J2ParentClass.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAMethodCallingChild
 	| classInfo methodInfo |
 	self inferClass: J2ParentClass.
