@@ -1,5 +1,4 @@
 comparing
 compareToOpenMethodTask: anotherTask
-	^ (method = anotherTask method
-		and: [ subject = anotherTask subject ])
+	^ method = anotherTask method
 		and: [ context = anotherTask context ]

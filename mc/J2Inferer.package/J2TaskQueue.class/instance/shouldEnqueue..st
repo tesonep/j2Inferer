@@ -1,3 +1,3 @@
 as yet unclassified
 shouldEnqueue: aTask
-	^ (alreadyInQueue includes: aTask) not
+	^ aTask shouldEnqueue and:[ (inQueue includes: aTask) not ].

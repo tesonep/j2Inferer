@@ -10,7 +10,7 @@
 		"notifier",
 		"runStart",
 		"runTasks",
-		"alreadyInQueue" ],
+		"inQueue" ],
 	"name" : "J2TaskQueue",
 	"pools" : [
 		 ],

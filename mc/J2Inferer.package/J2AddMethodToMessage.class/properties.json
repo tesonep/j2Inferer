@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"message",
-		"receivers",
-		"impls" ],
-	"name" : "J2OpenMethodFromMessage",
+		"method",
+		"message" ],
+	"name" : "J2AddMethodToMessage",
 	"pools" : [
 		 ],
 	"super" : "J2AbstractTask",

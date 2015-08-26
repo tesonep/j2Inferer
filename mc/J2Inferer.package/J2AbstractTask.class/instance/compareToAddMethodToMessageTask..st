@@ -1,0 +1,3 @@
+comparing
+compareToAddMethodToMessageTask:anotherTask
+	^false.

@@ -1,0 +1,3 @@
+scripts
+clearInferer
+	inferer := nil.

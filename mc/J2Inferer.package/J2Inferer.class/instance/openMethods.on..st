@@ -8,5 +8,5 @@ openMethods: aMessage on:aContext
 				message: aMessage;
 				inferer: self;
 				context: aContext;
-				fillReceivers;
+				fillTask;
 				yourself) ]

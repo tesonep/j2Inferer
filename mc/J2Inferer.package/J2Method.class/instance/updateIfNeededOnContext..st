@@ -1,5 +1,5 @@
 accessing
-updateIfNeeded: subject onContext: aContext.
+updateIfNeededOnContext: aContext.
 	stamp = method stamp
 		ifFalse:
 			[ 
@@ -12,4 +12,3 @@ updateIfNeeded: subject onContext: aContext.
 			stamp := method stamp.
 			inferer notifier openMethod:self.
 			].
-	subject ifNotNil: [ subject methodOpened: self ] .

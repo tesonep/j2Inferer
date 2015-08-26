@@ -1,3 +1,3 @@
 as yet unclassified
 hasTasks
-	^ queue isEmpty not.
+	^ queue values anySatisfy: [ :e | e isNotEmpty ]

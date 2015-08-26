@@ -4,6 +4,6 @@ testDetectingABag
 	self skip.
 	
 	classInfo := self inferClass: J2AClassWithACollection.
-	varInfo := classInfo variableFor: #aBag.
+	varInfo := classInfo instanceVariable: #aBag.
 	self assert: varInfo hasMessages: #(#detect: #add:).
 	self assert: varInfo hasType: {Bag}

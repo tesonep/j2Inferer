@@ -1,0 +1,3 @@
+accessing
+shouldEnqueue
+	^ self subclassResponsibility 
