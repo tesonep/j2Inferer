@@ -1,3 +1,3 @@
 accessing
 execute
-	message ifNotNil: [ message methodOpened: (inferer methodVariableFor: method) ]
+	message ifNotNil: [ message methodOpened: self methodVariable ]

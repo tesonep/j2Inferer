@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"messages",
-		"inferer",
-		"supertypes",
-		"subtypes",
-		"container",
-		"alreadyCalculated" ],
-	"name" : "J2Expression",
+		"timestamp" ],
+	"name" : "J2DirtyAwareObject",
 	"pools" : [
 		 ],
-	"super" : "J2DirtyAwareObject",
+	"super" : "Object",
 	"type" : "normal" }

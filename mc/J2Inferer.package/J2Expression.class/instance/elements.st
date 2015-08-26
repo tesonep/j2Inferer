@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 elements
 	^ J2Variable empty
 		container: self;

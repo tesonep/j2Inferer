@@ -1,3 +1,3 @@
 accessing
 shouldEnqueue
-	^ true.
+	^ (message hasMethod: self methodVariable) not

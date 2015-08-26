@@ -1,3 +1,3 @@
-as yet unclassified
+enqueuing
 shouldEnqueue: aTask
-	^ aTask shouldEnqueue and:[ (inQueue includes: aTask) not ].
+	^ aTask shouldEnqueue and:[ (self isInQueue: aTask) not ].

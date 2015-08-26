@@ -1,11 +1,11 @@
-as yet unclassified
+private
 pickTaskToExecute
 	| x |
-	(1 to: 5)
+	self runLevelInterval
 		do: [ :e | 
 			(queue at: e)
 				ifNotEmpty: [ 
 					x := (queue at: e) removeFirst.
-					inQueue remove: x.
+					(inQueue at:e) remove: x.
 					^ x ] ].
-	CollectionIsEmpty signal.
+	CollectionIsEmpty signal

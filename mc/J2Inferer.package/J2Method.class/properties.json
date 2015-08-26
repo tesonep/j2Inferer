@@ -14,7 +14,7 @@
 		"temporaryVariables",
 		"innerExpressions",
 		"parameters",
-		"stamp" ],
+		"methodStamp" ],
 	"name" : "J2Method",
 	"pools" : [
 		 ],

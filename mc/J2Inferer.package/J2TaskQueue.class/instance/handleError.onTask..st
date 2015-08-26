@@ -1,4 +1,4 @@
-as yet unclassified
+private
 handleError: anError onTask: aTask
 	(aTask class canPerform: #onError:)
 		ifTrue: [ aTask onError: anError ]

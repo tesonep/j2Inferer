@@ -2,15 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"enqueue:" : "PabloTesone 8/25/2015 11:28",
+		"enqueue:" : "PabloTesone 8/26/2015 06:27",
 		"handleError:onTask:" : "PabloTesone 8/4/2015 11:45",
 		"hasTasks" : "PabloTesone 8/25/2015 12:06",
-		"initialize" : "PabloTesone 8/25/2015 11:25",
+		"initialize" : "PabloTesone 8/26/2015 07:29",
+		"isInQueue:" : "PabloTesone 8/26/2015 06:25",
 		"notifier" : "PabloTesone 8/4/2015 11:42",
 		"notifier:" : "PabloTesone 8/4/2015 11:42",
-		"pendingTasksStatistics" : "PabloTesone 8/7/2015 11:45",
-		"pickTaskToExecute" : "PabloTesone 8/25/2015 12:13",
+		"numberOfRunLevels" : "PabloTesone 8/26/2015 06:25",
+		"pendingTasksStatistics" : "PabloTesone 8/26/2015 06:23",
+		"pickTaskToExecute" : "PabloTesone 8/26/2015 06:24",
 		"runAndWait" : "PabloTesone 8/25/2015 08:57",
+		"runLevelInterval" : "PabloTesone 8/26/2015 06:24",
 		"runOne" : "PabloTesone 8/19/2015 08:46",
-		"shouldEnqueue:" : "PabloTesone 8/25/2015 10:02",
-		"size" : "PabloTesone 8/7/2015 10:50" } }
+		"shouldEnqueue:" : "PabloTesone 8/26/2015 06:23",
+		"size" : "PabloTesone 8/26/2015 06:18" } }

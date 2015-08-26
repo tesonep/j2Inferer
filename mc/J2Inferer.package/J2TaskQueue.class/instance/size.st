@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 size
-	^ queue size.
+	^ queue values sum: #size.

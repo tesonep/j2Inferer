@@ -1,3 +1,4 @@
-accessing
+adding types
 addMessageSent: msg
-	messages add: msg
+	messages add: msg.
+	self updated.

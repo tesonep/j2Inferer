@@ -1,3 +1,4 @@
-accessing
+adding types
 addSubtype: anotherVariable
-	self subtypes add: anotherVariable.
+	subtypes add: anotherVariable.
+	self updated.	
