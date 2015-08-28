@@ -1,3 +1,3 @@
-applying
-applyTo: aMessage
+initialization
+config
 	self subclassResponsibility 

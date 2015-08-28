@@ -1,3 +1,3 @@
 instances creation
 forInferer: anInferer
-	^ self new inferer:anInferer; yourself
+	^ self new inferer:anInferer; config; yourself

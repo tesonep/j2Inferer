@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"implementingClasses",
-		"parameters",
-		"selectors",
-		"inferer",
-		"predefinedMethod" ],
-	"name" : "J2AbstractPredefinedMessage",
+		 ],
+	"name" : "J2ArithmeticOperationsMessage",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "J2AbstractPredefinedMessage",
 	"type" : "normal" }

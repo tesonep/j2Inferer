@@ -1,0 +1,3 @@
+initialization
+createPredefinedMethod
+	^ self subclassResponsibility 

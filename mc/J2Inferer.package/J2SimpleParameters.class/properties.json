@@ -1,14 +1,14 @@
 {
-	"category" : "J2Inferer-PredefinedMessages",
+	"category" : "J2Inferer-Tests-TestCode",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "J2BasicNewMessage",
+		"aVariable" ],
+	"name" : "J2SimpleParameters",
 	"pools" : [
 		 ],
-	"super" : "J2AbstractPredefinedMessage",
+	"super" : "Object",
 	"type" : "normal" }

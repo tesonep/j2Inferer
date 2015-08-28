@@ -1,3 +1,4 @@
 testing if can handle
 receiverClassesMatches: aMessage onContext: aContext
-	^ (aMessage receiver minClassesInContext:aContext) includesAll: implementingClasses.
+	^ implementingClasses isEmpty or: [
+		(aMessage receiver minClassesInContext:aContext) includesAny: implementingClasses].

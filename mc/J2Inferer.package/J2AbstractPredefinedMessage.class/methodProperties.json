@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"forInferer:" : "PabloTesone 8/17/2015 09:26" },
+		"forInferer:" : "PabloTesone 8/27/2015 13:25" },
 	"instance" : {
-		"applyTo:" : "PabloTesone 8/17/2015 09:08",
-		"canHandle:onContext:" : "PabloTesone 8/17/2015 11:49",
+		"applyTo:onContext:" : "PabloTesone 8/27/2015 06:06",
+		"canHandle:onContext:" : "PabloTesone 8/26/2015 12:40",
+		"config" : "PabloTesone 8/26/2015 12:43",
+		"createPredefinedMethod" : "PabloTesone 8/27/2015 13:41",
 		"inferer" : "PabloTesone 8/17/2015 09:26",
 		"inferer:" : "PabloTesone 8/17/2015 09:26",
-		"initialize" : "PabloTesone 8/17/2015 08:50",
+		"initialize" : "PabloTesone 8/27/2015 13:25",
 		"parametersMatches:onContext:" : "PabloTesone 8/17/2015 11:49",
-		"receiverClassesMatches:onContext:" : "PabloTesone 8/17/2015 11:52",
+		"predefinedMethod" : "PabloTesone 8/27/2015 13:40",
+		"receiverClassesMatches:onContext:" : "PabloTesone 8/27/2015 13:37",
 		"selectorsMatches:onContext:" : "PabloTesone 8/17/2015 11:49" } }

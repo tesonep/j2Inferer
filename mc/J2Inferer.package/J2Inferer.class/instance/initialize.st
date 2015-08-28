@@ -4,7 +4,6 @@ initialize
 	self initConfiguration.
 	
 	predefinedMessages := OrderedCollection new.
-	self initPredefinedMessages.
 	
 	classes := IdentityDictionary new.
 	queue := J2TaskQueue new.
@@ -16,3 +15,4 @@ initialize
 	globals := IdentityDictionary new.
 	
 	siRegister := J2SilentSIRegister new.
+	self initPredefinedMessages.
