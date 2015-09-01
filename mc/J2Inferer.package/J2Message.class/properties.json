@@ -8,8 +8,7 @@
 	"instvars" : [
 		"receiver",
 		"selector",
-		"parameters",
-		"methods" ],
+		"parameters" ],
 	"name" : "J2Message",
 	"pools" : [
 		 ],

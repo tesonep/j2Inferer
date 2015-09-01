@@ -8,5 +8,3 @@ testObjectCreation
 	self
 		assert: (classInfo instanceVariable: #anotherObject)
 		hasType: {J2SimpleClass}.
-		
-	self halt.

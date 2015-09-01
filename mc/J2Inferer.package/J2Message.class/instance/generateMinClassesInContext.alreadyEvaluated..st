@@ -1,6 +1,6 @@
 accessing
 generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	^ methods
+	^ self methods
 		flatCollect:
 			[ :e | 
 			e returnType

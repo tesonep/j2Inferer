@@ -4,8 +4,8 @@
 		"addMessageSentTo:selector:parameters:inferer:container:context:" : "PabloTesone 8/17/2015 13:06" },
 	"instance" : {
 		"addSupertype:" : "PabloTesone 9/1/2015 09:54",
-		"elements" : "PabloTesone 8/13/2015 09:29",
-		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 9/1/2015 11:58",
+		"elements" : "PabloTesone 9/1/2015 12:27",
+		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 9/1/2015 12:27",
 		"hasMethod:" : "PabloTesone 8/25/2015 09:18",
 		"initialize" : "PabloTesone 8/4/2015 12:36",
 		"isUpdated" : "PabloTesone 8/26/2015 07:03",
