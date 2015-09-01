@@ -1,0 +1,3 @@
+tests
+aMessage.
+	^ aValue

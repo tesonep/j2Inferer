@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-Tests-TestCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"aVariable",
+		"anotherVariable" ],
+	"name" : "J2SubtypingTestClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

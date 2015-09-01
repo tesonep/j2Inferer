@@ -1,2 +1,2 @@
 accessing
-subtypeParameters: params.
+subtypeParameters: aMessage.

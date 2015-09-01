@@ -1,3 +1,3 @@
 accessing
 receiver: anObject
-	receiver := anObject. receiver addSupertype: self
+	receiver := anObject.

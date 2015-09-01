@@ -1,0 +1,3 @@
+initialization
+predefinedMethod
+	^ self createPredefinedMethod.

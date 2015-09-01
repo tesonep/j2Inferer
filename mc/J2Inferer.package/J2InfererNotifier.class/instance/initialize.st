@@ -1,7 +1,7 @@
 initialization
 initialize
 	super initialize.
-	file := File new named: 'salida.out'; openForAppend.
+	file := File new named: 'salida.out'; openForAppend; yourself.
 	stream := file writeStream.
 	logLevels:=Dictionary new.
 	logLevels at:#error put:1. 

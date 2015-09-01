@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Tests-TestCode",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"aValue" ],
+	"name" : "J2SimpleParametersOutsideHierarchy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
