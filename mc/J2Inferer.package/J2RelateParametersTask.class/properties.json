@@ -1,0 +1,16 @@
+{
+	"category" : "J2Inferer-Tasks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method",
+		"parameterVariable",
+		"index" ],
+	"name" : "J2RelateParametersTask",
+	"pools" : [
+		 ],
+	"super" : "J2AbstractTask",
+	"type" : "normal" }

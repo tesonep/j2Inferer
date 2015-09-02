@@ -1,0 +1,10 @@
+accessing
+buildRelationshipsOnContext: aContext
+	variable addSupertype: self.
+	((self message methodsForReceivingContext: aContext)
+		select: [ :e | (e isKindOf: J2AbstractPredefinedMethod) not ])
+		do:
+			[ :e | 
+			(e classTypeInfo selfAndSuperclasses includes: self message containerClass)
+				ifTrue:
+					[ self message inferer enqueueRelateMethod: e variableIndex: index parameterVariable: variable ] ]

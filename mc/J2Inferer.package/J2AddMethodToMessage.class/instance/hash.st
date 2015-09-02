@@ -1,3 +1,0 @@
-accessing
-hash
-	^ message hash.

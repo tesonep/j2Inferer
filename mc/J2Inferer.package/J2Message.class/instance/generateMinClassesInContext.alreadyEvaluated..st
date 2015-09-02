@@ -1,8 +1,11 @@
 accessing
 generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	^ self methods
+	| receiverContext |
+	receiverContext := receiver minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated.
+	
+	^ (self methodsOn: receiverContext)
 		flatCollect:
 			[ :e | 
 			e returnType
-				minClassesInContext: (receiver minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated)
+				minClassesInContext: receiverContext 
 				alreadyEvaluated: alreadyEvaluated ]

@@ -9,4 +9,3 @@ initialize
 	temporaryVariables := Dictionary new.
 	innerExpressions := Dictionary new.
 	parameters := OrderedCollection new.
-	stamp := 0

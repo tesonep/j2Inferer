@@ -1,9 +1,13 @@
 tasks operations
 openMethods: aMessage on: aContext
 	| remainingContext |
-	remainingContext := self applyPredefinedMessage: aMessage onContext: aContext.
-
-	remainingContext ifNotEmpty: [ 
+	remainingContext := self
+		remainingContextPredefinedMessage: aMessage
+		onContext: aContext.
+		
+	remainingContext
+		ifNotEmpty:
+			[ 
 			queue
 				enqueue:
 					(J2OpenMethodFromMessage new

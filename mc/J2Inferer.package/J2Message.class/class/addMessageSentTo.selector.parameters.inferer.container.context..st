@@ -4,9 +4,10 @@ addMessageSentTo: receiver selector: selector parameters: parameters inferer: in
 	msg := self new.
 	msg receiver: receiver.
 	msg selector: selector.
-	msg parameters: parameters.
 	msg inferer: inferer.
 	msg container: container.
+	msg parameters: (parameters withIndexCollect:[ :e :i | J2ParameterVariable newFor: e onMessage: msg index:i onContext:aContext]).
+	msg parameters do:[ :e |	e buildRelationshipsOnContext:aContext.].
 	receiver addMessageSent: msg.
-	msg messageAdded:aContext.
+	inferer openMethods: msg on:aContext.
 	^ msg
