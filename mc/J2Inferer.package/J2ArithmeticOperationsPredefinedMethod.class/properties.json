@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"parameters" ],
 	"name" : "J2ArithmeticOperationsPredefinedMethod",
 	"pools" : [
 		 ],
