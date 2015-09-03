@@ -7,4 +7,8 @@ buildRelationshipsOnContext: aContext
 			[ :e | 
 			(e classTypeInfo selfAndSuperclasses includes: self message containerClass)
 				ifTrue:
-					[ self message inferer enqueueRelateMethod: e variableIndex: index parameterVariable: variable ] ]
+					[ 
+						e parameters 
+							ifEmpty: [[ self message inferer enqueueRelateMethod: e variableIndex: index parameterVariable: variable ] ]
+							ifNotEmpty: [ (e parameters at: index) addSubtype: variable ]]
+					]

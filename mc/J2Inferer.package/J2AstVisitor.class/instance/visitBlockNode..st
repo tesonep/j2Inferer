@@ -2,9 +2,9 @@ visiting
 visitBlockNode: aBlockNode
 	| blk |
 	blk := J2Block new
-		expression: aBlockNode infererSource;
 		inferer: inferer;
 		container: self container;
+		fillParameters: aBlockNode;
 		yourself.
 	self container atExpression: aBlockNode put: blk.
 	self pushContainer: blk.
