@@ -1,5 +1,5 @@
 accessing
 methods
 	| receiverContext |
-	receiverContext := receiver minClassesInContext: self defaultContext alreadyEvaluated: IdentitySet new.
+	receiverContext := self receivingContextOn: self defaultContext.
 	^ self methodsOn: receiverContext

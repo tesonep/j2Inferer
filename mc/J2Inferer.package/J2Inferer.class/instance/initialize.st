@@ -14,5 +14,4 @@ initialize
 	literals := IdentityDictionary new.
 	globals := IdentityDictionary new.
 	
-	siRegister := J2SilentSIRegister new.
 	self initPredefinedMessages.

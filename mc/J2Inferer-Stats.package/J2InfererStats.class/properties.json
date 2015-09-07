@@ -1,14 +1,15 @@
 {
-	"category" : "J2Inferer",
+	"category" : "J2Inferer-Stats",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "J2SilentSIRegister",
+		"dateTime",
+		"results" ],
+	"name" : "J2InfererStats",
 	"pools" : [
 		 ],
-	"super" : "SIRegister",
+	"super" : "Object",
 	"type" : "normal" }
