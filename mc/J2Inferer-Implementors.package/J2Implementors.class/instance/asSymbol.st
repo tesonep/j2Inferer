@@ -1,0 +1,3 @@
+accessing
+asSymbol
+	^self selector

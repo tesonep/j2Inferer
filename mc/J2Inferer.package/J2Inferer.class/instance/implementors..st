@@ -1,3 +1,3 @@
 accessing
 implementors: selector.
-	^selector implementors 
+	^ implementors implementorsOf: selector.

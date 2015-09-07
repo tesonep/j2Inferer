@@ -12,7 +12,8 @@
 		"literals",
 		"globals",
 		"notifier",
-		"predefinedMessages" ],
+		"predefinedMessages",
+		"implementors" ],
 	"name" : "J2Inferer",
 	"pools" : [
 		 ],

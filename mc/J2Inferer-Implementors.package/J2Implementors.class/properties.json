@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-Implementors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"methods" ],
+	"name" : "J2Implementors",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
