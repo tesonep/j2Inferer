@@ -3,9 +3,6 @@ initialize
 	config := Dictionary new.
 	self initConfiguration.
 	
-	implementors := J2ImplementorsRegistry new.
-	implementors fill.
-	
 	predefinedMessages := OrderedCollection new.
 	
 	classes := IdentityDictionary new.
