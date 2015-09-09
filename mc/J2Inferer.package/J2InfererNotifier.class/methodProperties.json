@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"close" : "PabloTesone 9/8/2015 09:08",
+		"endProcess" : "PabloTesone 9/8/2015 09:06",
 		"enqueueMethod:" : "PabloTesone 8/19/2015 08:07",
 		"fillingClass:" : "PabloTesone 8/19/2015 08:07",
 		"generatedClass:" : "PabloTesone 8/19/2015 08:07",
@@ -9,12 +11,14 @@
 		"hasToLog:" : "PabloTesone 8/18/2015 06:22",
 		"inferer" : "PabloTesone 8/7/2015 11:14",
 		"inferer:" : "PabloTesone 8/7/2015 11:14",
-		"initialize" : "PabloTesone 8/28/2015 10:30",
+		"initialize" : "PabloTesone 9/8/2015 09:01",
 		"log:level:" : "PabloTesone 8/19/2015 08:06",
 		"logClasses" : "PabloTesone 8/19/2015 08:45",
 		"logStatistics" : "PabloTesone 8/19/2015 08:45",
 		"onError:" : "PabloTesone 8/13/2015 07:40",
+		"openLogFile" : "PabloTesone 9/8/2015 09:02",
 		"openMethod:" : "PabloTesone 8/19/2015 08:07",
 		"openingMessage:" : "PabloTesone 8/19/2015 08:07",
 		"openingMethod:" : "PabloTesone 8/19/2015 08:07",
-		"pendingTasks:speed:" : "PabloTesone 8/19/2015 08:08" } }
+		"pendingTasks:speed:" : "PabloTesone 8/19/2015 08:08",
+		"startingProcess" : "PabloTesone 9/8/2015 09:02" } }

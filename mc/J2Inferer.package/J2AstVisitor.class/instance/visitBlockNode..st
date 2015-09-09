@@ -4,6 +4,7 @@ visitBlockNode: aBlockNode
 	blk := J2Block new
 		inferer: inferer;
 		container: self container;
+		fillReturn;
 		fillParameters: aBlockNode;
 		yourself.
 	self container atExpression: aBlockNode put: blk.

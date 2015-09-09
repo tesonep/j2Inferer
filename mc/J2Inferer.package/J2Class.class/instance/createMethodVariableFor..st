@@ -7,6 +7,7 @@ createMethodVariableFor: aMethod
 				inferer: inferer;
 				method: aMethod;
 				classTypeInfo: self;
+				fillReturn;
 				fillParameters:aMethod ast;
 				yourself ]
 		ifFalse: [ self createInheritedMethodVariableFor:aMethod ]

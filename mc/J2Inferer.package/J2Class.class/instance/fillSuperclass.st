@@ -1,5 +1,5 @@
 methods
 fillSuperclass
-	analysedClass superclass ifNotNil: [ 
-		superclass := inferer typeInfoFor: analysedClass superclass.	
+	self analysedClass superclass ifNotNil: [ 
+		superclass := inferer typeInfoFor: self analysedClass superclass.	
 	]

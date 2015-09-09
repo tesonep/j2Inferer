@@ -11,5 +11,6 @@ visitAssignmentNode: anAssignmentNode
 			(J2AssignmentExpression new
 				leftPart: variable;
 				expression: anAssignmentNode infererSource;
+				inferer: inferer;
 				container: self container;
 				yourself)

@@ -3,6 +3,10 @@
 		 },
 	"instance" : {
 		"addMethod:" : "PabloTesone 9/7/2015 10:58",
+		"allUnderstanding:" : "PabloTesone 9/9/2015 12:57",
 		"at:" : "PabloTesone 9/7/2015 11:09",
-		"fill" : "PabloTesone 9/7/2015 11:09",
-		"implementorsOf:" : "PabloTesone 9/7/2015 10:58" } }
+		"fill" : "PabloTesone 9/9/2015 12:59",
+		"implementorsOf:" : "PabloTesone 9/7/2015 10:58",
+		"implementorsOfAll:" : "PabloTesone 9/9/2015 12:39",
+		"knownObjectMessages" : "PabloTesone 9/9/2015 12:35",
+		"singleImplementorOf:" : "PabloTesone 9/9/2015 12:19" } }

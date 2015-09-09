@@ -1,3 +1,3 @@
 as yet unclassified
 fillBaseClass
-	baseClass := inferer typeInfoFor: analysedClass baseClass.
+	baseClass := inferer typeInfoFor: self analysedClass baseClass.

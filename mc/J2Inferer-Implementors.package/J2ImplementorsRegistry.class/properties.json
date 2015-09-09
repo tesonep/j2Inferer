@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectors" ],
+		"selectors",
+		"knownObjectMessages",
+		"allUnderstandingCache" ],
 	"name" : "J2ImplementorsRegistry",
 	"pools" : [
 		 ],

@@ -1,0 +1,20 @@
+{
+	"category" : "J2Inferer-Stats",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"totalVariables",
+		"withDataVariables",
+		"totalMethods",
+		"withDataReturn",
+		"totalParameters",
+		"withDataParameters" ],
+	"name" : "J2PackageData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

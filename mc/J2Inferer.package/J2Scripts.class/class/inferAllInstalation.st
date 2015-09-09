@@ -6,6 +6,11 @@ inferAllInstalation
 	Smalltalk garbageCollect.
 	inferer := J2Inferer new.
 	
-   [ ProtoObject allSubclasses do: [ :e | inferer enqueueClass: e ].
-	  inferer runAndWait ] forkAt: 20.
+   "[" 
+	  ProtoObject allSubclasses do: [ :e | inferer enqueueClass: e ].
+	  inferer runAndWait.
+	  inferer notifier close.
+	"] timeProfile" "forkAt: 20" 
+
+	
 	^ inferer.

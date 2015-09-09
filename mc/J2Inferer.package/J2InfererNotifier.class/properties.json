@@ -10,7 +10,9 @@
 		"stream",
 		"file",
 		"logLevels",
-		"currentLogLevel" ],
+		"currentLogLevel",
+		"startTime",
+		"endTime" ],
 	"name" : "J2InfererNotifier",
 	"pools" : [
 		 ],
