@@ -1,7 +1,12 @@
 as yet unclassified
 singleImplementorOf: bunchOfSelectors
-	| possible |
-
-	possible := self implementorsOfAll: bunchOfSelectors.
-	^ (possible size = 1) ifTrue:possible ifFalse:nil.
+	| possibleMethods possibleClass |
+	"A more simple implementation"
 	
+	bunchOfSelectors ifEmpty:[^nil].
+
+	possibleMethods := (self at:bunchOfSelectors anyOne) methods.
+	(possibleMethods size ~= 1) ifTrue:[^nil].
+
+	possibleClass := possibleMethods anyOne methodClass.	
+	^possibleClass subclasses ifEmpty: [{possibleClass }] ifNotEmpty:[nil].
