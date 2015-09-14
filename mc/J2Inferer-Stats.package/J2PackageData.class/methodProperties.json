@@ -4,4 +4,10 @@
 	"instance" : {
 		"fillPackage:from:" : "PabloTesone 9/8/2015 10:37",
 		"name" : "PabloTesone 9/8/2015 10:31",
-		"processClass:from:" : "PabloTesone 9/8/2015 10:51" } }
+		"processClass:from:" : "PabloTesone 9/8/2015 10:51",
+		"totalMethods" : "PabloTesone 9/10/2015 08:19",
+		"totalParameters" : "PabloTesone 9/10/2015 08:19",
+		"totalVariables" : "PabloTesone 9/10/2015 08:19",
+		"withDataParameters" : "PabloTesone 9/10/2015 08:19",
+		"withDataReturn" : "PabloTesone 9/10/2015 08:19",
+		"withDataVariables" : "PabloTesone 9/10/2015 08:19" } }
