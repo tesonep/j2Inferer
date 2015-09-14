@@ -1,10 +1,15 @@
 as yet unclassified
 implementorsOfAll: bunchOfSelectors
-	| bunch possible candidates |
+	| bunch possible  first  candidates |
 	"Let's discard all the methods implemented in object, because everybody has them."
 	bunchOfSelectors ifEmpty: [ ^#() ].
-	bunch := (bunchOfSelectors difference:self knownObjectMessages) asArray.
+	bunch := OrderedCollection new:(bunchOfSelectors size).
+	bunchOfSelectors do:[:e |
+			(self knownObjectMessages includes:e) ifFalse:[ bunch add:e].
+		].
+	
 	bunch ifEmpty: [ ^#() ].
+	first := bunch detectMin: [ :each | (self at:each) size ].
 
 	possible := self allUnderstanding: bunch first.
 	possible ifEmpty: [ ^#() ].

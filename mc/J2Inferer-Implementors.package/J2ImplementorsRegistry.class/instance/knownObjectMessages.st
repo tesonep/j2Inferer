@@ -1,3 +1,5 @@
 as yet unclassified
 knownObjectMessages
-	^ knownObjectMessages ifNil: [ knownObjectMessages := Object allMethods collect: #selector ]
+	^ knownObjectMessages ifNil: [ 
+		knownObjectMessages := IdentitySet new:2048.
+		knownObjectMessages addAll:(Class allMethods collect: #selector). ]
