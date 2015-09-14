@@ -7,6 +7,5 @@ addMessageSentTo: aMessageNode container: aContainer inferer: inferer context:aC
 		selector: aMessageNode selector
 		parameters: (aMessageNode arguments collect: [ :e | aContainer atExpression: e ])
 		inferer: inferer
-		container: aContainer
-		context: aContext.
+		container: aContainer.
 	aContainer atExpression: aMessageNode put: msg

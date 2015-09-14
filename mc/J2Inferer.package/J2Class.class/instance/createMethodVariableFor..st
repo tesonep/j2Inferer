@@ -1,5 +1,6 @@
 methods
 createMethodVariableFor: aMethod
+	inferer enqueueAllMethodsUpdated.
 	^ aMethod methodClass = self analysedClass
 		ifTrue:
 			[ 

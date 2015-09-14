@@ -1,0 +1,3 @@
+comparing
+compareToAllMethodsUpdated: anotherTask
+	^ false.

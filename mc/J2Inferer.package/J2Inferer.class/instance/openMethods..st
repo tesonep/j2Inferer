@@ -1,5 +1,5 @@
 tasks operations
-openMethods: aMessage on: aContext
+openMethods: aMessage
 	queue
 		enqueue:
 			(J2OpenMethodFromMessage new

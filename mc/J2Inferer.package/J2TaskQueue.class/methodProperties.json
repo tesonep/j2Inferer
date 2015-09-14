@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"enqueue:" : "PabloTesone 8/26/2015 09:41",
+		"enqueue:" : "PabloTesone 9/14/2015 07:22",
 		"findInQueue:" : "PabloTesone 8/26/2015 09:53",
 		"handleError:onTask:" : "PabloTesone 8/4/2015 11:45",
 		"hasTasks" : "PabloTesone 8/25/2015 12:06",
@@ -16,5 +16,4 @@
 		"runAndWait" : "PabloTesone 9/8/2015 08:52",
 		"runLevelInterval" : "PabloTesone 8/26/2015 06:24",
 		"runOne" : "PabloTesone 8/19/2015 08:46",
-		"shouldEnqueue:" : "PabloTesone 8/26/2015 09:38",
 		"size" : "PabloTesone 8/26/2015 06:18" } }

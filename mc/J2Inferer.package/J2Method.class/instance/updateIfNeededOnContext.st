@@ -1,5 +1,5 @@
 accessing
-updateIfNeededOnContext: aContext
+updateIfNeededOnContext
 	methodStamp = method stamp
 		ifFalse:
 			[ 
@@ -7,7 +7,6 @@ updateIfNeededOnContext: aContext
 			J2AstVisitor new
 				method: self;
 				inferer: inferer;
-				context: aContext;
 				visitNode: method ast.
 			methodStamp := method stamp.
 			inferer notifier openMethod: self ]

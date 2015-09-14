@@ -1,5 +1,5 @@
 instance creation
-newFor: anotherVariable onMessage: aMessage index:anIndex onContext:aContext
+newFor: anotherVariable onMessage: aMessage index:anIndex
 	| v |
 	v := self new.
 	v message: aMessage.

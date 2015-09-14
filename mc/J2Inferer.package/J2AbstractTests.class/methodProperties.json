@@ -4,8 +4,9 @@
 	"instance" : {
 		"assert:hasMessages:" : "PabloTesone 8/24/2015 09:12",
 		"assert:hasTemporaryVariable:" : "PabloTesone 8/10/2015 06:47",
-		"assert:hasType:" : "PabloTesone 8/13/2015 09:20",
+		"assert:hasType:" : "PabloTesone 9/14/2015 10:34",
+		"assertAllMethodsOpened" : "PabloTesone 9/14/2015 10:33",
 		"inferClass:" : "PabloTesone 8/3/2015 11:52",
 		"inferMethod:" : "PabloTesone 8/3/2015 11:54",
 		"setUp" : "PabloTesone 8/3/2015 12:00",
-		"tearDown" : "PabloTesone 9/8/2015 09:08" } }
+		"tearDown" : "PabloTesone 9/14/2015 10:30" } }

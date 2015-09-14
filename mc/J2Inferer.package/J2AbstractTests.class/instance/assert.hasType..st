@@ -2,6 +2,9 @@ asserts
 assert: typeVariable hasType: aBunchOfClasses
 	| possibleClasses ps |
 	ps := typeVariable possibleClasses.
+	
+	self assertAllMethodsOpened.
+	
 	self
 		assert: [ ps isNotNil ]
 		description: 'The possible classes are all classes in the instalation'.

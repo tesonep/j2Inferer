@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Tasks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "J2AllMethodsUpdatedTask",
+	"pools" : [
+		 ],
+	"super" : "J2AbstractTask",
+	"type" : "normal" }

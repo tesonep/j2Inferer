@@ -1,5 +1,10 @@
 tasks operations
 enqueueMethod: aMethod
-	| aJ2Class |
-	aJ2Class := self typeInfoFor: aMethod methodClass.
-	self enqueueMethod: aMethod onContext: {aJ2Class}.
+	notifier enqueueMethod: aMethod.
+	aMethod ifNil:[^self].
+	queue
+		enqueue:
+			(J2OpenMethodTask new
+				method: aMethod;
+				inferer: self;
+				yourself).

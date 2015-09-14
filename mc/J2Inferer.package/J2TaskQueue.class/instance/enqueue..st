@@ -1,7 +1,7 @@
 enqueuing
 enqueue: aTask
 	"The task knows if has to be enqueue in the queue. Maybe there is nothing to do."
-	(self shouldEnqueue: aTask)
+	(aTask shouldEnqueue)
 		ifTrue:
 			[  "If a equal task is found then it has to be merged, if not it's added to the queue" 
 				self merge: aTask orDo:
