@@ -9,8 +9,7 @@ testMessageSending
 	messageExpression := methodInfo atExpression: (RBMessageNode receiver: (RBSelfNode named:'self') selector: #assigningAValue ).
 
 	self assertCollection: aVariable subtypes equals: {messageExpression} asSet.
-	self assertCollection: (aVariable allMessages collect:#selector) equals: #() asSet.
-
+	self assertCollection: (aVariable allSelectors) equals: #() asSet.
 	self assertCollection: messageExpression supertypes equals: #() asSet.
 	self assertCollection: messageExpression methods equals: {otherMethod} asSet.
 

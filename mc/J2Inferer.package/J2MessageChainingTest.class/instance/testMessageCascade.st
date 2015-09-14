@@ -6,5 +6,5 @@ testMessageCascade
 
 	varExpression := methodInfo atExpression: (RBVariableNode named:#aLocal).
 	
-	self assertCollection:(varExpression messages collect:#selector) equals:#(odd even + * floor) asSet.
+	self assertCollection:(varExpression selectors) equals:#(odd even + * floor) asSet.
 	

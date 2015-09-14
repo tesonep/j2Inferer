@@ -1,4 +1,4 @@
 adding types
 addMessageSent: msg
-	messages add: msg.
+	selectors add: msg selector.
 	self updated.

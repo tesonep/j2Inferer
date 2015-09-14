@@ -1,9 +1,9 @@
 accessing
 maxClasses
-   | allMessages |
-   allMessages := self allMessages.
-	^ allMessages 
+   | allSelectors |
+   allSelectors := self allSelectors.
+	^ allSelectors 
 		ifEmpty: nil
 		ifNotEmpty: [ 
-			self filter: self allClasses byMessages: allMessages.
+			self inferer implementorsOfAll: allSelectors.
 		]

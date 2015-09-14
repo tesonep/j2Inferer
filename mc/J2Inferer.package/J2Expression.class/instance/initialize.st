@@ -1,6 +1,6 @@
 accessing
 initialize
 	super initialize.
-	messages := Set new.
+	selectors := IdentitySet new.
 	supertypes := Set new.
-		subtypes := Set new
+	subtypes := Set new

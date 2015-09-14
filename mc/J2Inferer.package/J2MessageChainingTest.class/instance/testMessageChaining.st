@@ -11,5 +11,5 @@ testMessageChaining
 	
 	self assert:msgExpression isNotNil.
 	self assert:(classInfo instanceVariable: #aValue) possibleClasses isNil.
-	self assertCollection:(varExpression allMessages collect:#selector) equals:#(#aMessage) asSet.
+	self assertCollection:(varExpression allSelectors) equals:#(#aMessage) asSet.
 	

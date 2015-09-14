@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"messages",
 		"inferer",
 		"supertypes",
 		"subtypes",
 		"container",
-		"alreadyCalculated" ],
+		"alreadyCalculated",
+		"selectors" ],
 	"name" : "J2Expression",
 	"pools" : [
 		 ],
