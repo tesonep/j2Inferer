@@ -1,6 +1,6 @@
 accessing
 minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	| singleImplementor allSelectors |
+	| singleImplementor  |
 	(alreadyEvaluated includes: self)
 		ifTrue: [ 
 			^ alreadyCalculated ifNil:#().
@@ -9,9 +9,7 @@ minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 	alreadyCalculated := self filter: (self generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated) byMessages: self selectors .
 	
 	alreadyCalculated ifEmpty: [ 
-		allSelectors := self allSelectors: IdentitySet new onContext: aContext.
-		
-		singleImplementor := self inferer singleImplementorOf: allSelectors.
+		singleImplementor := self inferer singleImplementorOf: selectors.
 		singleImplementor ifNotNil:[
 			alreadyCalculated := singleImplementor.	
 		]	

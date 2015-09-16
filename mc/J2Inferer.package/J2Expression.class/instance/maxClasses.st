@@ -5,5 +5,5 @@ maxClasses
 	^ allSelectors 
 		ifEmpty: nil
 		ifNotEmpty: [ 
-			self inferer implementorsOfAll: allSelectors.
+			self inferer implementorsRegistry implementorsOfAll: allSelectors.
 		]
