@@ -23,4 +23,4 @@ install:
   - ./scripts/install-packages.sh
 
 script:
-  - ./pharo Pharo.image test --fail-on-failure "J2Inferer"
+  - ./pharo Pharo.image test --fail-on-failure "J2Inferer-*"
