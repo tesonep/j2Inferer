@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-Tests-TestCode-Escalonated",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"a",
+		"b" ],
+	"name" : "J2EscalonatedObjectsContainer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

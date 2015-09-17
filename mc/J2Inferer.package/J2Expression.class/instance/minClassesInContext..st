@@ -1,3 +1,3 @@
 accessing
 minClassesInContext: aContext
-	^ self minClassesInContext: aContext alreadyEvaluated: IdentitySet new.
+	^ self minClassesInContext: aContext alreadyEvaluated: Dictionary new.

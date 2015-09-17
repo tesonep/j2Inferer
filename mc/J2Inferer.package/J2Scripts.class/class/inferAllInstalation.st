@@ -7,7 +7,7 @@ inferAllInstalation
 	inferer := J2Inferer new.
 	
    "[" 
-	  ProtoObject allSubclasses do: [ :e | inferer enqueueClass: e ].
+	  ProtoObject withAllSubclasses do: [ :e | inferer enqueueClass: e ] displayingProgress: [:e | e name].
 	  inferer runAndWait.
 	  inferer notifier close.
 	"] timeProfile" "forkAt: 20" 

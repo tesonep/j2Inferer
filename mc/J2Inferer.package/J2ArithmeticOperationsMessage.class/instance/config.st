@@ -4,5 +4,5 @@ config
 	numberTypes := Number allSubclasses collect: [ :e | inferer typeInfoFor: e ].
 	
 	parameters := { numberTypes }.
-	selectors := #(#+ #*).
+	selectors := #(#+ #* #-).
 	implementingClasses := numberTypes.

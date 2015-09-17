@@ -3,7 +3,5 @@ SystemOrganization addCategory: 'J2Inferer-PredefinedMessages'!
 SystemOrganization addCategory: 'J2Inferer-PredefinedMethods'!
 SystemOrganization addCategory: 'J2Inferer-Tasks'!
 SystemOrganization addCategory: 'J2Inferer-Tasks-Queue'!
-SystemOrganization addCategory: 'J2Inferer-Tests'!
-SystemOrganization addCategory: 'J2Inferer-Tests-TestCode'!
 SystemOrganization addCategory: 'J2Inferer-Utils'!
 SystemOrganization addCategory: 'J2Inferer-Variables'!

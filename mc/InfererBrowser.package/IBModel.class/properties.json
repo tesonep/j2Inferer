@@ -1,0 +1,15 @@
+{
+	"category" : "InfererBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inferer",
+		"element" ],
+	"name" : "IBModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

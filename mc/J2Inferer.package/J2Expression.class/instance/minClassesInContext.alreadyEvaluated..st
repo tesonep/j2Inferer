@@ -1,18 +1,20 @@
 accessing
 minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	| singleImplementor  |
-	(alreadyEvaluated includes: self)
+	| singleImplementor r |
+	(alreadyEvaluated includesKey: {self. aContext asSet})
 		ifTrue: [ 
-			^ alreadyCalculated ifNil:#().
+			^ alreadyEvaluated at:{self. aContext asSet}
 		].
-	alreadyEvaluated add: self.
-	alreadyCalculated := self filter: (self generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated) byMessages: self selectors .
+	alreadyEvaluated at: {self. aContext asSet} put:#().
+	r := self filter: (self generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated) byMessages: self selectors .
 	
-	alreadyCalculated ifEmpty: [ 
+	r ifEmpty: [ 
 		singleImplementor := self inferer singleImplementorOf: selectors.
 		singleImplementor ifNotNil:[
-			alreadyCalculated := singleImplementor.	
+			r := singleImplementor.	
 		]	
 	].
 	
-	^alreadyCalculated
+	alreadyEvaluated at: {self. aContext asSet} put:r.
+	
+	^r
