@@ -8,10 +8,10 @@ baseline: spec
 			spec
 				package: 'J2Inferer';
 				package: 'J2Inferer-Implementors';
-				package: 'J2Inferer-Stats';
-				package: 'J2Inferer-Tests';
+				package: 'J2Inferer-Stats' with: [spec requires: #('J2Inferer') ];
+				package: 'J2Inferer-Tests' with: [spec requires: #('J2Inferer' 'J2Inferer-Tests-TestCode') ];
 				package: 'J2Inferer-Tests-TestCode';
-				package: 'InfererBrowser'.
+				package: 'InfererBrowser'  with: [spec requires: #('J2Inferer') ].
 			spec
 				group: 'core' with: #('J2Inferer' 'J2Inferer-Stats' 'J2Inferer-Implementors');
 				group: 'ui'  with: #('InfererBrowser');
