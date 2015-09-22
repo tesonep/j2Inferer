@@ -1,0 +1,14 @@
+{
+	"category" : "InfererBrowser-Sugesstions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IBTypeInfoSuggestion",
+	"pools" : [
+		 ],
+	"super" : "SugsSuggestion",
+	"type" : "normal" }
