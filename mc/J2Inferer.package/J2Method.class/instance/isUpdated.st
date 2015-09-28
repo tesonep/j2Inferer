@@ -1,3 +1,3 @@
 accessing
 isUpdated
-	^ self methodStamp = method stamp.
+	^ self methodStamp = self method stamp.

@@ -7,5 +7,3 @@ initialize
 	logLevels at:#debug put:3.
 	logLevels at:#trace put:4.
 	currentLogLevel := 2.
-	
-	self openLogFile

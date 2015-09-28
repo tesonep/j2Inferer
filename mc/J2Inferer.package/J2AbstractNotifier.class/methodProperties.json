@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doLog:level:" : "PabloTesone 9/28/2015 14:33",
+		"endProcess" : "PabloTesone 9/28/2015 14:26",
+		"enqueueMethod:" : "PabloTesone 9/28/2015 14:26",
+		"fillingClass:" : "PabloTesone 9/28/2015 14:26",
+		"generatedClass:" : "PabloTesone 9/28/2015 14:26",
+		"generatingClass:" : "PabloTesone 9/28/2015 14:26",
+		"hasToLog:" : "PabloTesone 9/28/2015 14:27",
+		"inferer" : "PabloTesone 9/28/2015 14:26",
+		"inferer:" : "PabloTesone 9/28/2015 14:26",
+		"initialize" : "PabloTesone 9/28/2015 14:28",
+		"log:level:" : "PabloTesone 9/28/2015 14:32",
+		"logClasses" : "PabloTesone 9/28/2015 14:27",
+		"logStatistics" : "PabloTesone 9/28/2015 14:27",
+		"onError:" : "PabloTesone 9/28/2015 14:26",
+		"openMethod:" : "PabloTesone 9/28/2015 14:26",
+		"openingMessage:" : "PabloTesone 9/28/2015 14:26",
+		"openingMethod:" : "PabloTesone 9/28/2015 14:26",
+		"pendingTasks:speed:" : "PabloTesone 9/28/2015 14:26",
+		"startingProcess" : "PabloTesone 9/28/2015 14:29" } }

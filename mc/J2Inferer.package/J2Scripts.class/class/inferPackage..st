@@ -1,6 +1,9 @@
 scripts
 inferPackage: aPackage
-	inferer ifNil: [ inferer := J2Inferer new ].
+	inferer ifNil: [ 
+			inferer := J2Inferer new.
+			inferer initWithNotifier: J2FileBasedNotifier new.
+		].
 
 	aPackage classes
 		do: [ :e | inferer enqueueClass: e ]

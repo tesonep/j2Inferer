@@ -1,3 +1,3 @@
 methods
 methodTypeFor: aMethod
-	^ methods at: aMethod ifAbsentPut: [ self createMethodVariableFor: aMethod ]
+	^ methods at: aMethod selector ifAbsentPut: [ self createMethodVariableFor: aMethod ]

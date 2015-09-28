@@ -6,15 +6,10 @@
 		 ],
 	"commentStamp" : "PabloTesone 8/17/2015 08:56",
 	"instvars" : [
-		"inferer",
 		"stream",
-		"file",
-		"logLevels",
-		"currentLogLevel",
-		"startTime",
-		"endTime" ],
-	"name" : "J2InfererNotifier",
+		"file" ],
+	"name" : "J2FileBasedNotifier",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "J2AbstractNotifier",
 	"type" : "normal" }

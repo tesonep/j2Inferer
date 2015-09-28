@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	methods := IdentityDictionary new.
+	methods := Dictionary new.
 	instanceVariables := IdentityDictionary new.

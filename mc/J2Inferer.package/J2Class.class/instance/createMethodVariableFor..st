@@ -6,7 +6,7 @@ createMethodVariableFor: aMethod
 			[ 
 			J2Method new
 				inferer: inferer;
-				method: aMethod;
+				selector: aMethod selector;
 				classTypeInfo: self;
 				fillReturn;
 				fillParameters:aMethod ast;

@@ -7,11 +7,6 @@ initialize
 	
 	classes := IdentityDictionary new.
 	queue := J2TaskQueue new.
-	notifier := J2InfererNotifier new
-		inferer: self;
-		yourself.
-	queue notifier: notifier.
 	literals := IdentityDictionary new.
 	globals := IdentityDictionary new.
-	
-	self initPredefinedMessages.
+

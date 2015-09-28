@@ -1,4 +1,4 @@
-initialization
+file-handling
 openLogFile
 	file := File new
 		named: 'salida.out';

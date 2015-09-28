@@ -1,0 +1,1 @@
+This class has all the common behavior between all the Notifiers.

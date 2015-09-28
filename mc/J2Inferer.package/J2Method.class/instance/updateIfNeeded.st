@@ -1,12 +1,13 @@
-accessing
-updateIfNeededOnContext
-	methodStamp = method stamp
+updating
+updateIfNeeded
+	self isUpdated 
 		ifFalse:
 			[ 
 			inferer notifier openingMethod: self.
+			self cleanForUpdate.
 			J2AstVisitor new
 				inferer: inferer;
 				method: self;
-				visitNode: method ast.
-			methodStamp := method stamp.
+				visitNode: self method ast.
+			methodStamp := self method stamp.
 			inferer notifier openMethod: self ]

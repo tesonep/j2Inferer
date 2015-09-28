@@ -1,0 +1,1 @@
+This implementation does nothing in the events. It's useful to be used in the tests.
