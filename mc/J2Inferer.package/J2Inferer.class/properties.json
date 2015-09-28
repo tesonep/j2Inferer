@@ -13,7 +13,8 @@
 		"globals",
 		"notifier",
 		"predefinedMessages",
-		"implementors" ],
+		"implementors",
+		"astContainerListener" ],
 	"name" : "J2Inferer",
 	"pools" : [
 		 ],

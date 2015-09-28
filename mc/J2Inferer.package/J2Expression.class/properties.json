@@ -10,7 +10,6 @@
 		"supertypes",
 		"subtypes",
 		"container",
-		"alreadyCalculated",
 		"selectors" ],
 	"name" : "J2Expression",
 	"pools" : [

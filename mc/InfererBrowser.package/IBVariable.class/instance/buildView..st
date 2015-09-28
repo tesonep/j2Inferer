@@ -1,6 +1,6 @@
 accessing
 buildView: builder
-	builder title: 'Variable ', self element name , ' @ ' , self element containerClass name.
+	builder title: self title.
 	builder
 		list
 			title:'Possible Classes of variable ', self name;

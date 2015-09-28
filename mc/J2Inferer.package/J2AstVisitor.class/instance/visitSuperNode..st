@@ -4,5 +4,5 @@ visitSuperNode: aSuperNode
 		atExpression: aSuperNode
 		ifAbsentPut: [ 
 			J2Super new
-				container: self container;
+				container: self container element;
 				inferer: inferer; yourself ]

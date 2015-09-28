@@ -4,5 +4,5 @@ visitSelfNode: aSelfNode
 		atExpression: aSelfNode
 		ifAbsentPut: [ 
 			J2Self new
-				container: self container;
+				container: self container element;
 				inferer: inferer; yourself ]

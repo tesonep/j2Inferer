@@ -7,9 +7,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"expression",
 		"parameters",
-		"returnType" ],
+		"returnType",
+		"index" ],
 	"name" : "J2Block",
 	"pools" : [
 		 ],

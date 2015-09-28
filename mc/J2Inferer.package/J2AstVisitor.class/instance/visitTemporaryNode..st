@@ -1,3 +1,3 @@
 visiting
 visitTemporaryNode: aNode
-	self container addVariableFor: aNode infererSource
+	self container addTemporaryVariableFor: aNode

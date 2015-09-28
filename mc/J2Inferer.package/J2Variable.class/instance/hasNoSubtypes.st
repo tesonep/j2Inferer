@@ -1,3 +1,3 @@
-as yet unclassified
+queryng
 hasNoSubtypes
 	^self subtypes isEmpty

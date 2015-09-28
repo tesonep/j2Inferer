@@ -7,10 +7,10 @@ visitAssignmentNode: anAssignmentNode
 	variable addSubtype: (self container atExpression: anAssignmentNode value).
 	self container
 		atExpression: anAssignmentNode
-		put:
-			(J2AssignmentExpression new
+		ifAbsentPut:[
+			J2AssignmentExpression new
 				leftPart: variable;
 				expression: anAssignmentNode infererSource;
 				inferer: inferer;
-				container: self container;
-				yourself)
+				container: self container element;
+				yourself]

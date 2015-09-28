@@ -1,16 +1,19 @@
 tests
 testParametersSubtyping
-	| classInfo aVariable methodInfo otherMethod aParameter messageExpression aParameterVariable |
+	|classInfo aVariable methodInfo otherMethod aParameter messageExpression aParameterVariable 
+		methodContainer otherMethodContainer |
 	classInfo := self inferClass: J2SubtypingTestClass.
 	methodInfo := classInfo methodTypeFor: J2SubtypingTestClass >> #senderMessage .
 	otherMethod := classInfo methodTypeFor: J2SubtypingTestClass >> #sentMessage: .
+	methodContainer := self containerFor:methodInfo.
+	otherMethodContainer := self containerFor: otherMethod.
 	
 	"self sentMessage: passedByParameter."
-	messageExpression := methodInfo atExpression: (RBMessageNode receiver: (RBSelfNode named:'self') selector:#sentMessage:  arguments:{(RBVariableNode named:'passedByParameter')} ).	
+	messageExpression := methodContainer atExpression: (RBMessageNode receiver: (RBSelfNode named:'self') selector:#sentMessage:  arguments:{(RBVariableNode named:'passedByParameter')} ).	
 	aParameterVariable := messageExpression parameters at:1.
 	
-	aVariable := methodInfo atExpression: (RBTemporaryNode named:#passedByParameter).
-	aParameter := otherMethod atExpression: (RBVariableNode named:#aParameter).
+	aVariable := methodContainer atExpression: (RBTemporaryNode named:#passedByParameter).
+	aParameter := otherMethodContainer atExpression: (RBVariableNode named:#aParameter).
 
 	self assertCollection: aVariable allSelectors equals: #(aMessageToParameter) asSet.
 	self assertCollection: (aVariable subtypes) equals: #() asSet.

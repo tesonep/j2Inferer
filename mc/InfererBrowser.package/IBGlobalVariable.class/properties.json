@@ -1,0 +1,14 @@
+{
+	"category" : "InfererBrowser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "IBGlobalVariable",
+	"pools" : [
+		 ],
+	"super" : "IBVariable",
+	"type" : "normal" }

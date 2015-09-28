@@ -11,10 +11,10 @@ implementorsOfAll: bunchOfSelectors
 	bunch ifEmpty: [ ^#() ].
 	first := bunch detectMin: [ :each | (self at:each) size ].
 
-	possible := self allUnderstanding: bunch first.
+	possible := self allUnderstanding: first.
 	possible ifEmpty: [ ^#() ].
 	
-	(2 to: bunch size) do:[:i |  
+	2 to: bunch size do:[:i |  
 		candidates := self allUnderstanding: (bunch at:i).
 		possible := possible intersection: candidates.			
 		possible ifEmpty: [ ^#() ].	

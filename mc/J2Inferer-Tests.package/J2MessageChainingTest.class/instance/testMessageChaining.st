@@ -1,13 +1,14 @@
 tests
 testMessageChaining
-	| classInfo methodInfo msgExpression varNode msgNode varExpression|
+	| classInfo methodContainer msgExpression varNode msgNode varExpression methodInfo |
 	classInfo := self inferClass: J2MessageChaining.
 	methodInfo := classInfo methodTypeFor: J2MessageChaining >> #anotherMessage:.
+	methodContainer := self containerFor: methodInfo.
 
 	varNode := RBVariableNode named:'x'.
 	msgNode := RBMessageNode receiver: varNode selector: #aMessage. 
-	varExpression := methodInfo atExpression: varNode.
-	msgExpression := methodInfo atExpression: msgNode.
+	varExpression := methodContainer atExpression: varNode.
+	msgExpression := methodContainer atExpression: msgNode.
 	
 	self assert:msgExpression isNotNil.
 	self assert:(classInfo instanceVariable: #aValue) possibleClasses isNil.

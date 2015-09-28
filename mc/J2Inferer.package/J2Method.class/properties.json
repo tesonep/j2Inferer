@@ -11,8 +11,6 @@
 		"method",
 		"classTypeInfo",
 		"returnType",
-		"temporaryVariables",
-		"innerExpressions",
 		"parameters",
 		"methodStamp" ],
 	"name" : "J2Method",

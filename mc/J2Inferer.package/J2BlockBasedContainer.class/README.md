@@ -1,0 +1,1 @@
+This container represents the context generated in a block.

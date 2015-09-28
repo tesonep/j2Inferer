@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"addMessageSentTo:container:inferer:context:" : "PabloTesone 9/14/2015 08:53",
-		"addMessageSentTo:selector:parameters:inferer:container:" : "PabloTesone 9/14/2015 08:53" },
+		"addMessageSent:container:inferer:receiver:parameters:" : "PabloTesone 9/25/2015 11:51",
+		"addMessageSentTo:selector:parameters:inferer:container:" : "PabloTesone 9/28/2015 11:27" },
 	"instance" : {
 		"addSupertype:" : "PabloTesone 9/1/2015 09:54",
 		"elements" : "PabloTesone 9/1/2015 12:27",

@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "J2ASTContextTest",
+	"pools" : [
+		 ],
+	"super" : "J2AbstractTests",
+	"type" : "normal" }

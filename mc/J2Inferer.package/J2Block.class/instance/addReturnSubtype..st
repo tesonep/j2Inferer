@@ -1,3 +1,3 @@
-as yet unclassified
+adding
 addReturnSubtype: anExpression
 	self container returnType addSubtype: anExpression
