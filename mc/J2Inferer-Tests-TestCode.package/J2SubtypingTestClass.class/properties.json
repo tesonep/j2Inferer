@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"anotherVariable",
+		"aVariable" ],
 	"name" : "J2SubtypingTestClass",
 	"pools" : [
 		 ],

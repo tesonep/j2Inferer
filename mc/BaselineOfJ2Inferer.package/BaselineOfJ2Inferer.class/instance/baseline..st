@@ -6,8 +6,8 @@ baseline: spec
 		do:
 			[ 
 			spec
-				package: 'J2Inferer';
 				package: 'J2Inferer-Implementors';
+				package: 'J2Inferer' with: [spec requires: #('J2Inferer-Implementors') ];
 				package: 'J2Inferer-Stats' with: [spec requires: #('J2Inferer') ];
 				package: 'J2Inferer-Tests' with: [spec requires: #('J2Inferer' 'J2Inferer-Tests-TestCode') ];
 				package: 'J2Inferer-Tests-TestCode';
