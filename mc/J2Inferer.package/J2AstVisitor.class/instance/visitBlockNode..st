@@ -22,5 +22,17 @@ visitBlockNode: aBlockNode
 				yourself).
 
 	self visitArgumentNodes: aBlockNode arguments.
+
 	self visitNode: aBlockNode body.
+	
+	(aBlockNode body statements isNotEmpty and:[ aBlockNode body statements last isReturn not]) 
+	ifTrue:[
+		blk returnType addSubtype: (self container atExpression: (aBlockNode body statements last))
+	] ifFalse:[
+		| nilNode |
+		nilNode := RBLiteralValueNode value: 'nil'.
+		self inferer addLiteralVariable: nilNode.
+		blk returnType addSubtype: (self container atExpression: nilNode ) 
+	].
+	
 	self popContainer

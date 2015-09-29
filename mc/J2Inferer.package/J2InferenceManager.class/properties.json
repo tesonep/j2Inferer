@@ -4,10 +4,10 @@
 		"inferer" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PabloTesone 8/21/2015 07:29",
+	"commentStamp" : "PabloTesone 9/29/2015 09:39",
 	"instvars" : [
 		 ],
-	"name" : "J2Scripts",
+	"name" : "J2InferenceManager",
 	"pools" : [
 		 ],
 	"super" : "Object",

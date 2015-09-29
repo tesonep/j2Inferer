@@ -1,0 +1,1 @@
+Classes to test if the invocation to basicNew and basicNew: is correctly handled.

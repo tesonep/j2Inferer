@@ -1,3 +1,3 @@
 accessing
 method
-	^ self classTypeInfo analysedClass >> selector
+	^ self classTypeInfo analysedClass >> selector.

@@ -1,0 +1,1 @@
+A hierarchy to test inheritance

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PabloTesone 9/29/2015 10:57",
 	"instvars" : [
 		"inferer",
 		"supertypes",
@@ -14,5 +14,5 @@
 	"name" : "J2Expression",
 	"pools" : [
 		 ],
-	"super" : "J2DirtyAwareObject",
+	"super" : "Object",
 	"type" : "normal" }

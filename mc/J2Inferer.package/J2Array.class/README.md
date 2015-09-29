@@ -1,0 +1,1 @@
+It Represents the array variable. Can have elements in it containment.

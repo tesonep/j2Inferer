@@ -1,0 +1,1 @@
+This is a special kind of J2Class used for the Metaclass entitites.

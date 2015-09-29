@@ -1,0 +1,1 @@
+Representing a self node.

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PabloTesone 9/29/2015 09:47",
 	"instvars" : [
 		"inferer" ],
 	"name" : "J2AbstractTask",

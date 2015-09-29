@@ -3,7 +3,7 @@ maxClasses
    | allSelectors |
    allSelectors := self allSelectors.
 	^ allSelectors 
-		ifEmpty: nil
+		ifEmpty: #()
 		ifNotEmpty: [ 
 			self inferer implementorsRegistry implementorsOfAll: allSelectors.
 		]

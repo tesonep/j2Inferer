@@ -1,0 +1,1 @@
+Simple class side behavior for testing the inferer.

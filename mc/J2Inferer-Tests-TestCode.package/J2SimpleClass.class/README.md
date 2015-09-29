@@ -1,0 +1,1 @@
+Simple class for testing the inferer.

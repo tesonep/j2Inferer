@@ -2,7 +2,7 @@ as yet unclassified
 execute
 	| inferer node methodNode methodVariable typeVariable | 
 	
-	inferer := J2Scripts inferer.
+	inferer := J2InferenceManager inferer.
 	node := context selectedNode.
 	methodNode := node methodNode.
 	methodVariable := inferer methodVariableFor: methodNode method.

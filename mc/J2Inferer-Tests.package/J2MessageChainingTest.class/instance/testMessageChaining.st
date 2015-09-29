@@ -11,6 +11,6 @@ testMessageChaining
 	msgExpression := methodContainer atExpression: msgNode.
 	
 	self assert:msgExpression isNotNil.
-	self assert:(classInfo instanceVariable: #aValue) possibleClasses isNil.
+	self assertCollection:(classInfo instanceVariable: #aValue) possibleClasses equals: #().
 	self assertCollection:(varExpression allSelectors) equals:#(#aMessage) asSet.
 	
