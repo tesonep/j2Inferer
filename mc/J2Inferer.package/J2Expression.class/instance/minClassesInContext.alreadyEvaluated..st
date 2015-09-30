@@ -11,7 +11,7 @@ minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 	r ifEmpty: [ 
 		singleImplementor := self inferer singleImplementorOf: selectors.
 		singleImplementor ifNotNil:[
-			r := singleImplementor.	
+			r := singleImplementor collect:[:e | inferer typeInfoFor: e].	
 		]	
 	].
 	

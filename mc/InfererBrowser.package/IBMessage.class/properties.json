@@ -1,14 +1,14 @@
 {
-	"category" : "InfererBrowser-Sugesstions",
+	"category" : "InfererBrowser",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"astContext" ],
-	"name" : "IBTypeInfoSuggestion",
+		 ],
+	"name" : "IBMessage",
 	"pools" : [
 		 ],
-	"super" : "SugsSuggestion",
+	"super" : "IBVariable",
 	"type" : "normal" }

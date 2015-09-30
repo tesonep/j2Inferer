@@ -1,11 +1,6 @@
 as yet unclassified
 createInferTypeSuggestion
 	<globalCommand>
-	<instVarCommand>
-	<methodCommand>
-	<messageCommand>	
-	<classVarCommand>
-	<tempVarCommand>
 
 	^ (IBTypeInfoSuggestion
 		icon: Smalltalk ui icons smallJustifiedIcon

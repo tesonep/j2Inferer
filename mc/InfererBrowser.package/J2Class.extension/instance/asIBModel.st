@@ -1,3 +1,3 @@
 *InfererBrowser
 asIBModel
-	^IBMessage for: self.
+	^ IBClass for:self.
