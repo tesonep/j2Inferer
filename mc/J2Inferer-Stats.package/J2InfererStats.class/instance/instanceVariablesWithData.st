@@ -1,3 +1,3 @@
-as yet unclassified
+stats
 instanceVariablesWithData
 	^ results sum:#withDataVariables.

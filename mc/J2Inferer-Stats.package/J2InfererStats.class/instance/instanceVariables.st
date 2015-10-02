@@ -1,3 +1,3 @@
-as yet unclassified
+stats
 instanceVariables
 	^ results sum:#totalVariables.

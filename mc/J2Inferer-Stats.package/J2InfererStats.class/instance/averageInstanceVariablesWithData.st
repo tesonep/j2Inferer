@@ -1,3 +1,3 @@
-as yet unclassified
+stats
 averageInstanceVariablesWithData
 	^ self instanceVariablesWithData / self instanceVariables 
