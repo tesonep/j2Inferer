@@ -4,7 +4,8 @@ buildView: builder
 	builder title:'Method ', self element name.	
 	builder list
 		title:'Possible Classes of the Returned Value';
-		display:[ :each | each element returnType possibleClasses collect:#asIBModel];
+		display:[ :each | 
+			each element returnType possibleClasses collect:#asIBModel];
 		format: #name.
 	builder list
 		title:'Parameters';

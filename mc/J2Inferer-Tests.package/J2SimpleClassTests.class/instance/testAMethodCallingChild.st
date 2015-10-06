@@ -5,4 +5,4 @@ testAMethodCallingChild
 	classInfo := self inferClass: J2ChildClass.
 	methodInfo := classInfo methodTypeFor: J2ParentClass >> #aMethodCallingChild.
 	self assert: (classInfo instanceVariable: #aParentVariable) hasType: {SmallInteger}.
-	self assert: methodInfo returnType hasType: {SmallInteger}
+	self assert: methodInfo returnType hasType: {SmallInteger} onContext:{classInfo}.

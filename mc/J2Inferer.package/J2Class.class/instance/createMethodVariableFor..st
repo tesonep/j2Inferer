@@ -1,14 +1,14 @@
 methods
 createMethodVariableFor: aMethod
+	| m |
 	inferer enqueueAllMethodsUpdated.
 	^ aMethod methodClass = self analysedClass
-		ifTrue:
-			[ 
-			J2Method new
+		ifTrue: [ m := J2Method new
 				inferer: inferer;
 				selector: aMethod selector;
 				classTypeInfo: self;
 				fillReturn;
-				fillParameters:aMethod ast;
-				yourself ]
-		ifFalse: [ self createInheritedMethodVariableFor:aMethod ]
+				fillParameters: aMethod ast;
+				yourself.
+			methods at: aMethod selector put: m ]
+		ifFalse: [ superclass methodTypeFor: aMethod ]

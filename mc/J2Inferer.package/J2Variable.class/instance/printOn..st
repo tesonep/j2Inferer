@@ -1,4 +1,4 @@
-accessing
+printing
 printOn: aStream
 	aStream
 		nextPutAll: 'a J2Variable (';

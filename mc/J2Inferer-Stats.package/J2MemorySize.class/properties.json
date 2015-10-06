@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-Stats",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clusterization",
+		"analysis" ],
+	"name" : "J2MemorySize",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,3 +1,3 @@
 accessing
 possibleClasses
-	^ self possibleClasses: self defaultContext.
+	^self possibleClasses: self defaultContext 
