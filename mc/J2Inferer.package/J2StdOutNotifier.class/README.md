@@ -1,0 +1,1 @@
+Simple implemetation of the notifier that logs the output to the standard output.

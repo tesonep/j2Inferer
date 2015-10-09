@@ -9,4 +9,4 @@ initialize
 	queue := J2TaskQueue new.
 	literals := IdentityDictionary new.
 	globals := IdentityDictionary new.
-
+	arrayLiterals := Set new.

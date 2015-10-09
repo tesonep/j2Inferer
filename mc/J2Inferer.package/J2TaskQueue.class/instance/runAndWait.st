@@ -9,3 +9,5 @@ runAndWait
 
 	notifier logStatistics.
 	notifier endProcess.
+	
+	self clearQueue.

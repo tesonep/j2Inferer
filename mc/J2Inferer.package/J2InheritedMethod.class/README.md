@@ -1,1 +1,0 @@
-When a method is inherited we need a stub in the child classes. It delegates to the real method.

@@ -1,0 +1,3 @@
+subtyping
+addMessageSent: aMessage 
+	

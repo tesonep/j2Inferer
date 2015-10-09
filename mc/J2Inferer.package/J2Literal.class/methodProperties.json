@@ -2,9 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSupertype:" : "PabloTesone 9/1/2015 08:46",
-		"defaultContext" : "PabloTesone 8/13/2015 09:37",
-		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 8/25/2015 05:58",
 		"literalClass" : "PabloTesone 8/25/2015 05:58",
 		"literalClass:" : "PabloTesone 8/25/2015 05:58",
-		"minClassesInContext:alreadyEvaluated:" : "PabloTesone 9/14/2015 13:47" } }
+		"minClassesInContext:alreadyEvaluated:" : "PabloTesone 10/9/2015 08:48",
+		"printOn:" : "PabloTesone 10/9/2015 08:42" } }

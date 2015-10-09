@@ -7,8 +7,7 @@
 	"commentStamp" : "PabloTesone 9/29/2015 11:06",
 	"instvars" : [
 		"message",
-		"index",
-		"variable" ],
+		"index" ],
 	"name" : "J2ParameterVariable",
 	"pools" : [
 		 ],

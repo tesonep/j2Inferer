@@ -10,5 +10,5 @@
 	"name" : "J2Super",
 	"pools" : [
 		 ],
-	"super" : "J2AbstractSelf",
+	"super" : "J2AbstractSharedTypeVariables",
 	"type" : "normal" }

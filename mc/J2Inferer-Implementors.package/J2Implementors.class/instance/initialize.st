@@ -1,4 +1,4 @@
 accessing
 initialize
 	super initialize.
-	self methods: IdentitySet new.
+	self methods: #().

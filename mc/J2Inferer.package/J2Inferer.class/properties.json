@@ -14,7 +14,12 @@
 		"notifier",
 		"predefinedMessages",
 		"implementors",
-		"astContainerListener" ],
+		"astContainerListener",
+		"selfVariable",
+		"superVariable",
+		"thisContextVariable",
+		"literal",
+		"arrayLiterals" ],
 	"name" : "J2Inferer",
 	"pools" : [
 		 ],

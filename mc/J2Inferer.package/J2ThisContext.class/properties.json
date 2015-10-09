@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 11:00",
 	"instvars" : [
-		 ],
+		"inferer" ],
 	"name" : "J2ThisContext",
 	"pools" : [
 		 ],
-	"super" : "J2Expression",
+	"super" : "J2AbstractSharedTypeVariables",
 	"type" : "normal" }

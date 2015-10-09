@@ -5,7 +5,4 @@ initialize
 	inQueue := Dictionary new: self numberOfRunLevels.
 	
 	runStart := 0.
-	self runLevelInterval
-		do: [ :e | 
-			queue at: e put: LinkedList new.
-			inQueue at: e put: (Set new) ]
+	self clearQueue.
