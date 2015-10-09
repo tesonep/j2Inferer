@@ -1,3 +1,3 @@
 accessing
 supertypes
-	^ supertypes
+	^ supertypes ifNil:[Set new].

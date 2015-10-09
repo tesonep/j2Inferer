@@ -1,3 +1,3 @@
 accessing
 selectors
-	^ selectors 
+	^ selectors ifNil:[ IdentitySet new]

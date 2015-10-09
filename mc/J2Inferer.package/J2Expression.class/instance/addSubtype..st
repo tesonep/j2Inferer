@@ -1,3 +1,4 @@
 adding types
 addSubtype: anotherVariable
-	subtypes add: anotherVariable.
+	subtypes ifNil: [ subtypes := Set new ].
+	subtypes add: anotherVariable

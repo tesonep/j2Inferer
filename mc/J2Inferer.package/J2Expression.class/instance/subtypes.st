@@ -1,3 +1,3 @@
 accessing
 subtypes
-	^ subtypes
+	^ subtypes ifNil:[ Set new]

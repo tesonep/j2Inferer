@@ -9,7 +9,7 @@ minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 	r := self filter: (self generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated) byMessages: self selectors .
 	
 	r ifEmpty: [ 
-		singleImplementor := self inferer singleImplementorOf: selectors.
+		singleImplementor := self inferer singleImplementorOf: self selectors.
 		singleImplementor ifNotNil:[
 			r := singleImplementor collect:[:e | inferer typeInfoFor: e].	
 		]	
