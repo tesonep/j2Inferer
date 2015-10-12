@@ -1,11 +1,10 @@
 {
 	"class" : {
 		"clearInferer" : "PabloTesone 8/25/2015 07:25",
-		"deserializeFromFile:" : "PabloTesone 8/26/2015 09:33",
+		"deserializeFromFile:" : "PabloTesone 10/12/2015 13:18",
 		"inferAllInstalation" : "PabloTesone 10/7/2015 07:11",
-		"inferAndSerialize" : "PabloTesone 10/7/2015 07:11",
 		"inferPackage:" : "PabloTesone 10/7/2015 07:11",
 		"inferer" : "PabloTesone 8/26/2015 08:36",
-		"serializeToFile:" : "PabloTesone 8/26/2015 08:37" },
+		"serializeToFile:" : "PabloTesone 10/12/2015 13:14" },
 	"instance" : {
 		 } }
