@@ -1,3 +1,0 @@
-*InfererBrowser
-asIBModel
-	^IBMessage for: self.

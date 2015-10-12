@@ -7,6 +7,5 @@ addVariableFor: aName
 		ifAbsentPut: [ 
 			J2Variable new
 				variableName: aName;
-				container: self;
 				inferer: self inferer;
 				yourself ]

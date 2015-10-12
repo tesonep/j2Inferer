@@ -5,10 +5,10 @@ buildView: builder
 	builder
 		list
 			title:'Possible Classes of variable ', self name;
-			display:[:each | each element possibleClasses collect:#asIBModel];
+			display:[:each | (each element possibleClasses: context) collect:#asIBModel];
 			format:#name.
 	builder 
 		list 
 			title:'Messages sent to ',self name;
-			display:[:each | each element allSelectors].
+			display:[:each | each element allSelectors: context].
 			

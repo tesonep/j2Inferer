@@ -6,7 +6,6 @@ visitBlockNode: aBlockNode
 	blk := J2Block new
 		inferer: inferer;
 		index: numberOfBlocks;
-		container: self container element;
 		fillReturn;
 		fillParameters: aBlockNode;
 		yourself.

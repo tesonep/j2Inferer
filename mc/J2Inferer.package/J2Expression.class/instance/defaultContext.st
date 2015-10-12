@@ -1,3 +1,0 @@
-accessing
-defaultContext
-	^ { self containerClass }

@@ -8,8 +8,6 @@
 	"instvars" : [
 		"inferer",
 		"supertypes",
-		"subtypes",
-		"container",
 		"selectors" ],
 	"name" : "J2Expression",
 	"pools" : [

@@ -14,4 +14,4 @@ execute
 	
 	typeVariable := astContext atExpression: node.
 	
-	IBBrowser openOn: typeVariable asIBModel.
+	IBBrowser openOn: (typeVariable asIBModel: {methodVariable classTypeInfo}).

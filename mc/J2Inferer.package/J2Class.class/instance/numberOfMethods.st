@@ -1,3 +1,3 @@
 methods
 numberOfMethods
-	^ methods size.
+	^ self methods size.

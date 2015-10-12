@@ -5,9 +5,8 @@ addMessageSentTo: receiver selector: selector parameters: parameters inferer: in
 	msg receiver: receiver.
 	msg selector: selector.
 	msg inferer: inferer.
-	msg container: container.
 	msg parameters: (parameters withIndexCollect:[ :e :i | J2ParameterVariable onMessage: msg index:i]) asArray.
-	parameters withIndexDo: [ :e :i | (msg parameters at:i) buildRelationships: e ].
+	parameters withIndexDo: [ :e :i | (msg parameters at:i) buildRelationships: e container: container ].
 	receiver addMessageSent: msg.
 	inferer enqueueOpenMethodsFromMessage: msg.
 	^ msg

@@ -3,4 +3,4 @@ testSimpleMessageReturningAnAddition
 	| methodInfo classInfo |
 	classInfo := self inferClass: J2SimpleArithmeticClass.
 	methodInfo := classInfo methodTypeFor: J2SimpleArithmeticClass >> #simpleMessageReturningAnAddition.
-	self assert: methodInfo returnType hasType: Number allSubclasses
+	self assert: methodInfo returnType hasType: Number allSubclasses onContext:{ classInfo }.

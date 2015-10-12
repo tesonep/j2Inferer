@@ -1,8 +1,9 @@
 accessing
-buildRelationships: variable
+buildRelationships: variable container: container
 	| containerClass methodVariable |
 	variable addSupertype: self.
-	containerClass := self message containerClass analysedClass.
+	
+	containerClass := container containerClass analysedClass.
 	
 	((self message inferer implementorsOf: self message selector)
 		select: [ :e | e methodClass isClass and:[ e methodClass = containerClass or:[ e methodClass allSuperclasses includes: containerClass] ]])

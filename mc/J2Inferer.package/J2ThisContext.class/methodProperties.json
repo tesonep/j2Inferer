@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 8/13/2015 06:44",
-		"inferer" : "PabloTesone 10/7/2015 06:53",
-		"inferer:" : "PabloTesone 10/7/2015 06:53",
-		"minClassesInContext:alreadyEvaluated:" : "PabloTesone 10/7/2015 06:53" } }
+		"minClassesInContext:alreadyEvaluated:" : "PabloTesone 10/12/2015 10:24",
+		"type" : "PabloTesone 10/12/2015 07:04",
+		"type:" : "PabloTesone 10/12/2015 07:04" } }

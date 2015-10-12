@@ -1,7 +1,7 @@
 accessing
-maxClasses
+maxClassesInContext: aContext
    | allSelectors |
-   allSelectors := self allSelectors.
+   allSelectors := self allSelectors: aContext.
 	^ allSelectors 
 		ifEmpty: #()
 		ifNotEmpty: [ 
