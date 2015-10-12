@@ -26,5 +26,5 @@ script:
   - ./pharo Pharo.image test --fail-on-failure "J2Inferer-Tests"
 
 after_success:
-  - ./scripts/generate-typeInfo.sh
+  -  "if [ ${TRAVIS_OS_NAME:-'linux'} = 'linux' ]; then . ./scripts/generate-typeInfo.sh; fi"
 
