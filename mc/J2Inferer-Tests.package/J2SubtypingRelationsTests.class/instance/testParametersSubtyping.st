@@ -22,5 +22,5 @@ testParametersSubtyping
 	"As the sender and the method is in the same class or hierarchy is ok to have this strong relationship."
 	
 	self assertCollection: (aParameter allSelectors: {classInfo}) equals: #(aMessageToParameter) asSet.
-	self assertCollection: (aParameter subtypes) equals: {aVariable} asSet.
+	self assertCollection: (aParameter subtypes collect:#expression) equals: {aVariable} asSet.
 	self assertCollection: (aParameter supertypes) equals: #() asSet.

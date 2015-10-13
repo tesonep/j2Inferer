@@ -1,7 +1,8 @@
 as yet unclassified
 printOn: aStream
+	super printOn: aStream.
 	aStream
-		nextPutAll: 'a J2Message (';
+		nextPut: $(;
 		nextPutAll: self receiver printString;
 		nextPutAll: ' ';
 		nextPutAll: self selector printString;

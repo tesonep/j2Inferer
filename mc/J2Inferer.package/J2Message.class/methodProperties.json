@@ -1,7 +1,6 @@
 {
 	"class" : {
-		"addMessageSent:container:inferer:receiver:parameters:" : "PabloTesone 9/25/2015 11:51",
-		"addMessageSentTo:selector:parameters:inferer:container:" : "PabloTesone 10/12/2015 08:37" },
+		"addMessageSent:container:inferer:receiver:parameters:" : "PabloTesone 10/13/2015 07:08" },
 	"instance" : {
 		"addSupertype:" : "PabloTesone 9/1/2015 09:54",
 		"elements" : "PabloTesone 9/1/2015 12:27",
@@ -11,7 +10,7 @@
 		"methodsOn:" : "PabloTesone 9/2/2015 11:26",
 		"parameters" : "PabloTesone 10/9/2015 10:24",
 		"parameters:" : "PabloTesone 10/9/2015 10:24",
-		"printOn:" : "PabloTesone 8/17/2015 09:56",
+		"printOn:" : "PabloTesone 10/13/2015 07:12",
 		"receiver" : "PabloTesone 8/3/2015 12:51",
 		"receiver:" : "PabloTesone 9/1/2015 07:08",
 		"receivingContextOn:" : "PabloTesone 9/14/2015 06:30",

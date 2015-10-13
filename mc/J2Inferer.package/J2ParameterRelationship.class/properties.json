@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PabloTesone 9/29/2015 10:57",
+	"commentStamp" : "PabloTesone 10/13/2015 09:27",
 	"instvars" : [
-		 ],
-	"name" : "J2Super",
+		"expression",
+		"isMeta" ],
+	"name" : "J2ParameterRelationship",
 	"pools" : [
 		 ],
-	"super" : "J2AbstractSharedTypeVariables",
+	"super" : "Object",
 	"type" : "normal" }
