@@ -1,3 +1,3 @@
 accessing
-addAnObject: anObject
+addObject: anObject
 	aBag add:anObject.

@@ -1,0 +1,1 @@
+These objects uses a J2AClassWithACollection

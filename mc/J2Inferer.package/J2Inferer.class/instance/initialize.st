@@ -1,7 +1,6 @@
 initialization
 initialize
-	config := Dictionary new.
-	self initConfiguration.
+	config := J2InfererConfig new.
 	
 	predefinedMessages := OrderedCollection new.
 	

@@ -12,7 +12,8 @@
 		"totalMethods",
 		"withDataReturn",
 		"totalParameters",
-		"withDataParameters" ],
+		"withDataParameters",
+		"duration" ],
 	"name" : "J2PackageData",
 	"pools" : [
 		 ],

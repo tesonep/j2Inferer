@@ -10,4 +10,4 @@ fillPackage: package from: inferer
 	withDataParameters := 0.
 	classes := package classes reject: #isTrait.
 	
-	classes do: [ :cls | self processClass: cls from: inferer ] displayingProgress: [ :e | e name ]
+	duration := [classes do: [ :cls | self processClass: cls from: inferer ] displayingProgress: [ :e | e name ]] timeToRun.
