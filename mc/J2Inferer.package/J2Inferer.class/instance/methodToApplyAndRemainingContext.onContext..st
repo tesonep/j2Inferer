@@ -7,7 +7,7 @@ methodToApplyAndRemainingContext: aMessage onContext: aContext
                 detect: [ :e | e canHandle: aMessage onContext: aContext ]
                 ifFound: [ :e |
                         {
-                                {e predefinedMethod}.
+                                {e}.
                                 e remainingContextFor: aMessage onContext: aContext
                         } ]
                 ifNone: [ {#(). aContext} ]

@@ -1,1 +1,0 @@
-Implementation of the predefined message for the abstract arithmetic operations between numbers.

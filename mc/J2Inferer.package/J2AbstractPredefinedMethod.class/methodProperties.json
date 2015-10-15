@@ -1,9 +1,16 @@
 {
 	"class" : {
-		 },
+		"forInferer:" : "PabloTesone 10/15/2015 12:07",
+		"new" : "PabloTesone 10/15/2015 12:08" },
 	"instance" : {
+		"canHandle:onContext:" : "PabloTesone 10/15/2015 12:03",
+		"config" : "PabloTesone 10/15/2015 12:03",
 		"inferer" : "PabloTesone 8/27/2015 12:54",
 		"inferer:" : "PabloTesone 8/27/2015 12:54",
+		"initialize" : "PabloTesone 10/15/2015 12:07",
 		"parameters" : "PabloTesone 9/3/2015 08:27",
+		"parametersMatches:onContext:" : "PabloTesone 10/15/2015 12:04",
+		"receiverClassesMatches:onContext:" : "PabloTesone 10/15/2015 12:04",
+		"remainingContextFor:onContext:" : "PabloTesone 10/15/2015 12:04",
 		"returnType" : "PabloTesone 8/27/2015 12:55",
-		"subtypeParameters:" : "PabloTesone 9/1/2015 09:18" } }
+		"selectorsMatches:onContext:" : "PabloTesone 10/15/2015 12:04" } }

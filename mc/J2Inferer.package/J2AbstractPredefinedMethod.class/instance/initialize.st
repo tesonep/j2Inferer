@@ -2,5 +2,6 @@ initialization
 initialize
 	super initialize.
 	implementingClasses := #().
-	parameters := #().
+	parametersTypes := #().
 	selectors := #().
+	self config.

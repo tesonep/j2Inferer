@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:43",
 	"instvars" : [
-		"inferer" ],
+		"inferer",
+		"parametersTypes",
+		"implementingClasses",
+		"selectors" ],
 	"name" : "J2AbstractPredefinedMethod",
 	"pools" : [
 		 ],

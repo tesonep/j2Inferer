@@ -1,3 +1,0 @@
-initialization
-predefinedMethod
-	^ self createPredefinedMethod.
