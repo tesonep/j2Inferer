@@ -1,8 +1,10 @@
 tests
 testParametersSubtypingOutsideHierarchy
 	| classInfo aVariable   aParameter anotherClassInfo methodInfo anotherMethodInfo methodExpression aParameterVariable anotherMethodContainer methodContainer |
-	classInfo := self inferClass: J2SimpleParametersOutsideHierarchy.
-	anotherClassInfo := self inferClass: J2SimpleMessageOutsideHierarchy .
+	
+	self inferAllParentsAndMetas: { J2SimpleParametersOutsideHierarchy. J2SimpleMessageOutsideHierarchy }.
+	classInfo := self infoOfClass: J2SimpleParametersOutsideHierarchy.
+	anotherClassInfo := self infoOfClass: J2SimpleMessageOutsideHierarchy .
 	methodInfo := anotherClassInfo methodTypeFor: J2SimpleMessageOutsideHierarchy >> #aMessage:.
 	methodContainer := self containerFor: methodInfo.
 	
