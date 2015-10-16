@@ -13,5 +13,5 @@ testMessageSending
 	self assertCollection: aVariable subtypes equals: {messageExpression} asSet.
 	self assertCollection: (aVariable allSelectors:{classInfo}) equals: #() asSet.
 	self assertCollection: messageExpression supertypes equals: #() asSet.
-	self assertCollection: (messageExpression methods:{classInfo}) equals: {otherMethod} asSet.
+	self assertCollection: (messageExpression methodsOn:{classInfo}) equals: {otherMethod}.
 
