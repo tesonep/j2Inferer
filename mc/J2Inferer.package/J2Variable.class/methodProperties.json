@@ -4,6 +4,7 @@
 		"unionAll:name:container:inferer:" : "PabloTesone 10/12/2015 07:26" },
 	"instance" : {
 		"addSubtype:" : "PabloTesone 10/12/2015 06:54",
+		"doBlockOn:alreadyEvaluated:" : "PabloTesone 10/16/2015 08:07",
 		"elements" : "PabloTesone 8/13/2015 09:29",
 		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 8/12/2015 13:04",
 		"hasNoSubtypes" : "PabloTesone 8/13/2015 06:36",

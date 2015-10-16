@@ -13,7 +13,9 @@
 		"withDataReturn",
 		"totalParameters",
 		"withDataParameters",
-		"duration" ],
+		"duration",
+		"blockVariables",
+		"blockReturnTypes" ],
 	"name" : "J2PackageData",
 	"pools" : [
 		 ],
