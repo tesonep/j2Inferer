@@ -3,7 +3,7 @@
 		"forInferer:" : "PabloTesone 10/15/2015 12:07",
 		"new" : "PabloTesone 10/15/2015 12:08" },
 	"instance" : {
-		"canHandle:onContext:" : "PabloTesone 10/15/2015 12:03",
+		"canHandle:onContext:" : "PabloTesone 10/16/2015 13:05",
 		"config" : "PabloTesone 10/15/2015 12:03",
 		"inferer" : "PabloTesone 8/27/2015 12:54",
 		"inferer:" : "PabloTesone 8/27/2015 12:54",
@@ -13,5 +13,4 @@
 		"parametersMatches:onContext:" : "PabloTesone 10/15/2015 12:04",
 		"receiverClassesMatches:onContext:" : "PabloTesone 10/15/2015 12:04",
 		"remainingContextFor:onContext:" : "PabloTesone 10/15/2015 12:04",
-		"returnType" : "PabloTesone 8/27/2015 12:55",
 		"selectorsMatches:onContext:" : "PabloTesone 10/15/2015 12:04" } }
