@@ -1,3 +1,3 @@
 updating
 forceUpdate
-	methodStamp := nil.
+	updated := false.

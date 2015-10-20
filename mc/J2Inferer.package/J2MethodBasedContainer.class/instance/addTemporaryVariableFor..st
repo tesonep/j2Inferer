@@ -8,5 +8,4 @@ addTemporaryVariableFor: aNode
 			J2Variable new
 				variableName: aName asSymbol;
 				inferer:inferer;
-				container:element;
 				yourself ]

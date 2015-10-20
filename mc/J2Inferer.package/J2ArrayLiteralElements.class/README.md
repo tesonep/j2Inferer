@@ -1,0 +1,1 @@
+Represents the elements inside an array Literal

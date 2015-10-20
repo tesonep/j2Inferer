@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"fillPackage:from:" : "PabloTesone 9/8/2015 10:37",
+		"blockInstanceVariables" : "PabloTesone 10/16/2015 07:08",
+		"blockReturnTypes" : "PabloTesone 10/16/2015 08:39",
+		"duration" : "PabloTesone 10/14/2015 11:44",
+		"fillPackage:from:" : "PabloTesone 10/16/2015 08:39",
 		"name" : "PabloTesone 9/8/2015 10:31",
-		"processClass:from:" : "PabloTesone 9/8/2015 10:51",
+		"processClass:from:" : "PabloTesone 10/16/2015 09:00",
 		"totalMethods" : "PabloTesone 9/10/2015 08:19",
 		"totalParameters" : "PabloTesone 9/10/2015 08:19",
 		"totalVariables" : "PabloTesone 9/10/2015 08:19",

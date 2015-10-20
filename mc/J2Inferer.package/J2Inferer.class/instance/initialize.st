@@ -1,7 +1,6 @@
 initialization
 initialize
-	config := Dictionary new.
-	self initConfiguration.
+	config := J2InfererConfig new.
 	
 	predefinedMessages := OrderedCollection new.
 	
@@ -9,4 +8,4 @@ initialize
 	queue := J2TaskQueue new.
 	literals := IdentityDictionary new.
 	globals := IdentityDictionary new.
-
+	arrayLiterals := Set new.

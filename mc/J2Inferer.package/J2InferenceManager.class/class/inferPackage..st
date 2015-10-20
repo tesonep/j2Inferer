@@ -2,7 +2,7 @@ scripts
 inferPackage: aPackage
 	inferer ifNil: [ 
 			inferer := J2Inferer new.
-			inferer initWithNotifier: J2FileBasedNotifier new.
+			inferer initWithNotifier: J2StdOutNotifier new.
 		].
 
 	aPackage classes

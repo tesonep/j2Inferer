@@ -5,8 +5,5 @@ checkDefaultReturnExpression
 		ifTrue:
 			[ selfExpr := innerExpressions
 				at: 'self'
-				ifAbsentPut: [ J2Self new
-						container: self element;
-						inferer: inferer;
-						yourself ].
+				ifAbsentPut: [ inferer selfVariable ].
 			self element returnType addSubtype: selfExpr ]

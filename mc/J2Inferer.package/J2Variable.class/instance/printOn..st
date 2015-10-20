@@ -1,8 +1,7 @@
 printing
 printOn: aStream
+	super printOn: aStream.
 	aStream
-		nextPutAll: 'a J2Variable (';
+		nextPut: $(;
 		nextPutAll: self name; 
-		nextPutAll: ' @ ';
-		nextPutAll: self container printString;
 		nextPut: $)

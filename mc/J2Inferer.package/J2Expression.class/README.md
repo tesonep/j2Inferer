@@ -1,1 +1,1 @@
-This is the abstract class that represents all the expressions in the type inference analysis.
+This is the abstract class that represents all the common behavior beetween subtyped expressions.

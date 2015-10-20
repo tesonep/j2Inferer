@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Tests-Blocks",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "J2SimpleBlockTests",
+	"pools" : [
+		 ],
+	"super" : "J2AbstractTests",
+	"type" : "normal" }

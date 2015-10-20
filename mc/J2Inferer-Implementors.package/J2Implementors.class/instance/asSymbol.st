@@ -1,3 +1,0 @@
-accessing
-asSymbol
-	^self selector

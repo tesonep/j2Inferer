@@ -2,13 +2,16 @@
 	"category" : "J2Inferer-Variables",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TJ2IsBlock classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 11:01",
 	"instvars" : [
-		"variableName" ],
+		"variableName",
+		"subtypes" ],
 	"name" : "J2Variable",
 	"pools" : [
 		 ],
 	"super" : "J2Expression",
+	"traitcomposition" : "TJ2IsBlock",
 	"type" : "normal" }

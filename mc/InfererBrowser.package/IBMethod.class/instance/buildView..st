@@ -5,7 +5,7 @@ buildView: builder
 	builder list
 		title:'Possible Classes of the Returned Value';
 		display:[ :each | 
-			each element returnType possibleClasses collect:#asIBModel];
+			(each element returnType possibleClasses:context) collect:#asIBModel];
 		format: #name.
 	builder list
 		title:'Parameters';

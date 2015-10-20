@@ -1,6 +1,5 @@
 SystemOrganization addCategory: #J2Inferer!
 SystemOrganization addCategory: 'J2Inferer-AST'!
-SystemOrganization addCategory: 'J2Inferer-PredefinedMessages'!
 SystemOrganization addCategory: 'J2Inferer-PredefinedMethods'!
 SystemOrganization addCategory: 'J2Inferer-Tasks'!
 SystemOrganization addCategory: 'J2Inferer-Tasks-Queue'!

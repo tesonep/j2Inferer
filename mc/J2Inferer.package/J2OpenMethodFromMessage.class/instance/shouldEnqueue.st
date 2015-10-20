@@ -1,3 +1,3 @@
 accessing
 shouldEnqueue
-	^ impls size <= (self inferer config at: #maxNumberImplementorsToOpen)
+	^ impls size <= (self inferer config maxNumberImplementorsToOpen)

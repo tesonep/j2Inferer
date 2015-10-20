@@ -11,9 +11,8 @@
 		"classTypeInfo",
 		"returnType",
 		"parameters",
-		"methodStamp",
 		"selector",
-		"method" ],
+		"updated" ],
 	"name" : "J2Method",
 	"pools" : [
 		 ],

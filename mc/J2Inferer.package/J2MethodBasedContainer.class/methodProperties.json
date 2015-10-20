@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addTemporaryVariableFor:" : "PabloTesone 9/28/2015 10:11",
+		"addReturnSubtype:" : "PabloTesone 10/12/2015 08:33",
+		"addTemporaryVariableFor:" : "PabloTesone 10/12/2015 07:26",
 		"atExpression:" : "PabloTesone 9/25/2015 09:06",
 		"atExpression:ifAbsentPut:" : "PabloTesone 9/25/2015 09:06",
-		"checkDefaultReturnExpression" : "PabloTesone 9/28/2015 12:06" } }
+		"checkDefaultReturnExpression" : "PabloTesone 10/7/2015 06:55",
+		"containerClass" : "PabloTesone 10/12/2015 08:46" } }

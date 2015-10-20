@@ -1,13 +1,17 @@
 {
 	"class" : {
 		"empty" : "PabloTesone 8/7/2015 09:46",
-		"unionAll:name:container:inferer:" : "PabloTesone 8/13/2015 09:28" },
+		"unionAll:name:container:inferer:" : "PabloTesone 10/12/2015 07:26" },
 	"instance" : {
-		"addSubtype:" : "PabloTesone 8/24/2015 06:41",
+		"addSubtype:" : "PabloTesone 10/12/2015 06:54",
+		"doBlocksOn:alreadyEvaluated:" : "PabloTesone 10/19/2015 08:27",
+		"doIsBlockOn:alreadyEvaluated:" : "PabloTesone 10/19/2015 08:25",
 		"elements" : "PabloTesone 8/13/2015 09:29",
 		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 8/12/2015 13:04",
 		"hasNoSubtypes" : "PabloTesone 8/13/2015 06:36",
 		"name" : "PabloTesone 8/5/2015 10:55",
-		"printOn:" : "PabloTesone 8/17/2015 12:44",
+		"printOn:" : "PabloTesone 10/13/2015 07:12",
+		"removeAllSubtypes" : "PabloTesone 10/9/2015 09:11",
+		"subtypes" : "PabloTesone 10/12/2015 06:54",
 		"variableName" : "PabloTesone 8/3/2015 09:32",
 		"variableName:" : "PabloTesone 8/3/2015 09:32" } }

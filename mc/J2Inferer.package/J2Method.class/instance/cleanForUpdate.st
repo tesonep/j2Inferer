@@ -1,3 +1,3 @@
 updating
 cleanForUpdate
-	self returnType subtypes removeAll.
+	self returnType removeAllSubtypes.

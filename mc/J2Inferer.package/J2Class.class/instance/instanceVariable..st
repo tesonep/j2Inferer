@@ -1,6 +1,6 @@
 accessing
 instanceVariable: aName
-	^ instanceVariables 
+	^ self instanceVariables 
 		at: aName asSymbol 
 		ifAbsent:[ 
 			superclass 

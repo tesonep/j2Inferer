@@ -8,10 +8,4 @@ visitAssignmentNode: anAssignmentNode
 
 	self container
 		atExpression: anAssignmentNode
-		ifAbsentPut:[
-			J2AssignmentExpression new
-				leftPart: variable;
-				expression: anAssignmentNode infererSource;
-				inferer: inferer;
-				container: self container element;
-				yourself]
+		ifAbsentPut:[ variable ]

@@ -8,6 +8,8 @@ fillPackage: package from: inferer
 	withDataVariables := 0.
 	withDataReturn := 0.
 	withDataParameters := 0.
+	blockVariables := 0.
+	blockReturnTypes := 0.
 	classes := package classes reject: #isTrait.
 	
-	classes do: [ :cls | self processClass: cls from: inferer ] displayingProgress: [ :e | e name ]
+	duration := [classes do: [ :cls | self processClass: cls from: inferer ] displayingProgress: [ :e | e name ]] timeToRun.

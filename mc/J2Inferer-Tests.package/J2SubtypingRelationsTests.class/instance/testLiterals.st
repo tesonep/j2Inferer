@@ -9,5 +9,4 @@ testLiterals
 	aLiteralExpression := methodContainer atExpression: (RBLiteralNode value: 23).
 
 	self assertCollection: aVariable subtypes equals: {aLiteralExpression} asSet.
-	self assertCollection: aLiteralExpression supertypes equals: #() asSet.
 

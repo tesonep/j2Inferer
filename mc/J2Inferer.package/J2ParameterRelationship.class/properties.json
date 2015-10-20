@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PabloTesone 10/13/2015 09:27",
+	"instvars" : [
+		"expression",
+		"isMeta" ],
+	"name" : "J2ParameterRelationship",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

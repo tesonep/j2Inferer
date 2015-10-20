@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "PabloTesone 10/14/2015 12:37",
+		"maxNumberImplementorsToOpen" : "PabloTesone 10/14/2015 12:16",
+		"maxNumberImplementorsToOpen:" : "PabloTesone 10/14/2015 12:16",
+		"maxNumberSubclassesToOpen" : "PabloTesone 10/14/2015 12:16",
+		"maxNumberSubclassesToOpen:" : "PabloTesone 10/14/2015 12:16",
+		"singleImplementorEnabled" : "PabloTesone 10/14/2015 12:20",
+		"singleImplementorEnabled:" : "PabloTesone 10/14/2015 12:20" } }

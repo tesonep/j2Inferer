@@ -1,1 +1,0 @@
-A common behavior between the J2Self and J2Super.

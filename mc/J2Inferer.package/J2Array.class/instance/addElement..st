@@ -1,3 +1,3 @@
 accessing
 addElement: anotherVariable
-	elements addSubtype: anotherVariable
+	self elements addSubtype: anotherVariable

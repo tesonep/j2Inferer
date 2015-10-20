@@ -4,12 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PabloTesone 9/29/2015 10:57",
+	"commentStamp" : "PabloTesone 10/7/2015 06:51",
 	"instvars" : [
 		"inferer",
 		"supertypes",
-		"subtypes",
-		"container",
 		"selectors" ],
 	"name" : "J2Expression",
 	"pools" : [

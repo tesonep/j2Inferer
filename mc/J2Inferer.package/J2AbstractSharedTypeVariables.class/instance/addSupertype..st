@@ -1,0 +1,2 @@
+subtyping
+addSupertype: aVariable.

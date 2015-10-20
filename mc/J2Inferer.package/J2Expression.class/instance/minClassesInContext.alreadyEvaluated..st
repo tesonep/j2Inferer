@@ -8,8 +8,8 @@ minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 	alreadyEvaluated at: {self. aContext asSet} put:#().
 	r := self filter: (self generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated) byMessages: self selectors .
 	
-	r ifEmpty: [ 
-		singleImplementor := self inferer singleImplementorOf: selectors.
+	(self inferer config singleImplementorEnabled and:[ r isEmpty ]) ifTrue: [ 
+		singleImplementor := self inferer singleImplementorOf: self selectors.
 		singleImplementor ifNotNil:[
 			r := singleImplementor collect:[:e | inferer typeInfoFor: e].	
 		]	

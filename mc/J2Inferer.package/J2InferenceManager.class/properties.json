@@ -1,7 +1,8 @@
 {
 	"category" : "J2Inferer-Utils",
 	"classinstvars" : [
-		"inferer" ],
+		"inferer",
+		"stats" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:39",

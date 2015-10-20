@@ -1,3 +1,5 @@
 accessing
 fillParameters: anAstNode
-	anAstNode arguments do: [ :each | self addParameterFor: each name ]
+	anAstNode arguments ifEmpty: [ ^self ].
+	self parameters: (Array new:  anAstNode arguments size).
+	anAstNode arguments doWithIndex: [ :each :index | self addParameterFor: each name at:index ]

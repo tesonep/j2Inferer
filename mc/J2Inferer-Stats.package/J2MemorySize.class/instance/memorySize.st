@@ -1,3 +1,3 @@
 as yet unclassified
 memorySize
-	^ self objects sum: #sizeInMemory
+	^ self objects sum:#sizeInMemory.

@@ -9,5 +9,5 @@ updateIfNeeded
 				inferer: inferer;
 				method: self;
 				visitNode: self method ast.
-			methodStamp := self method stamp.
+			updated := true.
 			inferer notifier openMethod: self ]

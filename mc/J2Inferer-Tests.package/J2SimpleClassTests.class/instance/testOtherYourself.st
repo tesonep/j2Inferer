@@ -9,5 +9,5 @@ testOtherYourself
 	methodInfo := classInfo methodTypeFor: J2SimpleClass >> #otherYourself.
 	methodContainer := self containerFor:methodInfo.
 	
-	self assert: (methodContainer temporaryVariables at:#y) hasType: {Dictionary}.
-	self assert: methodInfo returnType hasType: {Dictionary}
+	self assert: (methodContainer temporaryVariables at:#y) hasType: {Dictionary} onContext:{classInfo}.
+	self assert: methodInfo returnType hasType: {Dictionary} onContext:{classInfo}

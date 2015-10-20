@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"minClassesInContext:alreadyEvaluated:" : "PabloTesone 8/27/2015 13:36",
-		"parameters" : "PabloTesone 9/3/2015 08:29" } }
+		"config" : "PabloTesone 10/15/2015 12:05",
+		"parameters" : "PabloTesone 9/3/2015 08:29",
+		"remainingContextFor:onContext:" : "PabloTesone 10/15/2015 12:05",
+		"returnTypeFor:onContext:" : "PabloTesone 10/19/2015 06:36" } }

@@ -1,4 +1,5 @@
 adding types
 addSubtype: anotherVariable
-	super addSubtype: anotherVariable.
+	subtypes ifNil: [ subtypes := Set new ].
+	subtypes add: anotherVariable.
 	anotherVariable addSupertype: self.

@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addGraph:" : "PabloTesone 10/6/2015 09:09",
+		"addGraph:" : "PabloTesone 10/7/2015 06:26",
+		"filter:" : "PabloTesone 10/7/2015 06:13",
 		"groupByClass" : "PabloTesone 10/6/2015 09:13",
 		"initialize" : "PabloTesone 10/5/2015 08:02",
-		"memorySize" : "PabloTesone 10/6/2015 09:13",
-		"objects" : "PabloTesone 10/6/2015 09:11" } }
+		"memorySize" : "PabloTesone 10/6/2015 12:26",
+		"objects" : "PabloTesone 10/6/2015 12:29",
+		"objectsSize" : "PabloTesone 10/6/2015 12:25" } }

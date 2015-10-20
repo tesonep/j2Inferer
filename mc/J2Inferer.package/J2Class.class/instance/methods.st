@@ -1,3 +1,3 @@
 accessing
 methods
-	^ methods
+	^ methods ifNil:[^ Dictionary new].

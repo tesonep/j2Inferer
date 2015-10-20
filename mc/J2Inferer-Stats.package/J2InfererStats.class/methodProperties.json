@@ -2,15 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"averageInstanceVariablesWithData" : "PabloTesone 9/10/2015 08:18",
-		"averageMethodsReturnTypeWithData" : "PabloTesone 10/2/2015 06:39",
-		"averageParametersWithData" : "PabloTesone 10/2/2015 06:43",
+		"averageInstanceVariablesWithData" : "PabloTesone 10/16/2015 10:05",
+		"averageMethodsReturnTypeWithData" : "PabloTesone 10/16/2015 10:05",
+		"averageParametersWithData" : "PabloTesone 10/16/2015 10:05",
+		"blockInstanceVariables" : "PabloTesone 10/16/2015 07:07",
+		"blockReturnTypes" : "PabloTesone 10/16/2015 08:38",
 		"calculatePackage:from:" : "PabloTesone 9/8/2015 10:46",
 		"dateTime" : "PabloTesone 9/28/2015 12:47",
+		"duration" : "PabloTesone 10/14/2015 11:45",
 		"fillPackages:from:" : "PabloTesone 9/8/2015 10:28",
+		"initialize" : "PabloTesone 10/16/2015 10:06",
 		"instanceVariables" : "PabloTesone 9/10/2015 08:19",
 		"instanceVariablesWithData" : "PabloTesone 10/2/2015 06:40",
 		"methods" : "PabloTesone 10/2/2015 06:41",
 		"methodsReturnTypeWithData" : "PabloTesone 10/2/2015 06:41",
 		"parameters" : "PabloTesone 10/2/2015 06:44",
-		"parametersWithData" : "PabloTesone 10/2/2015 06:44" } }
+		"parametersWithData" : "PabloTesone 10/2/2015 06:44",
+		"printOn:" : "PabloTesone 10/16/2015 10:07" } }
