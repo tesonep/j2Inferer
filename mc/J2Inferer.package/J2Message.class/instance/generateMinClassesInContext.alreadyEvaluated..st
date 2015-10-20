@@ -9,7 +9,7 @@ generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 		detect:[:each | each canHandle: self onContext: receiverContext] 
 		ifFound: [ :found | 
 						remainingContext := found remainingContextFor: self onContext: receiverContext.
-						results addAll: (found returnTypeOnContext: receiverContext).
+						results addAll: (found returnTypeFor:self onContext: receiverContext).
 					].
 		
 	results addAll:( (self methodsOn: remainingContext)

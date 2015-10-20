@@ -1,5 +1,5 @@
 blocks
-doBlockOn: aContext alreadyEvaluated: alreadyEvaluated
+doIsBlockOn: aContext alreadyEvaluated: alreadyEvaluated
 	| methods |
 	methods := self methodsForReceivingContext: aContext.
 	^ methods

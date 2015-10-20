@@ -1,4 +1,5 @@
 SystemOrganization addCategory: #'J2Inferer-Tests-TestCode'!
+SystemOrganization addCategory: 'J2Inferer-Tests-TestCode-Blocks'!
 SystemOrganization addCategory: 'J2Inferer-Tests-TestCode-Collections'!
 SystemOrganization addCategory: 'J2Inferer-Tests-TestCode-Contexts'!
 SystemOrganization addCategory: 'J2Inferer-Tests-TestCode-Escalonated'!

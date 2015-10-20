@@ -3,9 +3,10 @@
 		"addMessageSent:container:inferer:receiver:parameters:" : "PabloTesone 10/13/2015 07:08" },
 	"instance" : {
 		"addSupertype:" : "PabloTesone 9/1/2015 09:54",
-		"doBlockOn:alreadyEvaluated:" : "PabloTesone 10/16/2015 08:08",
+		"doBlocksOn:alreadyEvaluated:" : "PabloTesone 10/19/2015 08:28",
+		"doIsBlockOn:alreadyEvaluated:" : "PabloTesone 10/19/2015 08:25",
 		"elements" : "PabloTesone 9/1/2015 12:27",
-		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 10/16/2015 13:06",
+		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 10/19/2015 06:35",
 		"methodsForReceivingContext:" : "PabloTesone 9/2/2015 12:02",
 		"methodsOn:" : "PabloTesone 9/2/2015 11:26",
 		"parameters" : "PabloTesone 10/9/2015 10:24",
