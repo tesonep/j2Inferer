@@ -6,7 +6,6 @@ method: anObject
 	
 	classContainer := J2ClassBasedContainer new
 		classVariable: method classTypeInfo;
-		inferer: inferer;
 		yourself.
 		
 	self
@@ -14,5 +13,4 @@ method: anObject
 			(J2MethodBasedContainer new
 				element: method;
 				parent: classContainer;
-				inferer: inferer;
 				yourself)

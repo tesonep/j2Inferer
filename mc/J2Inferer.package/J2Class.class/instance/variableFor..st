@@ -3,4 +3,4 @@ variableFor: aNode
 	^ self
 		variableFor: aNode
 		ifAbsent:
-			[ inferer variableFor: aNode ifAbsent: [ self undefinedVariable: aNode infererSource ] ]
+			[ self inferer variableFor: aNode ifAbsent: [ self undefinedVariable: aNode infererSource ] ]

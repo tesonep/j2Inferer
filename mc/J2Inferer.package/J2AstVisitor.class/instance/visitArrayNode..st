@@ -8,6 +8,5 @@ visitArrayNode: anArrayNode
 			[ 
 			elements := anArrayNode children collect: [ :e | self container atExpression: e ].
 			J2Array new
-				inferer: inferer;
 				addElements: elements;
 				yourself ]

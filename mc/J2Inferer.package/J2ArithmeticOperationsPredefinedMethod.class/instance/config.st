@@ -5,5 +5,4 @@ config
 	selectors := #(#+ #* #- #/ #//).
 	parameters := {(J2Variable new
 		variableName: 'parameter1';
-		inferer: self inferer;
 		yourself)}

@@ -1,4 +1,4 @@
 accessing
 pushContainer: aNewContainer
 	containerStack push: aNewContainer.
-	inferer anASTContainerCreated:aNewContainer for:aNewContainer element.
+	self inferer anASTContainerCreated:aNewContainer for:aNewContainer element.

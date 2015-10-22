@@ -2,7 +2,7 @@ as yet unclassified
 addGraph: root
 	| analyzer clusterization analysis size|
 	analyzer := FLAnalyzer new.
-	analysis := analyzer analysisFor: J2InferenceManager inferer.
+	analysis := analyzer analysisFor: J2Inferer instance.
 	clusterization := analysis clusterization.
 	
 	size := clusterization clusters sum:[:c| c objects size].

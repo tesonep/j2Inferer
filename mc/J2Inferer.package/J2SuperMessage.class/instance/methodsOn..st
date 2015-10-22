@@ -4,4 +4,4 @@ methodsOn: context
  	| superContext |
 	superContext := context collect:#superclass.
 	
-	^ inferer implementorsFor: self onContext: superContext 
+	^ self inferer implementorsFor: self onContext: superContext 

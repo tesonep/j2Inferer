@@ -5,5 +5,5 @@ checkDefaultReturnExpression
 		ifTrue:
 			[ selfExpr := innerExpressions
 				at: 'self'
-				ifAbsentPut: [ inferer selfVariable ].
+				ifAbsentPut: [ self inferer selfVariable ].
 			self element returnType addSubtype: selfExpr ]

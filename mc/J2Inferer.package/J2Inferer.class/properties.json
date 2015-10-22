@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"instance" ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:40",
 	"instvars" : [
 		"classes",

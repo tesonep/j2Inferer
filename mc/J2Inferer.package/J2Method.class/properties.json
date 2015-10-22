@@ -7,7 +7,6 @@
 		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 11:05",
 	"instvars" : [
-		"inferer",
 		"classTypeInfo",
 		"returnType",
 		"parameters",

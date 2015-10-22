@@ -9,7 +9,8 @@
 	"instvars" : [
 		"receiver",
 		"selector",
-		"parameters" ],
+		"parameters",
+		"containerClass" ],
 	"name" : "J2Message",
 	"pools" : [
 		 ],

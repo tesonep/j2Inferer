@@ -4,6 +4,5 @@ enqueueOpenMethodsFromMessage: aMessage
 		enqueue:
 			(J2OpenMethodFromMessage new
 				message: aMessage;
-				inferer: self;
 				fillTask;
 				yourself)

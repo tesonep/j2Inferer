@@ -8,8 +8,7 @@ typeInfoFor: aClass
 			variableClass := aClass isMeta ifTrue:J2Metaclass ifFalse:J2Class.
 			self notifier generatingClass: aClass.
 			cls := variableClass new
-				analysedClass: aClass;
-				inferer: self.
+				analysedClass: aClass.
 			classes at: aClass name asSymbol put: cls.
 			self notifier fillingClass: aClass.
 			cls fill.

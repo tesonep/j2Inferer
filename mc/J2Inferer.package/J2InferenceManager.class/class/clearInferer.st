@@ -1,3 +1,3 @@
 scripts
 clearInferer
-	inferer := nil.
+	J2Inferer resetInstance.

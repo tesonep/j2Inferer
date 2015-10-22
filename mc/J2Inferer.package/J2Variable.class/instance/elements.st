@@ -4,4 +4,4 @@ elements
 		unionAll: (self subtypes collect: #elements)
 		name: 'elements'
 		container: self
-		inferer: inferer
+		inferer: self inferer
