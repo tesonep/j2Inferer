@@ -1,11 +1,11 @@
 accessing
 minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 	| singleImplementor r |
-	(alreadyEvaluated includesKey: {self. aContext asSet})
+	(alreadyEvaluated includesKey: {self. aContext contents})
 		ifTrue: [ 
-			^ alreadyEvaluated at:{self. aContext asSet}
+			^ alreadyEvaluated at:{self. aContext contents}
 		].
-	alreadyEvaluated at: {self. aContext asSet} put:#().
+	alreadyEvaluated at: {self. aContext contents} put:#().
 	r := self filter: (self generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated) byMessages: self selectors .
 	
 	(self inferer config singleImplementorEnabled and:[ r isEmpty ]) ifTrue: [ 
@@ -15,6 +15,6 @@ minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 		]	
 	].
 	
-	alreadyEvaluated at: {self. aContext asSet} put:r.
+	alreadyEvaluated at: {self. aContext contents} put:r.
 	
 	^r

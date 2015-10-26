@@ -1,0 +1,1 @@
+These objects are the responsible to keep the configuration of the inferer.

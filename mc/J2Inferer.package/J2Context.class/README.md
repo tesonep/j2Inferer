@@ -1,0 +1,1 @@
+This class represents a calling context in the inference process.

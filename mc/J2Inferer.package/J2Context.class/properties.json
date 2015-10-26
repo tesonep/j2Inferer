@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "PabloTesone 10/26/2015 12:49",
 	"instvars" : [
-		"maxNumberImplementorsToOpen",
-		"maxNumberSubclassesToOpen",
-		"singleImplementorEnabled" ],
-	"name" : "J2InfererConfig",
+		"contents" ],
+	"name" : "J2Context",
 	"pools" : [
 		 ],
 	"super" : "Object",

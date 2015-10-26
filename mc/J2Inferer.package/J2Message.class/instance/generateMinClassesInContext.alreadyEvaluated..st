@@ -5,7 +5,8 @@ generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
 		minClassesInContext: aContext
 		alreadyEvaluated: alreadyEvaluated.
 	results := Set new.
-	remainingContext := receiverContext.
+	remainingContext := J2Context with:receiverContext.
+	
 	self inferer predefinedMessages
 		detect:
 			[ :each | each canHandle: self onContext: receiverContext ]

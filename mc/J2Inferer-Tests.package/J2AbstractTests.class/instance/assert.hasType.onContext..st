@@ -1,7 +1,7 @@
 asserts
 assert: typeVariable hasType: aBunchOfClasses onContext: aContext 
 	| possibleClasses ps |
-	ps := typeVariable possibleClasses: aContext.
+	ps := typeVariable possibleClasses: (J2Context with:aContext).
 	
 	self assertAllMethodsOpened.
 	

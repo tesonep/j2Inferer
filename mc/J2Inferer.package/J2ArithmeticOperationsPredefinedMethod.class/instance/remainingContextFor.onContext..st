@@ -1,3 +1,3 @@
 initialization
 remainingContextFor: aMessage onContext: aContext
-	^ aContext difference: implementingClasses
+	^ J2Context with: (aContext contents difference: implementingClasses)
