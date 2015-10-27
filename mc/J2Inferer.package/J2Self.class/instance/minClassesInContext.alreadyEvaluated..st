@@ -1,3 +1,3 @@
 accessing
 minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	^ aContext asSet
+	^ aContext contents
