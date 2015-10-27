@@ -1,3 +1,3 @@
 variables
 fillMetaclass
-	metaClass := inferer typeInfoFor: self analysedClass class.  
+	metaClass := self inferer typeInfoFor: self analysedClass class.  

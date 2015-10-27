@@ -4,7 +4,6 @@ visitBlockNode: aBlockNode
 	numberOfBlocks := numberOfBlocks + 1.
 	
 	blk := J2Block new
-		inferer: inferer;
 		index: numberOfBlocks;
 		fillReturn;
 		fillParameters: aBlockNode;
@@ -17,7 +16,6 @@ visitBlockNode: aBlockNode
 			(J2BlockBasedContainer new
 				element: blk;
 				parent: self container;
-				inferer: inferer;
 				yourself).
 
 	self visitArgumentNodes: aBlockNode arguments.

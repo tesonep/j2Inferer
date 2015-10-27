@@ -7,5 +7,4 @@ addTemporaryVariableFor: aNode
 		ifAbsentPut: [ 
 			J2Variable new
 				variableName: aName asSymbol;
-				inferer:inferer;
 				yourself ]

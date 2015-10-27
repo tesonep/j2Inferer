@@ -1,3 +1,3 @@
 accessing
 generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	^ { inferer typeInfoFor: BlockClosure  }
+	^ { self inferer typeInfoFor: BlockClosure  }

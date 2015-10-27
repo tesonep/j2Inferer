@@ -2,15 +2,15 @@ scripts
 inferAllInstalation
 	" J2Scripts inferAllInstalation"
 
-	inferer := nil.
+	J2Inferer resetInstance.
 	Smalltalk garbageCollect.
-	inferer := J2Inferer new.
-	inferer initWithNotifier: J2StdOutNotifier new.
+	J2Inferer withNotifier: J2StdOutNotifier new.
+
 	ProtoObject withAllSubclasses
-		do: [ :e | inferer enqueueClass: e ]
+		do: [ :e | J2Inferer instance enqueueClass: e ]
 		displayingProgress: [ :e | e name ].
 		
-	inferer runAndWait.
-	inferer notifier close.
+	J2Inferer instance runAndWait.
+	J2Inferer instance notifier close.
 	
-	^ inferer
+	^ J2Inferer instance

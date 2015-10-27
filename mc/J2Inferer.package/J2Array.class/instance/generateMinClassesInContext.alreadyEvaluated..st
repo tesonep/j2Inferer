@@ -1,3 +1,3 @@
 accessing
 generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	^{inferer typeInfoFor: Array}
+	^{self inferer typeInfoFor: Array}

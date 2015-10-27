@@ -1,7 +1,6 @@
 {
 	"category" : "J2Inferer-Utils",
 	"classinstvars" : [
-		"inferer",
 		"stats" ],
 	"classvars" : [
 		 ],

@@ -1,14 +1,13 @@
 scripts
 inferPackage: aPackage
-	inferer ifNil: [ 
-			inferer := J2Inferer new.
-			inferer initWithNotifier: J2StdOutNotifier new.
+	J2Inferer instance ifNil: [ 
+			J2Inferer withNotifier: J2StdOutNotifier new.
 		].
 
 	aPackage classes
 		do: [ :e | inferer enqueueClass: e ]
 		displayingProgress: [ :e | e name ].
 		
-	inferer runAndWait.
-	inferer notifier close.
-	^ inferer
+	J2Inferer instance runAndWait.
+	J2Inferer instance notifier close.
+	^ J2Inferer instance

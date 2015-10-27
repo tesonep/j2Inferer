@@ -1,3 +1,3 @@
 accessing
 methodsOn: context
-	^ inferer implementorsFor: self onContext: context
+	^ self inferer implementorsFor: self onContext: context

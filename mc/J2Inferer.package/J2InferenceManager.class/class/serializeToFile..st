@@ -4,5 +4,5 @@ serializeToFile: aFileName
 	aStream := GZipWriteStream on: (File named: aFileName) writeStream. 
 	serializer := FLSerializer newDefault.
 	serializer stream: aStream.
-	serializer serialize: inferer.
+	serializer serialize: J2Inferer instance.
 	aStream close.

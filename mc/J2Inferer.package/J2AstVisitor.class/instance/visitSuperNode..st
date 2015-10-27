@@ -2,4 +2,4 @@ visiting
 visitSuperNode: aSuperNode
 	^ self container
 		atExpression: aSuperNode
-		ifAbsentPut: [ inferer selfVariable ]
+		ifAbsentPut: [ self inferer selfVariable ]

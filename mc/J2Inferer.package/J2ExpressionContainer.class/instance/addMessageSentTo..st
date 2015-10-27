@@ -5,7 +5,7 @@ addMessageSentTo: aMessage
 	msg := J2Message
 		addMessageSent: aMessage
 		container: self
-		inferer: inferer
+		inferer: self inferer
 		receiver: rcvr
 		parameters: (aMessage arguments collect: [ :e | self atExpression: e ]).
 	self atExpression: aMessage ifAbsentPut:  msg.

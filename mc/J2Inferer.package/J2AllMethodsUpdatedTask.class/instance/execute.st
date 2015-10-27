@@ -1,5 +1,5 @@
 as yet unclassified
 execute
-	((inferer classes values flatCollect:#methods) reject:#isUpdated ) do:[ :e |
-		inferer enqueueMethod: e	method
+	((self inferer classes values flatCollect:#methods) reject:#isUpdated ) do:[ :e |
+		self inferer enqueueMethod: e	method
 	]

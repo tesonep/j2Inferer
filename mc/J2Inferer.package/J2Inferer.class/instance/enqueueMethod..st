@@ -6,5 +6,4 @@ enqueueMethod: aMethod
 		enqueue:
 			(J2OpenMethodTask new
 				method: aMethod;
-				inferer: self;
 				yourself).

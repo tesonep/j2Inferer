@@ -2,7 +2,7 @@ as yet unclassified
 execute
 	| inferer node methodNode methodVariable typeVariable | 
 	
-	inferer := J2InferenceManager inferer.
+	inferer := J2Inferer instance.
 	node := context selectedNode.
 	methodNode := node methodNode.
 	methodVariable := inferer methodVariableFor: methodNode method.
@@ -10,7 +10,7 @@ execute
 	
 	inferer registerASTContainerListener: self.
 	inferer inferMethod: methodVariable method.
-	inferer registerASTContainerListener: self.
+	inferer unregisterASTContainerListener: self.
 	
 	typeVariable := astContext atExpression: node.
 	

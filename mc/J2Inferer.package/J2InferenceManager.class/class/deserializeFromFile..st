@@ -4,9 +4,9 @@ deserializeFromFile: aFileName
 	aStream := GZipReadStream on: (FileStream fileNamed: aFileName). 
 	materializer := FLMaterializer newDefault.
 	
-	inferer := (materializer materializeFrom: aStream) root.
+	J2Inferer instance: (materializer materializeFrom: aStream) root.
 		
 	aStream close.
 	
-	^ inferer.
+	^ J2Inferer instance.
 	

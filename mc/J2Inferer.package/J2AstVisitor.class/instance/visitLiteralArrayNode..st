@@ -2,4 +2,4 @@ accessing
 visitLiteralArrayNode: aRBLiteralArrayNode
 	self container
 		atExpression: aRBLiteralArrayNode
-		ifAbsentPut: [ inferer arrayLiteral: aRBLiteralArrayNode ]
+		ifAbsentPut: [ self inferer arrayLiteral: aRBLiteralArrayNode ]

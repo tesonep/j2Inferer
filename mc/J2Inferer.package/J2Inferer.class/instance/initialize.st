@@ -9,3 +9,8 @@ initialize
 	literals := IdentityDictionary new.
 	globals := IdentityDictionary new.
 	arrayLiterals := Set new.
+
+	notifier inferer: self.
+	queue notifier: notifier.
+
+	self initPredefinedMessages

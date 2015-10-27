@@ -1,3 +1,3 @@
 accessing
 inferer
-	^ inferer
+	^ J2Inferer instance

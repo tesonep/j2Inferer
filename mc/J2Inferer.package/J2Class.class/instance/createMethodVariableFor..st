@@ -1,11 +1,10 @@
 methods
 createMethodVariableFor: aMethod
 	| m |
-	inferer enqueueAllMethodsUpdated.
+	self inferer enqueueAllMethodsUpdated.
 	^ aMethod methodClass = self analysedClass
 		ifTrue: [ 
 				m := J2Method new
-					inferer: inferer;
 					selector: aMethod selector;
 					classTypeInfo: self;
 					fillReturn;
