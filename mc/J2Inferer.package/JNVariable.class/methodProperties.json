@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"new" : "PabloTesone 10/28/2015 11:10",
+		"newNamed:" : "PabloTesone 10/28/2015 11:10" },
+	"instance" : {
+		"allSelectors:" : "PabloTesone 10/28/2015 12:12",
+		"filter:byMessages:" : "PabloTesone 11/3/2015 11:34",
+		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 10/28/2015 12:39",
+		"inferer" : "PabloTesone 11/3/2015 11:35",
+		"initialize" : "PabloTesone 10/28/2015 11:09",
+		"maxClassesInContext:" : "PabloTesone 10/28/2015 12:37",
+		"minClassesInContext:" : "PabloTesone 10/28/2015 12:38",
+		"minClassesInContext:alreadyEvaluated:" : "PabloTesone 10/28/2015 12:38",
+		"name" : "PabloTesone 10/28/2015 11:09",
+		"name:" : "PabloTesone 10/28/2015 11:09",
+		"possibleClasses:" : "PabloTesone 10/28/2015 12:36",
+		"selectors" : "PabloTesone 10/28/2015 11:09",
+		"subtypes" : "PabloTesone 10/28/2015 11:09",
+		"supertypes" : "PabloTesone 10/28/2015 11:09",
+		"understands:allSelectors:" : "PabloTesone 11/3/2015 11:34" } }

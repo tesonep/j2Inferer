@@ -1,6 +1,6 @@
 as yet unclassified
 testInferingSimpleClass
-	| mockClass classInfo methodInfo methodInfo2 |
+	| mockClass classInfo |
 	mockClass:= classFactory silentlyNewSubclassOf: Object instanceVariableNames:''  classVariableNames: ''.
 	mockClass compile: '
 	returnsAValue
@@ -8,10 +8,8 @@ testInferingSimpleClass
 	'.
 	
 	classInfo := self inferClass: mockClass.
-	methodInfo := inferer methodVariableFor: mockClass >> #returnsAValue.
 	
-	self assert: methodInfo returnType  hasType: {SmallInteger}  onContext: {classInfo}..
-	methodInfo forceUpdate. 
+	self assert: (classInfo returnOfMethod: #returnsAValue)  hasType: {SmallInteger}  onContext: {classInfo}..
 
 	mockClass compile: '
 	returnsAValue
@@ -19,7 +17,4 @@ testInferingSimpleClass
 	'.
 	
 	self inferMethod: mockClass >> #returnsAValue.
-	methodInfo2 := inferer methodVariableFor: mockClass >> #returnsAValue.
-	
-	self assert: methodInfo = methodInfo2.
-	self assert: methodInfo returnType  hasType: { ByteString }  onContext:{classInfo}.
+	self assert: (classInfo returnOfMethod: #returnsAValue)  hasType: { ByteString }  onContext:{classInfo}.

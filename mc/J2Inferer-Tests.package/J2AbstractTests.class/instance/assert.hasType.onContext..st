@@ -3,8 +3,6 @@ assert: typeVariable hasType: aBunchOfClasses onContext: aContext
 	| possibleClasses ps |
 	ps := typeVariable possibleClasses: (J2Context with:aContext).
 	
-	self assertAllMethodsOpened.
-	
 	self
 		assert: [ ps isNotNil ]
 		description: 'The possible classes are all classes in the instalation'.

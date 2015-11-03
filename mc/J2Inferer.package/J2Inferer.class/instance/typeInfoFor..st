@@ -1,16 +1,11 @@
 accesing type variables
 typeInfoFor: aClass
-	| cls variableClass |
+	| cls |
 	^ classes
 		at: aClass name asSymbol
-		ifAbsent:
-			[ 
-			variableClass := aClass isMeta ifTrue:J2Metaclass ifFalse:J2Class.
-			self notifier generatingClass: aClass.
-			cls := variableClass new
-				analysedClass: aClass.
-			classes at: aClass name asSymbol put: cls.
-			self notifier fillingClass: aClass.
-			cls fill.
-			self notifier generatedClass: aClass.
-			cls ]
+		ifAbsentPut: [ 
+							self notifier generatingClass: aClass.
+							cls := JNClass newForClass: aClass.
+							self notifier generatedClass: aClass.
+							cls 
+			]

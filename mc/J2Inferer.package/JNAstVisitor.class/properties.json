@@ -1,0 +1,16 @@
+{
+	"category" : "J2Inferer-AST",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TRBProgramNodeVisitor classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"method" ],
+	"name" : "JNAstVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TRBProgramNodeVisitor",
+	"type" : "normal" }

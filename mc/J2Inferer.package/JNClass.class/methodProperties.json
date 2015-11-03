@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"new" : "PabloTesone 10/28/2015 10:54",
+		"newForClass:" : "PabloTesone 10/28/2015 10:54" },
+	"instance" : {
+		"addVariable:" : "PabloTesone 10/28/2015 10:58",
+		"analysedClass" : "PabloTesone 10/28/2015 10:45",
+		"analysedClass:" : "PabloTesone 10/28/2015 10:45",
+		"fillVariables" : "PabloTesone 11/3/2015 11:18",
+		"initialize" : "PabloTesone 10/28/2015 10:47",
+		"instanceVariable:" : "PabloTesone 10/28/2015 12:10",
+		"returnOfMethod:" : "PabloTesone 10/28/2015 12:21",
+		"updateMethod:" : "PabloTesone 11/3/2015 11:32",
+		"variableNamed:" : "PabloTesone 10/28/2015 12:08",
+		"variableNamed:inMethod:" : "PabloTesone 11/3/2015 11:32",
+		"variables" : "PabloTesone 10/28/2015 10:45" } }

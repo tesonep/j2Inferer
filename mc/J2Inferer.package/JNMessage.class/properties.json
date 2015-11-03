@@ -1,0 +1,16 @@
+{
+	"category" : "J2Inferer-NewVariables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receiver",
+		"selector",
+		"parameters" ],
+	"name" : "JNMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

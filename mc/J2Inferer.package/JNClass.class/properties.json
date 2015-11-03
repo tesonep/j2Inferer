@@ -1,0 +1,15 @@
+{
+	"category" : "J2Inferer-NewVariables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variables",
+		"analysedClass" ],
+	"name" : "JNClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

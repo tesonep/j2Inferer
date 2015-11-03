@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-NewVariables",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name" ],
+	"name" : "JNLocalReference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
