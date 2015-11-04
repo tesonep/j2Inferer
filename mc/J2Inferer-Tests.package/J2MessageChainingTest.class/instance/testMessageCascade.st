@@ -1,11 +1,8 @@
 tests
 testMessageCascade
-	| classInfo methodContainer varExpression methodVariable |
+	| classInfo variable |
 	classInfo := self inferClass: J2MessageChaining.
-	methodVariable := inferer methodVariableFor: J2MessageChaining >> #aThirdMessage.
-	methodContainer := self containerFor: methodVariable.
-
-	varExpression := methodContainer atExpression: (RBVariableNode named:#aLocal).
+	variable := classInfo variableNamed: #aLocal inMethod: J2MessageChaining >> #aThirdMessage.
 	
-	self assertCollection:(varExpression selectors) equals:#(odd even + * floor) asSet.
+	self assertCollection:(variable selectors) equals:#(odd even + * floor) asSet.
 	

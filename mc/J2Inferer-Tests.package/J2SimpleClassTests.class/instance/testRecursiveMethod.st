@@ -1,6 +1,5 @@
 tests
 testRecursiveMethod
-	| classInfo methodInfo |
+	| classInfo |
 	classInfo := self inferClass: J2SimpleClass.
-	methodInfo := classInfo methodTypeFor: J2SimpleClass >> #recursiveMethod:.
-	self assert: methodInfo returnType hasType: {ByteSymbol} onContext:{classInfo}.
+	self assert: (classInfo returnOfMethod: J2SimpleClass >> #recursiveMethod:) hasType: {ByteSymbol} onContext:{classInfo}.

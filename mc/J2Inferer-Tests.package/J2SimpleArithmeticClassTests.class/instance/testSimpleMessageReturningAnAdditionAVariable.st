@@ -1,8 +1,12 @@
 tests
 testSimpleMessageReturningAnAdditionAVariable
-	| methodInfo classInfo |			
+	| classInfo |
 	classInfo := self inferClass: J2SimpleArithmeticClass.
-	methodInfo := classInfo methodTypeFor: J2SimpleArithmeticClass >> #simpleMessageReturningAnAdditionAVariable.
-	
-	self assert: methodInfo returnType hasType: Number allSubclasses onContext:{classInfo}.
-	self assert: (classInfo instanceVariable: #aVariable) hasType: {SmallInteger} onContext: {classInfo}
+	self
+		assert: (classInfo returnOfMethod: J2SimpleArithmeticClass >> #simpleMessageReturningAnAdditionAVariable)
+		hasType: Number allSubclasses
+		onContext: {classInfo}.
+	self
+		assert: (classInfo instanceVariable: #aVariable)
+		hasType: {SmallInteger}
+		onContext: {classInfo}

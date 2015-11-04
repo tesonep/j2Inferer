@@ -1,8 +1,7 @@
 tests
 testSimpleParameterPassing
-	| classInfo methodInfo |
+	| classInfo |
 	classInfo := self inferClass: J2SimpleParameters.
-	methodInfo := classInfo methodTypeFor: J2SimpleParameters >> #aVariable.
 	
 	self assert: (classInfo instanceVariable: #aVariable) hasType: {SmallInteger} onContext:{classInfo}.
-	self assert: methodInfo returnType hasType: {SmallInteger} onContext:{classInfo}.
+	self assert: (classInfo returnOfMethod: J2SimpleParameters >> #aVariable ) hasType: {SmallInteger} onContext:{classInfo}.

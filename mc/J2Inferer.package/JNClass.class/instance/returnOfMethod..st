@@ -1,5 +1,5 @@
 variables
-returnOfMethod: aMethodSelector
+returnOfMethod: aMethod
 	| buildUpName |
-	buildUpName := aMethodSelector , '.^'.
+	buildUpName := aMethod selector , '.^'.
 	^ self variableNamed: buildUpName.

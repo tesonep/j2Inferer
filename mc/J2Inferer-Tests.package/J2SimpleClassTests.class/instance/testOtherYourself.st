@@ -1,13 +1,10 @@
 tests
 testOtherYourself
-	| classInfo methodInfo methodContainer |
+	| classInfo |
 	classInfo := self inferClass: J2SimpleClass.
 
 	self inferMethod: HashedCollection class>>#new.
 	self inferMethod: HashedCollection >> #initialize:.
-	
-	methodInfo := classInfo methodTypeFor: J2SimpleClass >> #otherYourself.
-	methodContainer := self containerFor:methodInfo.
-	
-	self assert: (methodContainer temporaryVariables at:#y) hasType: {Dictionary} onContext:{classInfo}.
-	self assert: methodInfo returnType hasType: {Dictionary} onContext:{classInfo}
+		
+	self assert: (classInfo variableNamed:#y inMethod: J2SimpleClass >> #otherYourself) hasType: {Dictionary} onContext:{classInfo}.
+	self assert: (classInfo returnOfMethod: J2SimpleClass >> #otherYourself) hasType: {Dictionary} onContext:{classInfo}

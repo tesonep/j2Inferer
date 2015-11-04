@@ -1,9 +1,7 @@
 tests
 testSelfInInheritance
-	| classInfo methodInfo |
+	| classInfo |
 	self inferClass: J2ParentClass.
 	self inferMethod: Object >> #yourself.
-	classInfo := self inferClass: J2ChildClass.
-		
-	methodInfo := classInfo methodTypeFor: Object >> #yourself.
-	self assert: methodInfo returnType hasType: {J2ChildClass} onContext: { classInfo }.
+	classInfo := self inferClass: J2ChildClass.		
+	self assert: (classInfo returnOfMethod: Object >> #yourself) hasType: {J2ChildClass} onContext: { classInfo }.

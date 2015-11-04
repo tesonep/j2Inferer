@@ -1,6 +1,5 @@
 tests
 testSimpleMethodReturningAValue
-	| methodInfo |
-	methodInfo := self inferMethod: J2SimpleClass >> #simpleMethodReturningAValue.
-	self assert: methodInfo hasTemporaryVariable: #a.
-	self assert: methodInfo returnType hasType: {SmallInteger} onContext:(self contextFor: {J2SimpleClass})
+	| classInfo |
+	classInfo := self inferClass: J2SimpleClass.
+	self assert: (classInfo returnOfMethod: J2SimpleClass >> #simpleMethodReturningAValue) hasType: {SmallInteger} onContext:(self contextFor: {J2SimpleClass})

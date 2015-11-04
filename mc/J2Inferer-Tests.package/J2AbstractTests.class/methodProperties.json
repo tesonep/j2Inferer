@@ -4,14 +4,13 @@
 	"instance" : {
 		"anASTContainerCreated:for:" : "PabloTesone 9/25/2015 12:35",
 		"assert:hasMessages:onContext:" : "PabloTesone 10/28/2015 12:13",
-		"assert:hasTemporaryVariable:" : "PabloTesone 9/25/2015 12:37",
 		"assert:hasType:onContext:" : "PabloTesone 11/3/2015 11:36",
 		"containerFor:" : "PabloTesone 9/25/2015 12:32",
 		"contextFor:" : "PabloTesone 10/12/2015 09:08",
 		"inferAllParentsAndMetas:" : "PabloTesone 10/14/2015 06:48",
 		"inferClass:" : "PabloTesone 8/3/2015 11:52",
 		"inferClasses:" : "PabloTesone 9/16/2015 10:38",
-		"inferMethod:" : "PabloTesone 8/3/2015 11:54",
+		"inferMethod:" : "PabloTesone 11/4/2015 07:35",
 		"infoOfClass:" : "PabloTesone 9/16/2015 10:38",
 		"setUp" : "PabloTesone 10/20/2015 08:40",
 		"tearDown" : "PabloTesone 9/28/2015 14:42" } }

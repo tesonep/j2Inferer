@@ -1,6 +1,6 @@
 tests
 testContentsType
-	| classInfo  metaClassInfo methodInfo  classesToInfer|
+	| classInfo  metaClassInfo  classesToInfer|
 	
 	classesToInfer := {Bag. Dictionary}.
 	classesToInfer := classesToInfer , (classesToInfer flatCollect:#allSuperclasses).
@@ -11,7 +11,5 @@ testContentsType
 	metaClassInfo := self infoOfClass: Bag class.
 	classInfo := self infoOfClass: Bag.
 	
-	methodInfo := metaClassInfo methodTypeFor: Bag class >> #contentsClass.
-	
-	self assert: methodInfo returnType hasType: { Dictionary class } onContext: { metaClassInfo }.
+	self assert: (metaClassInfo returnOfMethod: Bag class >> #contentsClass ) hasType: { Dictionary class } onContext: { metaClassInfo }.
 	self assert: (classInfo instanceVariable: #contents) hasType: {Dictionary} onContext:{classInfo}

@@ -1,6 +1,5 @@
 tests
 testSetValueToAInstanceVariable
-	| classInfo methodInfo |
+	| classInfo |
 	classInfo := self inferClass: J2SimpleClass.
-	methodInfo := classInfo methodTypeFor: J2SimpleClass >> #simpleSendingAMessage.
-	self assert: methodInfo returnType hasType: {SmallInteger} onContext:{classInfo}
+	self assert: (classInfo returnOfMethod: J2SimpleClass >> #simpleSendingAMessage) hasType: {SmallInteger} onContext:{classInfo}
