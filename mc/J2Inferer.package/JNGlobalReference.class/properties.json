@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"variables",
-		"name" ],
-	"name" : "JNClass",
+		 ],
+	"name" : "JNGlobalReference",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "JNAbstractReference",
 	"type" : "normal" }

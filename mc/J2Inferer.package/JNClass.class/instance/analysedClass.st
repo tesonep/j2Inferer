@@ -1,3 +1,3 @@
 accessing
 analysedClass
-	^ analysedClass
+	^ Smalltalk at: self name.

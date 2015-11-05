@@ -1,6 +1,6 @@
 instance creation
 newForClass: aClass 
 	^ self basicNew
-			analysedClass: aClass;
+			name: aClass name;
 			initialize;
 			yourself.

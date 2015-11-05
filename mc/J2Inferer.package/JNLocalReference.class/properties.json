@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name" ],
+		 ],
 	"name" : "JNLocalReference",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "JNAbstractReference",
 	"type" : "normal" }

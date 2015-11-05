@@ -1,16 +1,18 @@
 {
 	"class" : {
 		"new" : "PabloTesone 10/28/2015 10:54",
-		"newForClass:" : "PabloTesone 10/28/2015 10:54" },
+		"newForClass:" : "PabloTesone 11/5/2015 13:21" },
 	"instance" : {
-		"addVariable:" : "PabloTesone 10/28/2015 10:58",
-		"analysedClass" : "PabloTesone 10/28/2015 10:45",
-		"analysedClass:" : "PabloTesone 10/28/2015 10:45",
-		"fillVariables" : "PabloTesone 11/3/2015 11:18",
+		"addVariable:" : "PabloTesone 11/5/2015 12:35",
+		"analysedClass" : "PabloTesone 11/5/2015 12:38",
+		"fillVariables" : "PabloTesone 11/5/2015 12:35",
 		"initialize" : "PabloTesone 10/28/2015 10:47",
-		"instanceVariable:" : "PabloTesone 10/28/2015 12:10",
+		"instanceVariable:" : "PabloTesone 11/5/2015 12:34",
+		"name" : "PabloTesone 11/5/2015 12:36",
+		"name:" : "PabloTesone 11/5/2015 12:36",
 		"returnOfMethod:" : "PabloTesone 11/4/2015 08:01",
-		"updateMethod:" : "PabloTesone 11/4/2015 07:53",
-		"variableNamed:" : "PabloTesone 10/28/2015 12:08",
+		"superclassName" : "PabloTesone 11/5/2015 12:39",
+		"updateMethod:" : "PabloTesone 11/5/2015 12:13",
+		"variableNamed:" : "PabloTesone 11/5/2015 12:34",
 		"variableNamed:inMethod:" : "PabloTesone 11/3/2015 11:32",
-		"variables" : "PabloTesone 10/28/2015 10:45" } }
+		"variables" : "PabloTesone 11/5/2015 12:34" } }

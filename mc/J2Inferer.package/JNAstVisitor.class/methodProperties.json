@@ -1,5 +1,15 @@
 {
 	"class" : {
-		 },
+		"visit:of:in:" : "PabloTesone 11/5/2015 13:22" },
 	"instance" : {
-		 } }
+		"analysedClass" : "PabloTesone 11/5/2015 12:16",
+		"analysedClass:" : "PabloTesone 11/5/2015 12:16",
+		"method" : "PabloTesone 11/5/2015 12:16",
+		"method:" : "PabloTesone 11/5/2015 12:16",
+		"visitArgumentNode:" : "PabloTesone 11/5/2015 12:12",
+		"visitGlobalNode:" : "PabloTesone 11/5/2015 12:20",
+		"visitInstanceVariableNode:" : "PabloTesone 11/5/2015 12:12",
+		"visitSelfNode:" : "PabloTesone 11/5/2015 12:19",
+		"visitSuperNode:" : "PabloTesone 11/5/2015 12:21",
+		"visitTemporaryNode:" : "PabloTesone 11/5/2015 12:22",
+		"visitVariableNode:" : "PabloTesone 11/5/2015 12:12" } }

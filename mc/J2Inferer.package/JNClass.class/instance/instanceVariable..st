@@ -1,3 +1,3 @@
 variables
 instanceVariable: aName
-	^ self variableNamed: aName asString.
+	^ self variableNamed: aName.

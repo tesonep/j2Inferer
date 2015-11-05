@@ -1,17 +1,23 @@
 tests
 testEscalonatedNews
-	| objectA objectB |
-	self inferClasses: {J2EscalonatedObjectsContainer. 
-						J2EscalonatedObjectsContainerA.
-						J2EscalonatedObjectsContainerB.}.
+	| classInfo |
+	self
+		inferClasses:
+			{J2EscalonatedObjectsContainer.
+			J2EscalonatedObjectsContainerA.
+			J2EscalonatedObjectsContainerB}.
 
 	self inferMethod: Behavior >> #new.
 	self inferMethod: ProtoObject >> #initialize.
 	self inferMethod: ProtoObject >> #ifNil:.
-	
-	objectA := inferer methodVariableFor: J2EscalonatedObjectsContainer >> #objectA.
-	objectB := inferer methodVariableFor: J2EscalonatedObjectsContainer >> #objectB.
-	
-	self assert: objectA returnType hasType: { J2EscalonatedObjectsContainerA } onContext: (self contextFor:{J2EscalonatedObjectsContainer}).
-	self assert: objectB returnType hasType: { J2EscalonatedObjectsContainerB } onContext: (self contextFor:{J2EscalonatedObjectsContainer}).
-	
+
+	classInfo := self infoOfClass: J2EscalonatedObjectsContainer.
+
+	self
+		assert: (classInfo returnOfMethod: J2EscalonatedObjectsContainer >> #objectA)
+		hasType: {J2EscalonatedObjectsContainerA}
+		onContext: (self contextFor: {J2EscalonatedObjectsContainer}).
+	self
+		assert: (classInfo returnOfMethod: J2EscalonatedObjectsContainer >> #objectB)
+		hasType: {J2EscalonatedObjectsContainerB}
+		onContext: (self contextFor: {J2EscalonatedObjectsContainer})
