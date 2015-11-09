@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PabloTesone 10/7/2015 06:51",
+	"commentStamp" : "",
 	"instvars" : [
-		"supertypes",
-		"messages" ],
-	"name" : "J2Expression",
+		"block",
+		"index" ],
+	"name" : "J2BlockParameter",
 	"pools" : [
 		 ],
 	"super" : "Object",

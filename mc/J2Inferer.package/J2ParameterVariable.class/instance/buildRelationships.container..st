@@ -2,6 +2,7 @@ accessing
 buildRelationships: variable container: container
 	| containerClass methodVariable |
 	variable addSupertype: self.
+	self expression: variable.
 	
 	containerClass := container containerClass analysedClass.
 	

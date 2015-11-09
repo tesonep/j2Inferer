@@ -3,11 +3,7 @@ visitBlockNode: aBlockNode
 	| blk |
 	numberOfBlocks := numberOfBlocks + 1.
 	
-	blk := J2Block new
-		index: numberOfBlocks;
-		fillReturn;
-		fillParameters: aBlockNode;
-		yourself.
+	blk := J2Block index: numberOfBlocks blockNode: aBlockNode.
 		
 	self container atExpression: aBlockNode ifAbsentPut: blk.
 

@@ -1,3 +1,3 @@
 accessing
 selectors
-	^ selectors ifNil:[ IdentitySet new]
+	^ self messages collect:#selector.

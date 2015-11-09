@@ -1,4 +1,4 @@
 adding types
 addMessageSent: msg
-	selectors ifNil:[selectors := IdentitySet new].
-	selectors add: msg selector.
+	messages ifNil:[messages := IdentitySet new].
+	messages add: msg.

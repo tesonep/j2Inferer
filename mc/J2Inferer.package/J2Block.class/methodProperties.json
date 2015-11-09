@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"index:blockNode:" : "PabloTesone 11/9/2015 14:05",
+		"new" : "PabloTesone 11/9/2015 14:05" },
 	"instance" : {
 		"blocksOn:alreadyEvaluated:" : "PabloTesone 10/19/2015 08:27",
 		"elements" : "PabloTesone 8/7/2015 09:29",
@@ -12,4 +13,5 @@
 		"parameters" : "PabloTesone 10/9/2015 10:32",
 		"parameters:" : "PabloTesone 10/9/2015 10:32",
 		"printOn:" : "PabloTesone 10/12/2015 08:30",
+		"relateParametersToSelf" : "PabloTesone 11/9/2015 14:07",
 		"returnType" : "PabloTesone 8/5/2015 11:53" } }
