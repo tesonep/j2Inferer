@@ -4,4 +4,4 @@ doBlocksOn: aContext alreadyEvaluated: alreadyEvaluated
 	methods := self methodsForReceivingContext: aContext.
 	^ methods
 		flatCollect:
-			[ :each | each returnType blocksOn: aContext alreadyEvaluated: alreadyEvaluated ]
+			[ :each | each returnValue blocksOn: aContext alreadyEvaluated: alreadyEvaluated ]

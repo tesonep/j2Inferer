@@ -11,6 +11,6 @@ testMessageChaining
 	msgExpression := methodContainer atExpression: msgNode.
 	
 	self assert:msgExpression isNotNil.
-	self assertCollection:((classInfo instanceVariable: #aValue) possibleClasses:{classInfo})  equals: #().
+	self assertCollection:((classInfo instanceVariable: #aValue) possibleClasses:(J2Context with:{classInfo})) classes  equals: #() asSet.
 	self assertCollection:(varExpression allSelectors: {classInfo}) equals:#(#aMessage) asSet.
 	

@@ -1,3 +1,3 @@
 as yet unclassified
 returnTypeFor: message onContext: receiverContext alreadyEvaluated: alreadyEvaluated
-	^ implementingClasses 
+	^ J2Type withClasses: implementingClasses 

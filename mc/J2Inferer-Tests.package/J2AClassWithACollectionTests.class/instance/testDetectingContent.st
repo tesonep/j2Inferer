@@ -9,4 +9,4 @@ testDetectingContent
 	methodInfo := classInfo methodTypeFor:  J2UsingAClassWithACollection >> #any.
 	
 	self assert: varInfo hasType: {J2AClassWithACollection} onContext: {classInfo}.
-	self assert: methodInfo returnType hasType: {SmallInteger} onContext: {classInfo}
+	self assert: methodInfo returnValue hasType: {SmallInteger} onContext: {classInfo}

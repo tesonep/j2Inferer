@@ -1,3 +1,3 @@
 *J2Inferer-Stats
 blockReturnTypes
-	^ self methods count: [ :v | v returnType isBlockOn:{self} ]
+	^ self methods count: [ :v | v returnValue isBlockOn:{self} ]

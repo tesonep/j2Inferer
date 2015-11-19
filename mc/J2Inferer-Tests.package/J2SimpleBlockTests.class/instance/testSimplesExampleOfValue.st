@@ -5,5 +5,5 @@ testSimplesExampleOfValue
 		
 	classInfo := self inferClass: J2SimpleBlockTestCode.
 	methodInfo := classInfo methodTypeFor: J2SimpleBlockTestCode >> #soSimpleBlockTest.
-	self assert: methodInfo returnType hasType: { SmallInteger  }  onContext: { classInfo }. 
+	self assert: methodInfo returnValue hasType: { SmallInteger  }  onContext: { classInfo }. 
 	

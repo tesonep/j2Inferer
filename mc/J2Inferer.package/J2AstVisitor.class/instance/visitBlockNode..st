@@ -20,12 +20,12 @@ visitBlockNode: aBlockNode
 	
 	(aBlockNode body statements isNotEmpty and:[ aBlockNode body statements last isReturn not]) 
 	ifTrue:[
-		blk returnType addSubtype: (self container atExpression: (aBlockNode body statements last))
+		blk returnValue addSubtype: (self container atExpression: (aBlockNode body statements last))
 	] ifFalse:[
 		| nilNode |
 		nilNode := RBLiteralValueNode value: 'nil'.
 		self inferer addLiteralVariable: nilNode.
-		blk returnType addSubtype: (self container atExpression: nilNode ) 
+		blk returnValue addSubtype: (self container atExpression: nilNode ) 
 	].
 	
 	self popContainer

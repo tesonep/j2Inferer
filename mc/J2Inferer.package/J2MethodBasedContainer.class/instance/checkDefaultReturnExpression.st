@@ -1,9 +1,9 @@
 checks
 checkDefaultReturnExpression
 	| selfExpr |
-	self element returnType hasNoSubtypes
+	self element returnValue hasNoSubtypes
 		ifTrue:
 			[ selfExpr := innerExpressions
 				at: 'self'
 				ifAbsentPut: [ self inferer selfVariable ].
-			self element returnType addSubtype: selfExpr ]
+			self element returnValue addSubtype: selfExpr ]

@@ -10,4 +10,4 @@ testOtherYourself
 	methodContainer := self containerFor:methodInfo.
 	
 	self assert: (methodContainer temporaryVariables at:#y) hasType: {Dictionary} onContext:{classInfo}.
-	self assert: methodInfo returnType hasType: {Dictionary} onContext:{classInfo}
+	self assert: methodInfo returnValue hasType: {Dictionary} onContext:{classInfo}

@@ -12,6 +12,6 @@ testEscalonatedNews
 	objectA := inferer methodVariableFor: J2EscalonatedObjectsContainer >> #objectA.
 	objectB := inferer methodVariableFor: J2EscalonatedObjectsContainer >> #objectB.
 	
-	self assert: objectA returnType hasType: { J2EscalonatedObjectsContainerA } onContext: (self contextFor:{J2EscalonatedObjectsContainer}).
-	self assert: objectB returnType hasType: { J2EscalonatedObjectsContainerB } onContext: (self contextFor:{J2EscalonatedObjectsContainer}).
+	self assert: objectA returnValue hasType: { J2EscalonatedObjectsContainerA } onContext: (self contextFor:{J2EscalonatedObjectsContainer}).
+	self assert: objectB returnValue hasType: { J2EscalonatedObjectsContainerB } onContext: (self contextFor:{J2EscalonatedObjectsContainer}).
 	

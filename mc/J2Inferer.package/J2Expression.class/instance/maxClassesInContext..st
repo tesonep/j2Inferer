@@ -1,4 +1,4 @@
-accessing
+calculating type
 maxClassesInContext: aContext
    | allSelectors |
    allSelectors := self allSelectors: aContext.

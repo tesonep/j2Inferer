@@ -9,7 +9,7 @@ assert: typeVariable hasType: aBunchOfClasses onContext: aContext
 		assert: [ ps isNotNil ]
 		description: 'The possible classes are all classes in the instalation'.
 
-	possibleClasses := ps collect: #analysedClass.
+	possibleClasses := ps classes collect: #analysedClass.
 	self
 		assert: (possibleClasses includesAll: aBunchOfClasses)
 		description:

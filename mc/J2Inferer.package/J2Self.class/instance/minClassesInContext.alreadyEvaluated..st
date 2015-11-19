@@ -1,3 +1,3 @@
 accessing
 minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	^ aContext contents
+	^ J2Type withClasses:aContext contents

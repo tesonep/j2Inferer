@@ -1,7 +1,8 @@
 applying
 returnTypeFor: message onContext: aContext alreadyEvaluated: alreadyEvaluated
-	| blocks |
+	| blocks returnType |
 	blocks := message receiver blocksOn: aContext.
-	^ blocks
-		flatCollect:
-			[ :e | e returnType minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated ]
+	returnType := J2Type empty.
+	blocks do:
+			[ :e | returnType union:(e returnValue minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated) ].
+	^ returnType

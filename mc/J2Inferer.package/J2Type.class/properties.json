@@ -1,0 +1,14 @@
+{
+	"category" : "J2Inferer-Types",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"minClasses" ],
+	"name" : "J2Type",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

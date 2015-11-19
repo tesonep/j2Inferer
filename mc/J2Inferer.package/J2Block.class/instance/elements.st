@@ -1,3 +1,3 @@
 accessing
 elements
-	^ self returnType elements.
+	^ self returnValue elements.

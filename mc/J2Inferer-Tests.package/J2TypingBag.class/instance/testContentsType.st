@@ -13,5 +13,5 @@ testContentsType
 	
 	methodInfo := metaClassInfo methodTypeFor: Bag class >> #contentsClass.
 	
-	self assert: methodInfo returnType hasType: { Dictionary class } onContext: { metaClassInfo }.
+	self assert: methodInfo returnValue hasType: { Dictionary class } onContext: { metaClassInfo }.
 	self assert: (classInfo instanceVariable: #contents) hasType: {Dictionary} onContext:{classInfo}

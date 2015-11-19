@@ -6,4 +6,4 @@ testSelfInInheritance
 	classInfo := self inferClass: J2ChildClass.
 		
 	methodInfo := classInfo methodTypeFor: Object >> #yourself.
-	self assert: methodInfo returnType hasType: {J2ChildClass} onContext: { classInfo }.
+	self assert: methodInfo returnValue hasType: {J2ChildClass} onContext: { classInfo }.

@@ -7,4 +7,4 @@ testClassSideVariable
 	methodInfo := classInfo methodTypeFor: J2SimpleClassSide >> #anAccessor.
 	
 	self assert: (metaClassInfo instanceVariable: #aClassVariable) hasType: {SmallInteger} onContext: {metaClassInfo}.
-	self assert: methodInfo returnType hasType: {SmallInteger} onContext: { classInfo }.
+	self assert: methodInfo returnValue hasType: {SmallInteger} onContext: { classInfo }.

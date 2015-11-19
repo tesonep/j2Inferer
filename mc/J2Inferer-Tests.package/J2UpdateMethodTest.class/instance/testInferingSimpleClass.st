@@ -10,7 +10,7 @@ testInferingSimpleClass
 	classInfo := self inferClass: mockClass.
 	methodInfo := inferer methodVariableFor: mockClass >> #returnsAValue.
 	
-	self assert: methodInfo returnType  hasType: {SmallInteger}  onContext: {classInfo}..
+	self assert: methodInfo returnValue  hasType: {SmallInteger}  onContext: {classInfo}..
 	methodInfo forceUpdate. 
 
 	mockClass compile: '
@@ -22,4 +22,4 @@ testInferingSimpleClass
 	methodInfo2 := inferer methodVariableFor: mockClass >> #returnsAValue.
 	
 	self assert: methodInfo = methodInfo2.
-	self assert: methodInfo returnType  hasType: { ByteString }  onContext:{classInfo}.
+	self assert: methodInfo returnValue  hasType: { ByteString }  onContext:{classInfo}.

@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addReturnSubtype:" : "PabloTesone 8/13/2015 09:04",
+		"addReturnSubtype:" : "PabloTesone 11/19/2015 07:10",
 		"classTypeInfo" : "PabloTesone 8/3/2015 08:35",
 		"classTypeInfo:" : "PabloTesone 8/3/2015 08:35",
-		"cleanForUpdate" : "PabloTesone 10/9/2015 09:07",
-		"fillReturn" : "PabloTesone 10/20/2015 08:55",
+		"cleanForUpdate" : "PabloTesone 11/19/2015 07:10",
+		"fillReturn" : "PabloTesone 11/19/2015 07:21",
 		"forceUpdate" : "PabloTesone 10/6/2015 10:53",
 		"inferer" : "PabloTesone 10/20/2015 08:43",
 		"initialize" : "PabloTesone 10/9/2015 10:32",
@@ -16,8 +16,8 @@
 		"parameters" : "PabloTesone 10/9/2015 10:32",
 		"parameters:" : "PabloTesone 10/9/2015 10:32",
 		"printOn:" : "PabloTesone 8/10/2015 08:34",
-		"returnType" : "PabloTesone 8/3/2015 09:22",
-		"returnType:" : "PabloTesone 8/3/2015 09:23",
+		"returnValue" : "PabloTesone 11/19/2015 07:11",
+		"returnValue:" : "PabloTesone 11/19/2015 07:11",
 		"selector" : "PabloTesone 9/28/2015 13:49",
 		"selector:" : "PabloTesone 9/28/2015 13:48",
 		"updateIfNeeded" : "PabloTesone 10/20/2015 08:59" } }

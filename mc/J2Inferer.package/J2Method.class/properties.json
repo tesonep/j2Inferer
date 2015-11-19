@@ -8,10 +8,10 @@
 	"commentStamp" : "PabloTesone 9/29/2015 11:05",
 	"instvars" : [
 		"classTypeInfo",
-		"returnType",
 		"parameters",
 		"selector",
-		"updated" ],
+		"updated",
+		"returnValue" ],
 	"name" : "J2Method",
 	"pools" : [
 		 ],

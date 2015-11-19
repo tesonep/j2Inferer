@@ -1,5 +1,5 @@
 initialization
 fillReturn
-	returnType := J2Variable new
+	returnValue := J2Variable new
 		variableName: '^';
 		yourself

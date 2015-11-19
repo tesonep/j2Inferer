@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testSimplePassingParameterToBlock" : "PabloTesone 10/19/2015 09:24",
-		"testSimplesExampleOfValue" : "PabloTesone 10/19/2015 06:56" } }
+		"testBindingParameters" : "PabloTesone 11/19/2015 07:10",
+		"testSimplePassingParameterToBlock" : "PabloTesone 11/19/2015 07:10",
+		"testSimplesExampleOfValue" : "PabloTesone 11/19/2015 07:10" } }

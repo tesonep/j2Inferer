@@ -1,32 +1,22 @@
 accessing
 generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	| receiverContext remainingContext results |
-	receiverContext := receiver
-		minClassesInContext: aContext
-		alreadyEvaluated: alreadyEvaluated.
-	results := Set new.
-	remainingContext := J2Context with:receiverContext.
-	
+	| receiverType remainingContext receiverContext resultType|
+	receiverType := receiver minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated.
+	receiverContext := J2Context with: receiverType minClasses.
+
+	remainingContext := J2Context with: receiverType minClasses.
+
+	resultType := J2Type empty.	
+
 	self inferer predefinedMessages
-		detect:
-			[ :each | each canHandle: self onContext: receiverContext ]
+		detect: [ :each | each canHandle: self onContext: receiverContext ]
 		ifFound:
 			[ :found | 
-			remainingContext := found
-				remainingContextFor: self
-				onContext: receiverContext.
-			results
-				addAll:
-					(found
-						returnTypeFor: self
-						onContext: receiverContext
-						alreadyEvaluated: alreadyEvaluated) ].
-	results
-		addAll:
-			((self methodsOn: remainingContext)
-				flatCollect:
-					[ :e | 
-					e returnType
-						minClassesInContext: remainingContext
-						alreadyEvaluated: alreadyEvaluated ]).
-	^ results
+			remainingContext := found remainingContextFor: self onContext: receiverContext.
+			resultType union: (found returnTypeFor: self onContext: receiverContext contents alreadyEvaluated: alreadyEvaluated) ].
+	
+		
+	(self methodsOn: remainingContext)
+			do: [ :e | resultType union:(e returnValue minClassesInContext: remainingContext alreadyEvaluated: alreadyEvaluated) ].
+
+	^ resultType

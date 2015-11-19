@@ -4,4 +4,4 @@ doIsBlockOn: aContext alreadyEvaluated: alreadyEvaluated
 	methods := self methodsForReceivingContext: aContext.
 	^ methods
 		anySatisfy:
-			[ :each | each returnType isBlockOn: aContext alreadyEvaluated: alreadyEvaluated ]
+			[ :each | each returnValue isBlockOn: aContext alreadyEvaluated: alreadyEvaluated ]

@@ -15,7 +15,7 @@ testParametersSubtyping
 	aVariable := methodContainer atExpression: (RBTemporaryNode named:#passedByParameter).
 	aParameter := otherMethodContainer atExpression: (RBVariableNode named:#aParameter).
 
-	self assertCollection: (aVariable allSelectors: {classInfo}) equals: #(aMessageToParameter) asSet.
+	self assertCollection: (aVariable allSelectors: (J2Context with:{classInfo})) equals: #(aMessageToParameter) asSet.
 	self assertCollection: (aVariable subtypes) equals: #() asSet.
 	self assertCollection: (aVariable supertypes) equals: { aParameterVariable. aParameter } asSet.
 

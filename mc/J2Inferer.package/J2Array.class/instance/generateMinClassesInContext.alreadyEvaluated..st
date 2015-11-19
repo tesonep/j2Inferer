@@ -1,3 +1,3 @@
 accessing
 generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
-	^{self inferer typeInfoFor: Array}
+	^J2Type withClass:(self inferer typeInfoFor: Array)

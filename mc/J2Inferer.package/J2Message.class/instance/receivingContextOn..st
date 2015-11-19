@@ -1,3 +1,3 @@
 accessing
 receivingContextOn: aContext
-	^ receiver minClassesInContext: aContext
+	^ (receiver minClassesInContext: aContext) minClasses

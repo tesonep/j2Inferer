@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"empty" : "PabloTesone 11/19/2015 11:08",
+		"withClass:" : "PabloTesone 11/19/2015 12:03",
+		"withClasses:" : "PabloTesone 11/19/2015 12:03" },
+	"instance" : {
+		"classes" : "PabloTesone 11/19/2015 14:08",
+		"filter:" : "PabloTesone 11/19/2015 11:29",
+		"ifEmpty:" : "PabloTesone 11/19/2015 13:17",
+		"initialize" : "PabloTesone 11/19/2015 11:28",
+		"minClasses" : "PabloTesone 11/19/2015 11:28",
+		"minClasses:" : "PabloTesone 11/19/2015 11:28",
+		"union:" : "PabloTesone 11/19/2015 11:28" } }
