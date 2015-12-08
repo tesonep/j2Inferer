@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"empty" : "PabloTesone 8/7/2015 09:46",
-		"unionAll:name:container:inferer:" : "PabloTesone 10/20/2015 08:55" },
+		"emptyOnClass:" : "PabloTesone 11/27/2015 08:16",
+		"unionAll:name:container:inferer:" : "PabloTesone 11/27/2015 08:16" },
 	"instance" : {
 		"addSubtype:" : "PabloTesone 10/12/2015 06:54",
 		"doBlocksOn:alreadyEvaluated:" : "PabloTesone 10/19/2015 08:27",
 		"doIsBlockOn:alreadyEvaluated:" : "PabloTesone 10/19/2015 08:25",
-		"elements" : "PabloTesone 10/20/2015 07:17",
+		"elements" : "PabloTesone 11/27/2015 08:15",
 		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 11/19/2015 11:28",
 		"hasNoSubtypes" : "PabloTesone 8/13/2015 06:36",
 		"name" : "PabloTesone 8/5/2015 10:55",

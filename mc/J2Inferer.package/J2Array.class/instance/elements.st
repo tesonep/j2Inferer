@@ -2,6 +2,6 @@ accessing
 elements
 	^ elements
 		ifNil:
-			[ elements := J2Variable new
+			[ elements := (J2Variable newOnClass: self classTypeInfo)
 				variableName: 'elements';
 				yourself ]

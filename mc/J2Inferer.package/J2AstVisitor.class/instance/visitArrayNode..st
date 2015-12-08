@@ -7,6 +7,6 @@ visitArrayNode: anArrayNode
 		ifAbsentPut:
 			[ 
 			elements := anArrayNode children collect: [ :e | self container atExpression: e ].
-			J2Array new
+			(J2Array newOnClass: self container containerClass)
 				addElements: elements;
 				yourself ]

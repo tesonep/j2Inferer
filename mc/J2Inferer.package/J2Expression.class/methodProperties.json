@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"new" : "PabloTesone 11/26/2015 13:02",
+		"newOnClass:" : "PabloTesone 11/27/2015 07:46" },
 	"instance" : {
 		"addMessageSent:" : "PabloTesone 11/9/2015 13:01",
 		"addSupertype:" : "PabloTesone 10/9/2015 09:05",
@@ -8,6 +9,9 @@
 		"allSelectors:onContext:" : "PabloTesone 9/14/2015 13:59",
 		"blocksOn:" : "PabloTesone 10/19/2015 07:27",
 		"blocksOn:alreadyEvaluated:" : "PabloTesone 10/19/2015 08:24",
+		"classTypeInfo" : "PabloTesone 11/27/2015 07:54",
+		"container" : "PabloTesone 11/27/2015 07:46",
+		"container:" : "PabloTesone 11/27/2015 07:46",
 		"elements" : "PabloTesone 10/20/2015 08:58",
 		"filter:byMessages:" : "PabloTesone 11/19/2015 11:14",
 		"inferer" : "PabloTesone 10/20/2015 08:42",

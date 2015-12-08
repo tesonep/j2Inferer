@@ -7,7 +7,8 @@
 	"commentStamp" : "PabloTesone 10/7/2015 06:51",
 	"instvars" : [
 		"supertypes",
-		"messages" ],
+		"messages",
+		"container" ],
 	"name" : "J2Expression",
 	"pools" : [
 		 ],

@@ -3,7 +3,7 @@ visitBlockNode: aBlockNode
 	| blk |
 	numberOfBlocks := numberOfBlocks + 1.
 	
-	blk := J2Block index: numberOfBlocks blockNode: aBlockNode.
+	blk := J2Block index: numberOfBlocks blockNode: aBlockNode onClass: self container containerClass.
 		
 	self container atExpression: aBlockNode ifAbsentPut: blk.
 

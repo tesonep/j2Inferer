@@ -5,6 +5,6 @@ addTemporaryVariableFor: aNode
 	^ temporaryVariables
 		at: aName asSymbol
 		ifAbsentPut: [ 
-			J2Variable new
+			(J2Variable newOnClass: self containerClass)
 				variableName: aName asSymbol;
 				yourself ]

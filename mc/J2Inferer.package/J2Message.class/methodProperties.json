@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"addMessageSent:container:inferer:receiver:parameters:" : "PabloTesone 10/20/2015 09:53" },
+		"addMessageSent:container:inferer:receiver:parameters:" : "PabloTesone 11/27/2015 07:56" },
 	"instance" : {
 		"addSupertype:" : "PabloTesone 9/1/2015 09:54",
 		"containerClass" : "PabloTesone 10/20/2015 09:54",
 		"containerClass:" : "PabloTesone 10/20/2015 09:54",
 		"doBlocksOn:alreadyEvaluated:" : "PabloTesone 11/19/2015 07:10",
 		"doIsBlockOn:alreadyEvaluated:" : "PabloTesone 11/19/2015 07:10",
-		"elements" : "PabloTesone 11/19/2015 07:10",
+		"elements" : "PabloTesone 11/27/2015 08:15",
 		"generateMinClassesInContext:alreadyEvaluated:" : "PabloTesone 11/19/2015 12:47",
 		"methodsForReceivingContext:" : "PabloTesone 9/2/2015 12:02",
 		"methodsOn:" : "PabloTesone 10/20/2015 07:16",
