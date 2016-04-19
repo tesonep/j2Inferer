@@ -63,6 +63,11 @@ All this scenarios provides more information than the present in the code itself
 - Implement more heuristics for different known scenarios.
 - Detecting collections through the use of array primitives
 
+# Presentation
+I have a small presentation of the work and the ideas behind it, maybe it can be useful. It's about an older version, but most of the background information is still useful.
+
+[Presentation](presentation/main.pdf)
+
 # Installing.
 
 Checkout the current repository. And perform:
