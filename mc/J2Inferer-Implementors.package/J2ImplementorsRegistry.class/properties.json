@@ -1,16 +1,15 @@
 {
-	"category" : "J2Inferer-Implementors",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:35",
+	"super" : "Object",
+	"category" : "J2Inferer-Implementors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"selectors",
 		"knownObjectMessages",
-		"allUnderstandingCache" ],
+		"allUnderstandingCache"
+	],
 	"name" : "J2ImplementorsRegistry",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

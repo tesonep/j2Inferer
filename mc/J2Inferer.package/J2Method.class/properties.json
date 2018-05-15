@@ -1,20 +1,19 @@
 {
-	"category" : "J2Inferer-Variables",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TJ2WithParameters classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "PabloTesone 9/29/2015 11:05",
+	"classvars" : [ ],
 	"instvars" : [
 		"classTypeInfo",
 		"parameters",
 		"selector",
 		"updated",
-		"returnValue" ],
+		"returnValue"
+	],
 	"name" : "J2Method",
-	"pools" : [
-		 ],
+	"commentStamp" : "PabloTesone 9/29/2015 11:05",
 	"super" : "Object",
 	"traitcomposition" : "TJ2WithParameters",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "J2Inferer-Variables"
+}

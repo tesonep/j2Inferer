@@ -1,18 +1,17 @@
 {
-	"category" : "J2Inferer-Tasks-Queue",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 8/26/2015 06:27",
+	"super" : "Object",
+	"category" : "J2Inferer-Tasks-Queue",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"queue",
 		"notifier",
 		"runStart",
 		"runTasks",
-		"inQueue" ],
+		"inQueue"
+	],
 	"name" : "J2TaskQueue",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

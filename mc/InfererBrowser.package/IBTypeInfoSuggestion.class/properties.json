@@ -1,14 +1,13 @@
 {
-	"category" : "InfererBrowser-Sugesstions",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"astContext" ],
-	"name" : "IBTypeInfoSuggestion",
-	"pools" : [
-		 ],
 	"super" : "SugsSuggestion",
-	"type" : "normal" }
+	"category" : "InfererBrowser-Sugesstions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"astContext"
+	],
+	"name" : "IBTypeInfoSuggestion",
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "J2Inferer-Variables",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 10/9/2015 07:13",
-	"instvars" : [
-		"types" ],
-	"name" : "J2ArrayLiteralElements",
-	"pools" : [
-		 ],
 	"super" : "J2AbstractSharedTypeVariables",
-	"type" : "normal" }
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"types"
+	],
+	"name" : "J2ArrayLiteralElements",
+	"type" : "normal"
+}

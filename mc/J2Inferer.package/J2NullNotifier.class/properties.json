@@ -1,14 +1,11 @@
 {
-	"category" : "J2Inferer",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/28/2015 14:20",
-	"instvars" : [
-		 ],
-	"name" : "J2NullNotifier",
-	"pools" : [
-		 ],
 	"super" : "J2AbstractNotifier",
-	"type" : "normal" }
+	"category" : "J2Inferer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "J2NullNotifier",
+	"type" : "normal"
+}

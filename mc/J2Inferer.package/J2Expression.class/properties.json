@@ -1,16 +1,15 @@
 {
-	"category" : "J2Inferer-Variables",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 10/7/2015 06:51",
+	"super" : "Object",
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"supertypes",
 		"messages",
-		"container" ],
+		"container"
+	],
 	"name" : "J2Expression",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

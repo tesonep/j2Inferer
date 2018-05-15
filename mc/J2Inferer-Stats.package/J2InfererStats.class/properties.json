@@ -1,15 +1,14 @@
 {
-	"category" : "J2Inferer-Stats",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:31",
+	"super" : "Object",
+	"category" : "J2Inferer-Stats",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"results",
-		"dateTime" ],
+		"dateTime"
+	],
 	"name" : "J2InfererStats",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

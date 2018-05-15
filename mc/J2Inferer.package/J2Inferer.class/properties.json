@@ -1,10 +1,12 @@
 {
-	"category" : "J2Inferer",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		"instance" ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:40",
+	"super" : "Object",
+	"category" : "J2Inferer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"instance"
+	],
 	"instvars" : [
 		"classes",
 		"queue",
@@ -19,9 +21,8 @@
 		"superVariable",
 		"thisContextVariable",
 		"literal",
-		"arrayLiterals" ],
+		"arrayLiterals"
+	],
 	"name" : "J2Inferer",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

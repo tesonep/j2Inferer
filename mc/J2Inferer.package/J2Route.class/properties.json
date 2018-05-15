@@ -1,15 +1,14 @@
 {
-	"category" : "J2Inferer-Graphs",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "J2Inferer-Graphs",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"nextBlock",
-		"evaluated" ],
+		"evaluated"
+	],
 	"name" : "J2Route",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

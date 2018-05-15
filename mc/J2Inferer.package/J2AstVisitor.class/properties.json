@@ -1,19 +1,18 @@
 {
-	"category" : "J2Inferer-AST",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TRBProgramNodeVisitor classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "PabloTesone 9/25/2015 09:26",
+	"classvars" : [ ],
 	"instvars" : [
 		"method",
 		"inferer",
 		"containerStack",
-		"numberOfBlocks" ],
+		"numberOfBlocks"
+	],
 	"name" : "J2AstVisitor",
-	"pools" : [
-		 ],
+	"commentStamp" : "PabloTesone 9/25/2015 09:26",
 	"super" : "Object",
 	"traitcomposition" : "TRBProgramNodeVisitor",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "J2Inferer-AST"
+}

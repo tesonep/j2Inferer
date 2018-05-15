@@ -1,18 +1,17 @@
 {
-	"category" : "J2Inferer-Variables",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "TJ2WithParameters classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "PabloTesone 9/29/2015 10:59",
+	"classvars" : [ ],
 	"instvars" : [
 		"parameters",
 		"index",
-		"returnValue" ],
+		"returnValue"
+	],
 	"name" : "J2Block",
-	"pools" : [
-		 ],
+	"commentStamp" : "PabloTesone 9/29/2015 10:59",
 	"super" : "J2Expression",
 	"traitcomposition" : "TJ2WithParameters",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "J2Inferer-Variables"
+}

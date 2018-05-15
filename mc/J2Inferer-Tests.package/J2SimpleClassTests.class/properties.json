@@ -1,14 +1,11 @@
 {
-	"category" : "J2Inferer-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "J2SimpleClassTests",
-	"pools" : [
-		 ],
 	"super" : "J2AbstractTests",
-	"type" : "normal" }
+	"category" : "J2Inferer-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "J2SimpleClassTests",
+	"type" : "normal"
+}

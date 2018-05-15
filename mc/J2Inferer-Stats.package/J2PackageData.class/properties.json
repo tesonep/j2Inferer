@@ -1,10 +1,10 @@
 {
-	"category" : "J2Inferer-Stats",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:32",
+	"super" : "Object",
+	"category" : "J2Inferer-Stats",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"name",
 		"totalVariables",
@@ -15,9 +15,8 @@
 		"withDataParameters",
 		"duration",
 		"blockVariables",
-		"blockReturnTypes" ],
+		"blockReturnTypes"
+	],
 	"name" : "J2PackageData",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

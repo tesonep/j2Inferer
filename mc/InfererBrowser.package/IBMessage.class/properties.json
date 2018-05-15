@@ -1,14 +1,11 @@
 {
-	"category" : "InfererBrowser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "IBMessage",
-	"pools" : [
-		 ],
 	"super" : "IBVariable",
-	"type" : "normal" }
+	"category" : "InfererBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "IBMessage",
+	"type" : "normal"
+}

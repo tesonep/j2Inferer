@@ -3,7 +3,7 @@ testNestedBlocksContextParameters
 	| methodInfo methodContext blocksContext |
 	methodInfo := self inferMethod: J2NestedContextTestClass >> #nestedBlocksContextParameters:.
 	methodContext := self containerFor: methodInfo.
-	blocksContext := astContainers values select:[ :e | e ~= methodContext].
+	blocksContext := astContainers values reject:[ :e | e isMethodContext].
 	
 	self assert:methodContext temporaryVariables size equals:0.
 	self assert:methodContext element parameters size equals:1.

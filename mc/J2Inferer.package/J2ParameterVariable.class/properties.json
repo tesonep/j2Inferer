@@ -1,16 +1,15 @@
 {
-	"category" : "J2Inferer-Variables",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 11:06",
+	"super" : "Object",
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"message",
 		"index",
-		"expression" ],
+		"expression"
+	],
 	"name" : "J2ParameterVariable",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

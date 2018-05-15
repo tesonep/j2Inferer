@@ -1,16 +1,15 @@
 {
-	"category" : "J2Inferer-Tasks",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:49",
+	"super" : "J2AbstractTask",
+	"category" : "J2Inferer-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"message",
 		"receivers",
-		"impls" ],
+		"impls"
+	],
 	"name" : "J2OpenMethodFromMessage",
-	"pools" : [
-		 ],
-	"super" : "J2AbstractTask",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "J2Inferer-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"classFactory" ],
-	"name" : "J2UpdateMethodTest",
-	"pools" : [
-		 ],
 	"super" : "J2AbstractTests",
-	"type" : "normal" }
+	"category" : "J2Inferer-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"classFactory"
+	],
+	"name" : "J2UpdateMethodTest",
+	"type" : "normal"
+}

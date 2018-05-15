@@ -1,14 +1,11 @@
 {
-	"category" : "J2Inferer-Tests-Tasks",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 2/27/2014 12:14",
-	"instvars" : [
-		 ],
-	"name" : "J2DummyTaskWithErrorHandler",
-	"pools" : [
-		 ],
 	"super" : "J2DummyTask",
-	"type" : "normal" }
+	"category" : "J2Inferer-Tests-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "J2DummyTaskWithErrorHandler",
+	"type" : "normal"
+}

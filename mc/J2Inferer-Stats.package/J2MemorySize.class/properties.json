@@ -1,14 +1,13 @@
 {
-	"category" : "J2Inferer-Stats",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"objects" ],
-	"name" : "J2MemorySize",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "J2Inferer-Stats",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"objects"
+	],
+	"name" : "J2MemorySize",
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "InfererBrowser",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"pager" ],
-	"name" : "IBBrowser",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "InfererBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pager"
+	],
+	"name" : "IBBrowser",
+	"type" : "normal"
+}

@@ -6,9 +6,9 @@ buildRelationships: variable container: container
 	
 	containerClass := container containerClass analysedClass.
 	
-	((self message inferer implementorsOf: self message selector)
-		select: [ :e | self class: containerClass isInHierarchyOf: e])
-		do:
+	(self message inferer implementorsOf: self message selector)
+		select: [ :e | self class: containerClass isInHierarchyOf: e]
+		thenDo:
 			[ :e | 
 				methodVariable := self message inferer methodVariableFor: e.
 				methodVariable parameters 

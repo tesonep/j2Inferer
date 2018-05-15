@@ -1,15 +1,14 @@
 {
-	"category" : "J2Inferer-Tests-Tasks",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 2/27/2014 12:13",
+	"super" : "Object",
+	"category" : "J2Inferer-Tests-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"shouldFail",
-		"test" ],
+		"test"
+	],
 	"name" : "J2DummyTask",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

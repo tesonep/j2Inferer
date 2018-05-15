@@ -1,18 +1,17 @@
 {
-	"category" : "J2Inferer",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/28/2015 14:31",
+	"super" : "Object",
+	"category" : "J2Inferer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"inferer",
 		"logLevels",
 		"currentLogLevel",
 		"startTime",
-		"endTime" ],
+		"endTime"
+	],
 	"name" : "J2AbstractNotifier",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "J2Inferer-Types",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 11/20/2015 13:33",
-	"instvars" : [
-		"minClasses" ],
-	"name" : "J2Type",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "J2Inferer-Types",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"minClasses"
+	],
+	"name" : "J2Type",
+	"type" : "normal"
+}

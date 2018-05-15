@@ -1,14 +1,11 @@
 {
-	"category" : "J2Inferer-AST",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/25/2015 09:25",
-	"instvars" : [
-		 ],
-	"name" : "J2MethodBasedContainer",
-	"pools" : [
-		 ],
 	"super" : "J2ExpressionContainer",
-	"type" : "normal" }
+	"category" : "J2Inferer-AST",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "J2MethodBasedContainer",
+	"type" : "normal"
+}

@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "IBVariable",
-	"category" : "InfererBrowser",
+	"super" : "J2AbstractTests",
+	"category" : "J2Inferer-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "IBGlobalVariable",
+	"name" : "J2TypeRectangleTest",
 	"type" : "normal"
 }

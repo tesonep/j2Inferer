@@ -1,15 +1,14 @@
 {
-	"category" : "J2Inferer",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 8/17/2015 08:56",
+	"super" : "J2AbstractNotifier",
+	"category" : "J2Inferer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"stream",
-		"file" ],
+		"file"
+	],
 	"name" : "J2FileBasedNotifier",
-	"pools" : [
-		 ],
-	"super" : "J2AbstractNotifier",
-	"type" : "normal" }
+	"type" : "normal"
+}

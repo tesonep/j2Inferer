@@ -1,14 +1,13 @@
 {
-	"category" : "J2Inferer-Variables",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:51",
-	"instvars" : [
-		"baseClass" ],
-	"name" : "J2Metaclass",
-	"pools" : [
-		 ],
 	"super" : "J2Class",
-	"type" : "normal" }
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"baseClass"
+	],
+	"name" : "J2Metaclass",
+	"type" : "normal"
+}

@@ -17,7 +17,7 @@ implementorsOfAll: bunchOfSelectors
 	2 to: bunch size do:[:i |  
 		candidates := self allUnderstanding: (bunch at:i).
 		possible := possible intersection: candidates.			
-		possible ifEmpty: [ ^#() ].	
+		possible ifEmpty: [ self halt.^#() ].	
 	].	
 
 	^ possible.

@@ -9,7 +9,7 @@ class: containerClass isInHierarchyOf: method
 	methodMetaClass := method methodClass class.
 	methodMetaClass = containerClass ifTrue:[^true].
 
-	(methodClass allSuperclasses includes: containerClass) ifTrue:[^true].
-	(methodMetaClass allSuperclasses includes: containerClass) ifTrue:[^true].
+	(containerClass withAllSuperclasses includes: methodClass) ifTrue:[^true].
+	(containerClass withAllSuperclasses includes: methodMetaClass) ifTrue:[^true].
 	
 	^ false.

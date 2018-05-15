@@ -1,14 +1,11 @@
 {
-	"category" : "J2Inferer-Variables",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 10:57",
-	"instvars" : [
-		 ],
-	"name" : "J2Self",
-	"pools" : [
-		 ],
 	"super" : "J2AbstractSharedTypeVariables",
-	"type" : "normal" }
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "J2Self",
+	"type" : "normal"
+}

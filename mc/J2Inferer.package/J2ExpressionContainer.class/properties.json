@@ -1,17 +1,16 @@
 {
-	"category" : "J2Inferer-AST",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/25/2015 09:21",
+	"super" : "J2AbstractContainer",
+	"category" : "J2Inferer-AST",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"parent",
 		"innerExpressions",
 		"temporaryVariables",
-		"element" ],
+		"element"
+	],
 	"name" : "J2ExpressionContainer",
-	"pools" : [
-		 ],
-	"super" : "J2AbstractContainer",
-	"type" : "normal" }
+	"type" : "normal"
+}

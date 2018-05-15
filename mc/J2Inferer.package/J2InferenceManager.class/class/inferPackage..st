@@ -5,7 +5,7 @@ inferPackage: aPackage
 		].
 
 	aPackage classes
-		do: [ :e | inferer enqueueClass: e ]
+		do: [ :e | J2Inferer instance enqueueClass: e ]
 		displayingProgress: [ :e | e name ].
 		
 	J2Inferer instance runAndWait.

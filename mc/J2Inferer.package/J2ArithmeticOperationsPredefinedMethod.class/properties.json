@@ -1,14 +1,13 @@
 {
-	"category" : "J2Inferer-PredefinedMethods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:45",
-	"instvars" : [
-		"parameters" ],
-	"name" : "J2ArithmeticOperationsPredefinedMethod",
-	"pools" : [
-		 ],
 	"super" : "J2AbstractPredefinedMethod",
-	"type" : "normal" }
+	"category" : "J2Inferer-PredefinedMethods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"parameters"
+	],
+	"name" : "J2ArithmeticOperationsPredefinedMethod",
+	"type" : "normal"
+}

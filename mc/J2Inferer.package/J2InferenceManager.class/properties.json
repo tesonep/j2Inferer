@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "PabloTesone 9/29/2015 09:39",
+	"super" : "Object",
 	"category" : "J2Inferer-Utils",
 	"classinstvars" : [
-		"stats" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "PabloTesone 9/29/2015 09:39",
-	"instvars" : [
-		 ],
+		"stats"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "J2InferenceManager",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

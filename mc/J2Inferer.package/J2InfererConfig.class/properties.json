@@ -1,16 +1,15 @@
 {
-	"category" : "J2Inferer",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 10/26/2015 12:49",
+	"super" : "Object",
+	"category" : "J2Inferer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"maxNumberImplementorsToOpen",
 		"maxNumberSubclassesToOpen",
-		"singleImplementorEnabled" ],
+		"singleImplementorEnabled"
+	],
 	"name" : "J2InfererConfig",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "J2Inferer-Tasks",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:47",
-	"instvars" : [
-		"inferer" ],
-	"name" : "J2AbstractTask",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "J2Inferer-Tasks",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inferer"
+	],
+	"name" : "J2AbstractTask",
+	"type" : "normal"
+}

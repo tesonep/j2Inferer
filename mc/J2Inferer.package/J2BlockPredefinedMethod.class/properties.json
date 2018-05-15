@@ -1,14 +1,11 @@
 {
-	"category" : "J2Inferer-PredefinedMethods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 10/20/2015 06:46",
-	"instvars" : [
-		 ],
-	"name" : "J2BlockPredefinedMethod",
-	"pools" : [
-		 ],
 	"super" : "J2AbstractPredefinedMethod",
-	"type" : "normal" }
+	"category" : "J2Inferer-PredefinedMethods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "J2BlockPredefinedMethod",
+	"type" : "normal"
+}

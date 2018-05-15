@@ -1,14 +1,13 @@
 {
-	"category" : "J2Inferer-Variables",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 10:58",
-	"instvars" : [
-		"elements" ],
-	"name" : "J2Array",
-	"pools" : [
-		 ],
 	"super" : "J2Expression",
-	"type" : "normal" }
+	"category" : "J2Inferer-Variables",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"elements"
+	],
+	"name" : "J2Array",
+	"type" : "normal"
+}

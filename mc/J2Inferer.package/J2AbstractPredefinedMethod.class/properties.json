@@ -1,17 +1,16 @@
 {
-	"category" : "J2Inferer-PredefinedMethods",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/29/2015 09:43",
+	"super" : "Object",
+	"category" : "J2Inferer-PredefinedMethods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"inferer",
 		"parametersTypes",
 		"implementingClasses",
-		"selectors" ],
+		"selectors"
+	],
 	"name" : "J2AbstractPredefinedMethod",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
