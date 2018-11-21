@@ -5,7 +5,7 @@ buildView: builder
 	builder
 		list
 			title:'Possible Classes of variable ', self name;
-			display:[:each | (each element possibleClasses: context) collect:#asIBModel];
+			display:[:each | (each element possibleClassesInContext: context) collect:#asIBModel];
 			format:#name.
 	builder 
 		list 

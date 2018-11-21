@@ -10,6 +10,6 @@ testCorner
 
 	class := inf typeInfoFor: Rectangle.
 	var := class instanceVariable: #corner.
-	types := (var possibleClasses: (J2Context with: {class})) classes.
+	types := (var possibleClassesInContext: (J2Context with: {class})) classes.
 	
 	self assertCollection: types hasSameElements: { inf typeInfoFor: Point }.

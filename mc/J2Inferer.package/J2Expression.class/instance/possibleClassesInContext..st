@@ -1,5 +1,5 @@
 calculating type
-possibleClasses: aContext
+possibleClassesInContext: aContext
 	| r |
 	r := self minClassesInContext: aContext.
 	r ifEmpty: [ 
