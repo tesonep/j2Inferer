@@ -1,5 +1,7 @@
 {
-	"name" : "TJ2WithParameters",
 	"commentStamp" : "PabloTesone 9/29/2015 11:06",
-	"category" : "J2Inferer-Variables"
+	"classinstvars" : [ ],
+	"category" : "J2Inferer-Variables",
+	"instvars" : [ ],
+	"name" : "TJ2WithParameters"
 }

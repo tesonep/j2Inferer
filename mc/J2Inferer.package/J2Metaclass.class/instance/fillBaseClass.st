@@ -1,3 +1,4 @@
 as yet unclassified
 fillBaseClass
-	baseClass := self inferer typeInfoFor: self analysedClass baseClass.
+	baseClass := self inferer
+		typeInfoFor: self analysedClass instanceSide
