@@ -1,3 +1,0 @@
-updating
-forceUpdate
-	updated := false.

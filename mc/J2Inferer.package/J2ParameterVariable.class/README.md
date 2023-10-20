@@ -1,2 +1,0 @@
-This variable represents the binding between an argument in the message and the actual parameter in the block or method.
-It build a stronger relationship when the sender and the receiver are the same class or hierarchy.

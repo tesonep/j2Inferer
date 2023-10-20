@@ -1,1 +1,0 @@
-A class holding a bag used in the tests to detect if the elements of a collection can be infered.

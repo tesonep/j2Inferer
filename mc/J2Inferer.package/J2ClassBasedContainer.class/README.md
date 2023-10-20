@@ -1,1 +1,0 @@
-This class represents the container of the instance and global variables of a class. 

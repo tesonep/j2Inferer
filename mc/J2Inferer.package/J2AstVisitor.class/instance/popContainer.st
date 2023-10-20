@@ -1,3 +1,0 @@
-accessing
-popContainer
-	^ containerStack pop.

@@ -1,3 +1,0 @@
-initialization
-numberOfRunLevels
-	^ 5

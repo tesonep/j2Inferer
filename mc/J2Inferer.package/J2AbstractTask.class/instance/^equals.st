@@ -1,3 +1,0 @@
-comparing
-= anotherTask
-	self subclassResponsibility.

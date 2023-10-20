@@ -1,1 +1,0 @@
-These objects represents the relationship between a parameter and the argument passed in the message.

@@ -1,3 +1,0 @@
-subtyping
-addMessageSent: aMessage 
-	

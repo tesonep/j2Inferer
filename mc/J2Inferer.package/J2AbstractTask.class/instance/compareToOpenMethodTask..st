@@ -1,3 +1,0 @@
-comparing
-compareToOpenMethodTask:anotherTask
-	^false.
