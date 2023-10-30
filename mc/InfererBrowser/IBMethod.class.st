@@ -1,7 +1,11 @@
 Class {
 	#name : #IBMethod,
 	#superclass : #IBModel,
-	#category : 'InfererBrowser'
+	#instVars : [
+		'parameters',
+		'returnTypes'
+	],
+	#category : #InfererBrowser
 }
 
 { #category : #accessing }
@@ -19,12 +23,49 @@ IBMethod >> buildView: builder [
 		format: #name		
 ]
 
+{ #category : #initialization }
+IBMethod >> initializePresenters [
+
+	returnTypes := self newModelList.
+	parameters := self newModelList.
+	self buildLayout
+]
+
+{ #category : #hooks }
+IBMethod >> lists [
+
+	^ {
+		  (IBModelList
+			   named: 'Possible Types of the Returned Values'
+			   list: returnTypes
+			   itemsBlock: [ self returnTypes ]).
+		  (IBModelList
+			   named: 'Parameters'
+			   list: parameters
+			   itemsBlock: [ self parameters ]) }
+]
+
+{ #category : #hooks }
+IBMethod >> modelType [
+
+	^ 'Method'
+]
+
 { #category : #'as yet unclassified' }
 IBMethod >> name [
 	^ self element selector 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 IBMethod >> parameters [
-	^ self element parameters collect:[:e | IBVariable for:e on: context].
+
+	^ self element parameters collect: [ :e |
+		  e asIBModelOnContext: context ]
+]
+
+{ #category : #accessing }
+IBMethod >> returnTypes [
+
+	^ (self element returnValue possibleClassesInContext: context)
+		  collect: [ :e | e asIBModelOnContext: context ]
 ]

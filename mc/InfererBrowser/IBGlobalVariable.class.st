@@ -1,8 +1,14 @@
 Class {
 	#name : #IBGlobalVariable,
 	#superclass : #IBVariable,
-	#category : 'InfererBrowser'
+	#category : #InfererBrowser
 }
+
+{ #category : #'as yet unclassified' }
+IBGlobalVariable >> modelType [
+
+	^ 'Global variable'
+]
 
 { #category : #accessing }
 IBGlobalVariable >> title [

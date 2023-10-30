@@ -2,9 +2,10 @@ Class {
 	#name : #IBPackageModel,
 	#superclass : #IBModel,
 	#instVars : [
+		'classModels',
 		'classes'
 	],
-	#category : 'InfererBrowser'
+	#category : #InfererBrowser
 }
 
 { #category : #accessing }
@@ -16,12 +17,41 @@ IBPackageModel >> buildView: builder [
 ]
 
 { #category : #accessing }
+IBPackageModel >> classModels [
+	^ classModels
+]
+
+{ #category : #accessing }
 IBPackageModel >> classes [
 	^ classes
 ]
 
 { #category : #initialization }
 IBPackageModel >> for: anElement using: anInferer [
-	super for: anElement using: anInferer.
-	classes := anElement classes collect:[:c | IBClass for:(anInferer typeInfoFor: c)].
+
+	classModels := anElement classes collect: [ :c |
+		               IBClass for: (anInferer typeInfoFor: c) ].
+	super for: anElement using: anInferer
+]
+
+{ #category : #initialization }
+IBPackageModel >> initializePresenters [
+
+	classes := self newModelList.
+	self buildLayout
+]
+
+{ #category : #hooks }
+IBPackageModel >> lists [
+
+	^ { (IBModelList
+		   named: 'Classes'
+		   list: classes
+		   itemsBlock: [ self classModels ]) }
+]
+
+{ #category : #'as yet unclassified' }
+IBPackageModel >> modelType [
+
+	^ 'Package'
 ]

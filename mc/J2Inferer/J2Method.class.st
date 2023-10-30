@@ -14,10 +14,10 @@ Class {
 		'updated',
 		'returnValue'
 	],
-	#category : 'J2Inferer-Variables'
+	#category : #'J2Inferer-Variables'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #updating }
 J2Method >> addReturnSubtype: anExpression [
 	self returnValue addSubtype: anExpression
 ]

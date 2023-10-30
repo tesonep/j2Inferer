@@ -1,8 +1,14 @@
 Class {
 	#name : #IBExpression,
 	#superclass : #IBVariable,
-	#category : 'InfererBrowser'
+	#category : #InfererBrowser
 }
+
+{ #category : #'as yet unclassified' }
+IBExpression >> modelType [
+
+	^ 'Expression'
+]
 
 { #category : #'as yet unclassified' }
 IBExpression >> name [

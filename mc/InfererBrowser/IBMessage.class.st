@@ -1,8 +1,14 @@
 Class {
 	#name : #IBMessage,
 	#superclass : #IBVariable,
-	#category : 'InfererBrowser'
+	#category : #InfererBrowser
 }
+
+{ #category : #'as yet unclassified' }
+IBMessage >> modelType [
+
+	^ 'Message'
+]
 
 { #category : #'as yet unclassified' }
 IBMessage >> name [

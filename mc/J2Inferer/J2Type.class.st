@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'minClasses'
 	],
-	#category : 'J2Inferer-Types'
+	#category : #'J2Inferer-Types'
 }
 
 { #category : #'as yet unclassified' }
@@ -57,6 +57,12 @@ J2Type >> classes [
 	].
 
 	^ results
+]
+
+{ #category : #enumerating }
+J2Type >> collect: aBlock [
+
+	^ self classes collect: aBlock
 ]
 
 { #category : #accessing }
