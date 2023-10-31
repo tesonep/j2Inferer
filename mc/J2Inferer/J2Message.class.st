@@ -13,7 +13,7 @@ Class {
 		'parameters',
 		'containerClass'
 	],
-	#category : 'J2Inferer-Variables'
+	#category : #'J2Inferer-Variables'
 }
 
 { #category : #'as yet unclassified' }
@@ -91,7 +91,7 @@ J2Message >> generateMinClassesInContext: aContext alreadyEvaluated: alreadyEval
 		ifFound:
 			[ :found | 
 			remainingContext := found remainingContextFor: self onContext: receiverContext.
-			resultType union: (found returnTypeFor: self onContext: receiverContext contents alreadyEvaluated: alreadyEvaluated) ].
+			resultType union: (found returnTypeFor: self onContext: receiverContext alreadyEvaluated: alreadyEvaluated) ].
 	
 		
 	(self methodsOn: remainingContext)
@@ -152,7 +152,7 @@ J2Message >> receiver: anObject [
 
 { #category : #accessing }
 J2Message >> receivingContextOn: aContext [
-	^ (receiver minClassesInContext: aContext) minClasses
+	^ J2Context with: (receiver minClassesInContext: aContext)
 ]
 
 { #category : #accessing }

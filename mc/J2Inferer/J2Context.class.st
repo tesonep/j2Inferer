@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'contents'
 	],
-	#category : 'J2Inferer'
+	#category : #J2Inferer
 }
 
 { #category : #'instance creation' }
@@ -33,6 +33,12 @@ J2Context class >> with: contents [
 		yourself
 ]
 
+{ #category : #'derived contexts' }
+J2Context >> collect: aBlock [
+
+	^ contents collect: aBlock
+]
+
 { #category : #accessing }
 J2Context >> contents [
 	^ contents 
@@ -45,18 +51,33 @@ J2Context >> contents: anObject [
 
 { #category : #'derived contexts' }
 J2Context >> metaClassContext [
-	^ self class with: (self contents collect:#metaClass)
+
+	^ self class with: self metaClasses
+]
+
+{ #category : #'derived contexts' }
+J2Context >> metaClasses [
+
+	^ self collect: #metaClass
 ]
 
 { #category : #printing }
 J2Context >> printOn: aStream [
+
 	super printOn: aStream.
 	aStream nextPut: $(.
-	contents ifNil: [ aStream nextPutAll: 'nil' ] ifNotNil: [ contents printOn: aStream ].
-	aStream nextPut: $).
+	contents printOn: aStream.
+	aStream nextPut: $)
 ]
 
 { #category : #'derived contexts' }
 J2Context >> superClassContext [
-	^ self class with: (self contents collect:#superclass)
+
+	^ self class with: self superclasses
+]
+
+{ #category : #'derived contexts' }
+J2Context >> superclasses [
+
+	^ self collect: #superclass
 ]
