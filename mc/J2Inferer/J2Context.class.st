@@ -73,7 +73,7 @@ J2Context >> printOn: aStream [
 { #category : #'derived contexts' }
 J2Context >> superClassContext [
 
-	^ self class with: self superclasses
+	^ self class with: (self superclasses reject: #isNil)
 ]
 
 { #category : #'derived contexts' }
