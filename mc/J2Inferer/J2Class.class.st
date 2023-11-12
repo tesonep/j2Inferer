@@ -12,7 +12,7 @@ Class {
 		'analysedClass',
 		'metaClass'
 	],
-	#category : 'J2Inferer-Variables'
+	#category : #'J2Inferer-Variables'
 }
 
 { #category : #methods }
@@ -101,7 +101,8 @@ J2Class >> fillSuperclass [
 { #category : #variables }
 J2Class >> fillVariables [
 	| variables |
-	variables := self analysedClass instVarNames.
+	self flag: #TODO. "probably should not add class-side vars like this"
+	variables := self analysedClass instVarNames, self analysedClass class instVarNames.
 	variables ifNotNil: [ variables do: [ :v | self addVariableFor: v ] ].
 	self analysedClass classVariablesString
 		ifNotEmpty: [ (self analysedClass classVariablesString splitOn: ' ')
