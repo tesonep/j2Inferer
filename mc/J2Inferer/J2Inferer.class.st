@@ -30,7 +30,7 @@ Class {
 	#classVars : [
 		'instance'
 	],
-	#category : 'J2Inferer'
+	#category : #J2Inferer
 }
 
 { #category : #'instance creation' }
@@ -55,7 +55,9 @@ J2Inferer class >> new [
 
 { #category : #'instance creation' }
 J2Inferer class >> resetInstance [
-	^ instance := nil.
+
+	<script>
+	^ instance := nil
 ]
 
 { #category : #'instance creation' }
