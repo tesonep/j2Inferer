@@ -1,7 +1,7 @@
 Class {
 	#name : #J2SimpleClassTests,
 	#superclass : #J2AbstractTests,
-	#category : 'J2Inferer-Tests'
+	#category : #'J2Inferer-Tests'
 }
 
 { #category : #tests }
@@ -38,6 +38,9 @@ J2SimpleClassTests >> testObjectCreation [
 { #category : #tests }
 J2SimpleClassTests >> testOtherYourself [
 	| classInfo methodInfo methodContainer |
+	"In the image there is 3 implementors of #yourself"
+	inferer config maxNumberImplementorsToOpen: 3.
+	
 	classInfo := self inferClass: J2SimpleClass.
 
 	self inferMethod: HashedCollection class>>#new.

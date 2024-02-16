@@ -101,6 +101,7 @@ J2Class >> fillSuperclass [
 { #category : #variables }
 J2Class >> fillVariables [
 	| variables |
+
 	self flag: #TODO. "probably should not add class-side vars like this"
 	variables := self analysedClass instVarNames, self analysedClass class instVarNames.
 	variables ifNotNil: [ variables do: [ :v | self addVariableFor: v ] ].
@@ -223,7 +224,7 @@ J2Class >> variableFor: aNode [
 { #category : #accessing }
 J2Class >> variableFor: aNode ifAbsent: aValuable [
 	| aName |
-	aName := aNode asString asSymbol .
+	aName := (aNode isVariable ifTrue: [aNode name] ifFalse: [aNode asString]) asSymbol.
 	^ self instanceVariables at: aName ifAbsent: [ 
 		superclass ifNil:aValuable
 			ifNotNil:[

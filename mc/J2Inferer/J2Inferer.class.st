@@ -72,6 +72,7 @@ J2Inferer class >> withNotifier: aNotifier [
 
 { #category : #'creating globals' }
 J2Inferer >> addGlobalVariable: aGlobalNode [
+	
 	globals
 		at: aGlobalNode name
 		ifAbsentPut: [ J2GlobalVariable new variableName: aGlobalNode name; yourself ]
@@ -145,6 +146,7 @@ J2Inferer >> enqueueMethod: aMethod [
 
 { #category : #'tasks operations' }
 J2Inferer >> enqueueOpenMethodsFromMessage: aMessage [
+
 	queue
 		enqueue:
 			(J2OpenMethodFromMessage new

@@ -22,6 +22,11 @@ J2SubtypingRelationsTests >> rbTemporaryNode [
 	^ Smalltalk at: #RBTemporaryNode ifAbsent: [ ^ RBVariableNode ]
 ]
 
+{ #category : #running }
+J2SubtypingRelationsTests >> runCaseManaged [
+	^ self runCase
+]
+
 { #category : #tests }
 J2SubtypingRelationsTests >> testAsignation [
 	| classInfo  aVariable anotherVariable |

@@ -12,7 +12,7 @@ Class {
 		'containerStack',
 		'numberOfBlocks'
 	],
-	#category : 'J2Inferer-AST'
+	#category : #'J2Inferer-AST'
 }
 
 { #category : #accessing }
@@ -83,6 +83,7 @@ J2AstVisitor >> visitArrayNode: anArrayNode [
 { #category : #visiting }
 J2AstVisitor >> visitAssignmentNode: anAssignmentNode [
 	| variable |
+	
 	self visitNode: anAssignmentNode variable.
 	self visitNode: anAssignmentNode value.
 	variable := self container variableFor: anAssignmentNode variable.
@@ -135,6 +136,10 @@ J2AstVisitor >> visitCascadeNode: aCascadeNode [
 
 { #category : #accessing }
 J2AstVisitor >> visitGlobalNode: aGlobalVariableNode [
+
+	aGlobalVariableNode isClassVariable 
+		ifTrue: [ ^ self ].
+
 	self inferer addGlobalVariable: aGlobalVariableNode
 ]
 
@@ -169,12 +174,14 @@ J2AstVisitor >> visitMethodNode: aMethodNode [
 
 { #category : #visiting }
 J2AstVisitor >> visitReturnNode: aReturnNode [
+
 	self visitNode: aReturnNode value.
 	self container addReturnSubtype: (self container atExpression: aReturnNode value)
 ]
 
 { #category : #visiting }
 J2AstVisitor >> visitSelfNode: aSelfNode [
+
 	^ self container
 		atExpression: aSelfNode
 		ifAbsentPut: [ self inferer selfVariable ]
