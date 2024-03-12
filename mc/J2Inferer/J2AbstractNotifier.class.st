@@ -11,8 +11,13 @@ Class {
 		'startTime',
 		'endTime'
 	],
-	#category : 'J2Inferer'
+	#category : #J2Inferer
 }
+
+{ #category : #closing }
+J2AbstractNotifier >> close [
+	"do nothing unless needed by subclass"
+]
 
 { #category : #logging }
 J2AbstractNotifier >> doLog: aValuable level: logLevel [.

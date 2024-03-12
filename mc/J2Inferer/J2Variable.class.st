@@ -12,7 +12,7 @@ Class {
 		'variableName',
 		'subtypes'
 	],
-	#category : 'J2Inferer-Variables'
+	#category : #'J2Inferer-Variables'
 }
 
 { #category : #'as yet unclassified' }
@@ -27,6 +27,14 @@ J2Variable class >> unionAll: anotherVariables name: aName container: aContainer
 	var variableName: aName.
 	anotherVariables do: [ :e | var addSubtype: e ].
 	^ var
+]
+
+{ #category : #comparing }
+J2Variable >> = other [
+
+	^ self class = other class and: [
+		  container = other container and: [
+			  variableName = other variableName ] ]
 ]
 
 { #category : #'adding types' }
@@ -70,6 +78,12 @@ J2Variable >> generateMinClassesInContext: aContext alreadyEvaluated: alreadyEva
 { #category : #queryng }
 J2Variable >> hasNoSubtypes [
 	^self subtypes isEmpty
+]
+
+{ #category : #comparing }
+J2Variable >> hash [
+
+	^ (self class hash bitXor: container hash) bitXor: variableName hash
 ]
 
 { #category : #accessing }

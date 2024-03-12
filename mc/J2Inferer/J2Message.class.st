@@ -10,8 +10,7 @@ Class {
 	#instVars : [
 		'receiver',
 		'selector',
-		'parameters',
-		'containerClass'
+		'parameters'
 	],
 	#category : #'J2Inferer-Variables'
 }
@@ -26,12 +25,19 @@ J2Message class >> addMessageSent: aMessageNode container: container inferer: in
 	msg receiver: receiver.
 	msg selector: aMessageNode selector.
 	msg parameters: (parameters withIndexCollect:[ :e :i | J2ParameterVariable onMessage: msg index:i]) asArray.
-	msg containerClass: container containerClass.
 	
 	parameters withIndexDo: [ :e :i | (msg parameters at:i) buildRelationships: e container: container ].
 	receiver addMessageSent: msg.
 	inferer enqueueOpenMethodsFromMessage: msg.
 	^ msg
+]
+
+{ #category : #comparing }
+J2Message >> = other [
+
+	^ self class = other class and: [
+		  container = other container and: [
+			  receiver = other receiver and: [ selector = other selector ] ] ]
 ]
 
 { #category : #accessing }
@@ -41,12 +47,8 @@ J2Message >> addSupertype: anotherVariable [.
 
 { #category : #accessing }
 J2Message >> containerClass [
-	^ containerClass
-]
 
-{ #category : #accessing }
-J2Message >> containerClass: anObject [
-	containerClass := anObject
+	^ container
 ]
 
 { #category : #blocks }
@@ -98,6 +100,13 @@ J2Message >> generateMinClassesInContext: aContext alreadyEvaluated: alreadyEval
 			do: [ :e | resultType union:(e returnValue minClassesInContext: remainingContext alreadyEvaluated: alreadyEvaluated) ].
 
 	^ resultType
+]
+
+{ #category : #comparing }
+J2Message >> hash [
+
+	^ ((self class hash bitXor: container hash) bitXor: receiver hash)
+		  bitXor: selector hash
 ]
 
 { #category : #'as yet unclassified' }

@@ -15,6 +15,12 @@ Class {
 	#category : #'J2Inferer-Variables'
 }
 
+{ #category : #comparing }
+J2Class >> = otherClass [
+
+	^ analysedClass = otherClass analysedClass
+]
+
 { #category : #methods }
 J2Class >> addVariableFor: aName [
 	instanceVariables ifNil:[instanceVariables := IdentityDictionary new].
@@ -108,6 +114,12 @@ J2Class >> fillVariables [
 	self analysedClass classVariablesString
 		ifNotEmpty: [ (self analysedClass classVariablesString splitOn: ' ')
 				do: [ :v | self addVariableFor: v ] ]
+]
+
+{ #category : #comparing }
+J2Class >> hash [
+
+	^ analysedClass hash
 ]
 
 { #category : #accessing }

@@ -9,7 +9,7 @@ Class {
 		'messages',
 		'container'
 	],
-	#category : 'J2Inferer-Variables'
+	#category : #'J2Inferer-Variables'
 }
 
 { #category : #'as yet unclassified' }
@@ -86,6 +86,12 @@ J2Expression >> elements [
 { #category : #accessing }
 J2Expression >> filter: aType byMessages: messageSet [
 	^ aType filter: messageSet.
+]
+
+{ #category : #accessing }
+J2Expression >> generateMinClassesInContext: aContext alreadyEvaluated: alreadyEvaluated [
+
+	^ self subclassResponsibility
 ]
 
 { #category : #accessing }

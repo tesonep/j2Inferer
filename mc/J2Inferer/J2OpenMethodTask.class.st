@@ -10,7 +10,7 @@ Class {
 		'method',
 		'methodVariable'
 	],
-	#category : 'J2Inferer-Tasks'
+	#category : #'J2Inferer-Tasks'
 }
 
 { #category : #comparing }
@@ -46,6 +46,7 @@ J2OpenMethodTask >> method [
 
 { #category : #accessing }
 J2OpenMethodTask >> method: anObject [
+
 	method := anObject
 ]
 

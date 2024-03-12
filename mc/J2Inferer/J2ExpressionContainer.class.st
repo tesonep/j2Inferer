@@ -10,7 +10,7 @@ Class {
 		'temporaryVariables',
 		'element'
 	],
-	#category : 'J2Inferer-AST'
+	#category : #'J2Inferer-AST'
 }
 
 { #category : #messages }
@@ -24,6 +24,18 @@ J2ExpressionContainer >> addMessageSentTo: aMessage [
 		receiver: rcvr
 		parameters: (aMessage arguments collect: [ :e | self atExpression: e ]).
 	self atExpression: aMessage ifAbsentPut:  msg.
+]
+
+{ #category : #accessing }
+J2ExpressionContainer >> atExpression: aNode [
+
+	^ self subclassResponsibility
+]
+
+{ #category : #accessing }
+J2ExpressionContainer >> atExpression: aNode ifAbsentPut: aBlock [
+
+	^ self subclassResponsibility
 ]
 
 { #category : #accessing }

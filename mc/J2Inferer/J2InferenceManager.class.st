@@ -7,7 +7,7 @@ Class {
 	#classInstVars : [
 		'stats'
 	],
-	#category : 'J2Inferer-Utils'
+	#category : #'J2Inferer-Utils'
 }
 
 { #category : #scripts }
@@ -30,6 +30,36 @@ J2InferenceManager class >> deserializeFromFile: aFileName [
 ]
 
 { #category : #scripts }
+J2InferenceManager class >> findRelatedClassesTo: aSetOfClasses [
+
+	| classes |
+	classes := aSetOfClasses
+	           ,
+	           (aSetOfClasses flatCollectAsSet: [ :each |
+		            each dependentClasses ]).
+	classes addAll:
+		(classes flatCollectAsSet: [ :each | each allSuperclasses ]).
+	classes addAll: (classes
+			 reject: [ :each | each isMeta ]
+			 thenCollect: [ :each | each class ]).
+	^ classes
+]
+
+{ #category : #scripts }
+J2InferenceManager class >> findTransitiveRelatedClassesTo: aSetOfClasses [
+
+	| repetitions originalClassesAmount classes |
+	"each repetition may improve results at the cost of dramatically increasing time to run"
+	repetitions := 1.
+	
+	classes := Set withAll: aSetOfClasses.
+	repetitions timesRepeat: [
+		originalClassesAmount := classes size.
+		classes := self findRelatedClassesTo: classes ].
+	^ classes
+]
+
+{ #category : #scripts }
 J2InferenceManager class >> inferAllInstalation [
 	" J2Scripts inferAllInstalation"
 
@@ -49,14 +79,35 @@ J2InferenceManager class >> inferAllInstalation [
 
 { #category : #scripts }
 J2InferenceManager class >> inferPackage: aPackage [
-	J2Inferer instance ifNil: [ 
-			J2Inferer withNotifier: J2StdOutNotifier new.
-		].
+
+	J2Inferer instance ifNil: [
+		J2Inferer withNotifier: J2StdOutNotifier new ].
 
 	aPackage classes
+		do: [ :e |
+			J2Inferer instance enqueueClass: e.
+			e isMeta ifFalse: [ J2Inferer instance enqueueClass: e class ] ]
+		displayingProgress: [ :e | e name ].
+
+	J2Inferer instance runAndWait.
+	J2Inferer instance notifier close.
+	^ J2Inferer instance
+]
+
+{ #category : #scripts }
+J2InferenceManager class >> inferRelatedOfPackage: aPackage [
+
+	| classesToInfer |
+	J2Inferer instance ifNil: [
+		J2Inferer withNotifier: J2StdOutNotifier new ].
+
+	classesToInfer := self findTransitiveRelatedClassesTo:
+		                  aPackage classes asSet.
+
+	classesToInfer
 		do: [ :e | J2Inferer instance enqueueClass: e ]
 		displayingProgress: [ :e | e name ].
-		
+
 	J2Inferer instance runAndWait.
 	J2Inferer instance notifier close.
 	^ J2Inferer instance

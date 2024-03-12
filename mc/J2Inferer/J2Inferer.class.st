@@ -24,7 +24,6 @@ Class {
 		'selfVariable',
 		'superVariable',
 		'thisContextVariable',
-		'literal',
 		'arrayLiterals'
 	],
 	#classVars : [
@@ -93,7 +92,7 @@ J2Inferer >> anASTContainerCreated:aContainer for:aVariable [
 
 { #category : #'accesing type variables' }
 J2Inferer >> arrayLiteral: aArrayLiteralNode [
-   | elements |
+   | elements literal |
 	elements := (aArrayLiteralNode contents collect:[:e | self typeInfoFor: e value class]) asSet asArray.
 	literal := J2ArrayLiteral new.
 	literal elementTypes: elements.
@@ -128,8 +127,8 @@ J2Inferer >> enqueueAllMethodsUpdated [
 
 { #category : #'tasks operations' }
 J2Inferer >> enqueueClass: aClass [
-	aClass methodsDo: [ :m | self enqueueMethod: m ].
 
+	aClass methodsDo: [ :m | self enqueueMethod: m ]
 ]
 
 { #category : #'tasks operations' }
@@ -215,9 +214,8 @@ J2Inferer >> inferMethod: aMethod [
 J2Inferer >> initPredefinedMessages [
 	" This message initialize all the configuration for the predefined messages."
 
-	predefinedMessages add: (J2BasicNewPredefinedMethod forInferer: self).
-	predefinedMessages add: (J2ArithmeticOperationsPredefinedMethod forInferer: self).
-	predefinedMessages add: (J2BlockPredefinedMethod forInferer: self).
+	J2AbstractPredefinedMethod subclassesDo: [ :each |
+		predefinedMessages add: (each forInferer: self) ]
 ]
 
 { #category : #initialization }

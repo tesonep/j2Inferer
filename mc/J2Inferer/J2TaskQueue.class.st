@@ -11,7 +11,7 @@ Class {
 		'runTasks',
 		'inQueue'
 	],
-	#category : 'J2Inferer-Tasks-Queue'
+	#category : #'J2Inferer-Tasks-Queue'
 }
 
 { #category : #initialization }
@@ -95,14 +95,9 @@ J2TaskQueue >> pendingTasksStatistics [
 
 { #category : #private }
 J2TaskQueue >> pickTaskToExecute [
-	| x |
-	self runLevelInterval
-		do: [ :e | 
-			(queue at: e)
-				ifNotEmpty: [ 
-					x := (queue at: e) removeFirst.
-					(inQueue at:e) remove: x.
-					^ x ] ].
+
+	self runLevelInterval do: [ :e |
+		(queue at: e) ifNotEmpty: [ ^ (queue at: e) removeFirst ] ].
 	CollectionIsEmpty signal
 ]
 

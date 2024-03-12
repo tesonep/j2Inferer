@@ -5,8 +5,14 @@ Class {
 		'inferer',
 		'astContainers'
 	],
-	#category : 'J2Inferer-Tests'
+	#category : #'J2Inferer-Tests'
 }
+
+{ #category : #testing }
+J2AbstractTests class >> isAbstract [
+
+	^ self = J2AbstractTests
+]
 
 { #category : #asserts }
 J2AbstractTests >> anASTContainerCreated:aContainer for:aVariable [

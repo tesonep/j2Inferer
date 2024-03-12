@@ -79,5 +79,7 @@ J2Context >> superClassContext [
 { #category : #'derived contexts' }
 J2Context >> superclasses [
 
-	^ self collect: #superclass
+	^ contents
+		  reject: [ :any | any analysedClass = ProtoObject ]
+		  thenCollect: #superclass
 ]

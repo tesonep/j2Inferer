@@ -17,6 +17,14 @@ Class {
 	#category : #'J2Inferer-Variables'
 }
 
+{ #category : #comparing }
+J2Method >> = other [
+
+	^ self class = other class and: [
+		  classTypeInfo = other classTypeInfo and: [
+			  selector = other selector ] ]
+]
+
 { #category : #updating }
 J2Method >> addReturnSubtype: anExpression [
 	self returnValue addSubtype: anExpression
@@ -47,6 +55,12 @@ J2Method >> fillReturn [
 { #category : #updating }
 J2Method >> forceUpdate [
 	updated := false.
+]
+
+{ #category : #comparing }
+J2Method >> hash [
+
+	^ (self class hash bitXor: classTypeInfo hash) bitXor: selector hash
 ]
 
 { #category : #accessing }
@@ -116,14 +130,13 @@ J2Method >> selector: anObject [
 
 { #category : #updating }
 J2Method >> updateIfNeeded [
-	self isUpdated 
-		ifFalse:
-			[ 
-			self inferer notifier openingMethod: self.
-			self cleanForUpdate.
-			J2AstVisitor new
-				method: self;
-				visitNode: self method ast.
-			updated := true.
-			self inferer notifier openMethod: self ]
+
+	self isUpdated ifTrue: [ ^ self ].
+	self inferer notifier openingMethod: self.
+	self cleanForUpdate.
+	J2AstVisitor new
+		method: self;
+		visitNode: self method ast.
+	updated := true.
+	self inferer notifier openMethod: self
 ]
