@@ -73,13 +73,16 @@ J2Context >> printOn: aStream [
 { #category : #'derived contexts' }
 J2Context >> superClassContext [
 
-	^ self class with: (self superclasses reject: #isNil)
+	^ self class with: self superclasses
 ]
 
 { #category : #'derived contexts' }
 J2Context >> superclasses [
 
-	^ contents
-		  reject: [ :any | any analysedClass = ProtoObject ]
-		  thenCollect: #superclass
+	| collection |
+	collection := Set new.
+	contents do: [ :each |
+		each superclass ifNotNil: [ :superclass |
+			collection add: superclass ] ].
+	^ collection
 ]
