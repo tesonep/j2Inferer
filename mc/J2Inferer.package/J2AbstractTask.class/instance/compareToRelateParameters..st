@@ -1,3 +1,0 @@
-comparing
-compareToRelateParameters: anotherTask
-	^ false.

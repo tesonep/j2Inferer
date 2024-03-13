@@ -1,3 +1,0 @@
-accessing
-literalClass
-	^ literalClass

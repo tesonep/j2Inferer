@@ -1,3 +1,0 @@
-accessing
-aMethodCallingChild
-	^ self aMethod.

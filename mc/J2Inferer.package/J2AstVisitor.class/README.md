@@ -1,1 +1,0 @@
-This visitor generates all the variables and relationships that then is used in the analysis of the type graph.

@@ -1,1 +1,0 @@
-This container represents the context used in a method.

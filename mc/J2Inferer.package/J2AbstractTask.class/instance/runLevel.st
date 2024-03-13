@@ -1,3 +1,0 @@
-accessing
-runLevel
-	^ self subclassResponsibility

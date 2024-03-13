@@ -1,1 +1,0 @@
-Represents the variables that are shared and have a common behavior.

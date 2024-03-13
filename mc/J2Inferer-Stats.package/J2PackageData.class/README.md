@@ -1,1 +1,0 @@
-These objects represents the result of analysing the inference results on a specific package.
