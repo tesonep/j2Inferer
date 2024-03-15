@@ -5,7 +5,7 @@ Class {
 		'block',
 		'index'
 	],
-	#category : 'J2Inferer-Variables'
+	#category : #'J2Inferer-Variables'
 }
 
 { #category : #'instance creation' }
@@ -32,6 +32,15 @@ J2BlockParameter >> block: anObject [
 ]
 
 { #category : #accessing }
+J2BlockParameter >> blocksOn: aContext alreadyEvaluated: alreadyEvaluated [
+	"I propagate the evaluation to the actual parameter in the block"
+
+	^ (self block parameters at: index)
+		  blocksOn: aContext
+		  alreadyEvaluated: alreadyEvaluated
+]
+
+{ #category : #accessing }
 J2BlockParameter >> index [
 	^ index
 ]
@@ -42,9 +51,19 @@ J2BlockParameter >> index: anObject [
 ]
 
 { #category : #accessing }
-J2BlockParameter >> minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated [
+J2BlockParameter >> isBlockOn: aContext alreadyEvaluated: alreadyEvaluated [
+	"I propagate the evaluation to the actual parameter in the block"
 
-	"I propagate the evaluateion to the actual parameter in the block"
-	
-	^ (self block parameters at: index) minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated
+	^ (self block parameters at: index)
+		  isBlockOn: aContext
+		  alreadyEvaluated: alreadyEvaluated
+]
+
+{ #category : #accessing }
+J2BlockParameter >> minClassesInContext: aContext alreadyEvaluated: alreadyEvaluated [
+	"I propagate the evaluation to the actual parameter in the block"
+
+	^ (self block parameters at: index)
+		  minClassesInContext: aContext
+		  alreadyEvaluated: alreadyEvaluated
 ]

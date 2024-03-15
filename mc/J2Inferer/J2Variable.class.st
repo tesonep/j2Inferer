@@ -39,9 +39,9 @@ J2Variable >> = other [
 
 { #category : #'adding types' }
 J2Variable >> addSubtype: anotherVariable [
-	subtypes ifNil: [ subtypes := Set new ].
-	subtypes add: anotherVariable.
-	anotherVariable addSupertype: self.
+
+	self subtypes add: anotherVariable.
+	anotherVariable addSupertype: self
 ]
 
 { #category : #blocks }
