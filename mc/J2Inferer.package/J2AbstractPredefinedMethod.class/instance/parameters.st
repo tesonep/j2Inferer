@@ -1,3 +1,0 @@
-accessing
-parameters
-	^ self subclassResponsibility.

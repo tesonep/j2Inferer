@@ -1,1 +1,0 @@
-This trait encapsulates the behavior of detecting blocks variables.

@@ -1,3 +1,0 @@
-test-code
-aVariable
-	^aVariable

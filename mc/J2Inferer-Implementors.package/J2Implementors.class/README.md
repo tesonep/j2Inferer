@@ -1,1 +1,0 @@
-This is the dara object contained in the J2ImplemnentorsRegistry, look at it for details of using.

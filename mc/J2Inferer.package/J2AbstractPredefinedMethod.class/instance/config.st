@@ -1,3 +1,0 @@
-initialization
-config
-	self subclassResponsibility 

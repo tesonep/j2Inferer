@@ -1,1 +1,0 @@
-A bunch of useful class side messages to test and use the inference system.

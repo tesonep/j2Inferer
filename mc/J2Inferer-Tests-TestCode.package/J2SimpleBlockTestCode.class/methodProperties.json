@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"anotherMethodPassingParameter" : "PabloTesone 10/19/2015 09:23",
-		"concatenatedBlock" : "PabloTesone 11/10/2015 08:26",
-		"do:" : "PabloTesone 10/19/2015 09:24",
-		"initialize" : "PabloTesone 11/10/2015 08:26",
-		"soSimpleBlockTest" : "PabloTesone 10/19/2015 06:26" } }

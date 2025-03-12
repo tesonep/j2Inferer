@@ -1,1 +1,0 @@
-These object handles the "value" messages of a block.

@@ -1,1 +1,0 @@
-This trait has the common behavior between the block and the method.

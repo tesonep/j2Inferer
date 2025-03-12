@@ -1,1 +1,0 @@
-A global variable. It has a special behavior compared with the J2Variable.

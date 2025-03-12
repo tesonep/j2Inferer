@@ -1,1 +1,0 @@
-A representation of the thisContext element.

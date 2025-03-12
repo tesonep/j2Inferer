@@ -1,3 +1,0 @@
-notifier
-notifier
-	^ notifier

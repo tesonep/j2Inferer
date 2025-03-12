@@ -1,1 +1,0 @@
-A Class to test if the chaining of messages can be correctly infered.

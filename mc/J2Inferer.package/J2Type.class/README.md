@@ -1,1 +1,0 @@
-This objects represents the result of calculating a type of an expression.

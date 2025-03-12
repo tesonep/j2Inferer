@@ -1,1 +1,0 @@
-This is the abstract class that represents all the common behavior beetween subtyped expressions.

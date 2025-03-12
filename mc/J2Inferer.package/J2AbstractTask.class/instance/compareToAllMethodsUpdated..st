@@ -1,3 +1,0 @@
-comparing
-compareToAllMethodsUpdated: anotherTask
-	^ false.

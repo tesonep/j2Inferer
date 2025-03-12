@@ -1,3 +1,0 @@
-updating
-cleanForUpdate
-	self returnValue removeAllSubtypes.
